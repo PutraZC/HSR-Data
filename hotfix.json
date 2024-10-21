@@ -3,7 +3,7 @@
     "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.5Live/output_8162495_b8b22265ebfa",
     "luaUrl": "https://autopatchos.starrails.com/lua/V2.5Live/output_7994785_39c53e39e2cc",
     "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.5Live/output_8211271_92f0f992a9e5",
-    "preLoad": "https://autopatchos.starrails.com/pre_download/V2.6Live/output_8177649_09b69207e193",
+    "preDownloadUrl": "https://autopatchos.starrails.com/pre_download/V2.6Live/output_8177649_09b69207e193",
     "customMdkResVersion": 0,
     "customIfixVersion": 0,
     "version": "2.5.0",

@@ -1,0 +1,11 @@
+{
+    "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.5Live/output_8027846_7b26a37cd2dc",
+    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.5Live/output_8162495_b8b22265ebfa",
+    "luaUrl": "https://autopatchos.starrails.com/lua/V2.5Live/output_7994785_39c53e39e2cc",
+    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.5Live/output_8211271_92f0f992a9e5",
+    "customMdkResVersion": 0,
+    "customIfixVersion": 0,
+    "version": "2.5.0",
+    "dispatchSeed": "802c48d989",
+    "lastUpdate": "16-10-2024 14:16"
+}

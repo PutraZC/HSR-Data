@@ -1,5 +1,5 @@
-# RiskaSR 2.6.0 Handbook
-# Created 2024/10/23 09:00:43
+# RiskaSR 2.6.5 Handbook
+# Created 2024/11/06 21:47:41
 
 
 # Commands
@@ -29,6 +29,7 @@
 /unstuck @[player id]. Unstucks an offline player if theyre in a scene that doesnt load.
 /windy [name] - Windy!
 /worldlevel [world level]. Sets the targeted player's equilibrium level.
+
 
 # Avatars
 1001 : March 7th
@@ -74,6 +75,7 @@
 1222 : Lingsha
 1223 : Moze
 1224 : March 7th
+1225 : Fugue
 1301 : Gallagher
 1302 : Argenti
 1303 : Ruan Mei
@@ -85,15 +87,25 @@
 1309 : Robin
 1310 : Firefly
 1312 : Misha
+1313 : Sunday
 1314 : Jade
 1315 : Boothill
 1317 : Rappa
+6022 : March 7th
+6023 : Skott's Specially Appointed IPC Mech
+7005 : Kafka
+7006 : Silver Wolf
+7205 : Blade
+7212 : Jingliu
+7213 : Dan Heng • Imbibitor Lunae
 8001 : {NICKNAME}
 8002 : {NICKNAME}
 8003 : {NICKNAME}
 8004 : {NICKNAME}
 8005 : {NICKNAME}
 8006 : {NICKNAME}
+8901 : {NICKNAME}
+8902 : {NICKNAME}
 
 
 # Items
@@ -114,6 +126,7 @@
 51 : The Nameless EXP
 52 : The Nameless EXP
 53 : Development Fund
+54 : Express Fund
 101 : Star Rail Pass
 102 : Star Rail Special Pass
 170 : Exploration Points
@@ -184,6 +197,7 @@
 1222 : Lingsha
 1223 : Moze
 1224 : March 7th
+1225 : Fugue
 1301 : Gallagher
 1302 : Argenti
 1303 : Ruan Mei
@@ -195,9 +209,12 @@
 1309 : Robin
 1310 : Firefly
 1312 : Misha
+1313 : Sunday
 1314 : Jade
 1315 : Boothill
 1317 : Rappa
+6022 : March 7th
+6023 : March 7th
 7005 : Kafka
 7006 : Silver Wolf
 7205 : Blade
@@ -209,6 +226,8 @@
 8004 : {NICKNAME}
 8005 : {NICKNAME}
 8006 : {NICKNAME}
+8901 : {NICKNAME}
+8902 : {NICKNAME}
 11001 : March 7th: Preservation's Eidolon
 11002 : Dan Heng's Eidolon
 11003 : Himeko's Eidolon
@@ -252,6 +271,7 @@
 11222 : Lingsha's Eidolon
 11223 : Moze's Eidolon
 11224 : March 7th: The Hunt's Eidolon
+11225 : Fugue's Eidolon
 11301 : Gallagher's Eidolon
 11302 : Argenti's Eidolon
 11303 : Ruan Mei's Eidolon
@@ -263,6 +283,7 @@
 11309 : Robin's Eidolon
 11310 : Firefly's Eidolon
 11312 : Misha's Eidolon
+11313 : Sunday's Eidolon
 11314 : Jade's Eidolon
 11315 : Boothill's Eidolon
 11317 : Rappa's Eidolon
@@ -380,6 +401,8 @@
 23031 : I Venture Forth to Hunt
 23032 : Scent Alone Stays True
 23033 : Ninjutsu Inscription: Dazzling Evilbreaker
+23034 : A Grounded Ascent
+23035 : Long Road Leads Home
 24000 : On the Fall of an Aeon
 24001 : Cruising in the Stellar Sea
 24002 : Texture of Memories
@@ -1601,7 +1624,14 @@
 140508 : Slumbernana Association Membership Card (Golden Slumbernana)
 140509 : Memory-Peeking Film
 140510 : Luofu Sports Illustrated — Special Edition for Luka's Final
+140511 : SoulGlad Bottle Cap
 140512 : Slumbernana Monkey Pre-Order Special Freebie
+140514 : Group Photo of March 7th and the Crew
+140515 : Group Photo of March 7th and Friends
+140516 : Group Photo of March 7th and the Crew
+140517 : Group Photo of March 7th and Friends
+140518 : "Camereidoscope"
+140522 : Tingyun's Dream Bubble
 149957 : Photo With March 7th
 149958 : Photo With March 7th
 149959 : Thermic Core
@@ -1676,12 +1706,12 @@
 150045 : Pika White Grape Soda
 150046 : Classic SoulGlad
 150047 : Trailbirder ID Card
-150048 : Huaiyan's Testimony
-150049 : Yunli's Testimony
-150050 : Paavo's Testimony
-150051 : Master Gongshu's Testimony
-150052 : Intact Lock
-150053 : Rose Petal
+150048 : ...
+150049 : ...
+150050 : ...
+150051 : ...
+150052 : ...
+150053 : ...
 150054 : Guidance for Stygian Lantern
 150055 : "Wardance <unbreak>21</unbreak>-Gun Salute"
 180001 : Solid Water
@@ -1927,8 +1957,8 @@
 190298 : Pascal's Diary (II)
 190299 : Pascal's Diary (III)
 190300 : The Curlcademy Guidelines
-190301 : Update Notes for Master Capote's Life Wiki Version <unbreak>12.0</unbreak>
-190302 : Arlan's Work Log
+190301 : ...
+190302 : ...
 190303 : Ministry of Education Quiz (I)
 190304 : Ministry of Education Quiz (II)
 190305 : Ministry of Education Quiz (III)
@@ -1950,397 +1980,403 @@
 190321 : Protecting Starskiff Haven (III)
 190322 : Travelogue on Xianzhou: Delve
 190323 : Travelogue on Xianzhou: Starskiff
-190325 : Travelogue on Xianzhou: Realm-Keeping Commission
-190327 : Travelogue on Xianzhou: Artisanship Commission
-190330 : Travelogue on Xianzhou: Jade Abacus
+190325 : ...
+190327 : ...
+190330 : ...
 190331 : Cloud Knights Against the Borisin
-190332 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Prologue
-190333 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Storytelling
-190334 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Xianzhou Chordophone
-190335 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Foxian Drum Chant
-190336 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Vidyadhara Elegies
-190337 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Crosstalk
-190338 : Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture — Acrobatics
-190339 : Amnesic Meditation Therapy: A Guide to A Long, Healthy Life!
-190340 : Codex of Apocrypha — Beasts: Yellow Boulder
-190341 : Codex of Apocrypha - Beasts: Tuskpir
-190342 : Codex of Apocrypha - Beasts: Gentle Halcyon
-190343 : Codex of Apocrypha - Beasts: Downy Antler
-190344 : Annotations From <i>Ode to Reignbow Path</i> (I)
-190345 : Annotations From <i>Ode to Reignbow Path</i> (II)
-190346 : Annotations From <i>Ode to Reignbow Path</i> (III)
-190347 : Annotations From <i>Ode to Reignbow Path</i> (IV)
-190348 : Annotations From <i>Ode to Reignbow Path</i> (V)
-190349 : Mei's Notes
-190350 : Mei's Notes
-190351 : Mei's Notes
-190352 : Mei's Notes
-190353 : Liangmu's Message (I)
-190354 : Liangmu's Message (II)
-190355 : Liangmu's Letter
-190356 : The Angler Mystery: Stricken with Mara (Case 1)
+190332 : ...
+190333 : ...
+190334 : ...
+190335 : ...
+190336 : ...
+190337 : ...
+190338 : ...
+190339 : ...
+190340 : ...
+190341 : ...
+190342 : ...
+190343 : ...
+190344 : ...
+190345 : ...
+190346 : ...
+190347 : ...
+190348 : ...
+190349 : ...
+190350 : ...
+190351 : ...
+190352 : ...
+190353 : ...
+190354 : ...
+190355 : ...
+190356 : ...
 190357 : Disciples of Sanctus Medicus: Collection of Exhibits — Undelivered Letter
 190358 : Disciples of Sanctus Medicus: Collection of Exhibits — Emergency Instructions
 190359 : Disciples of Sanctus Medicus: Collection of Exhibits — Disciples' Diary
-190360 : Disciples of Sanctus Medicus: Collection of Exhibits — Action Target: Jing Yuan
-190361 : Disciples of Sanctus Medicus: Collection of Exhibits — Disciples of Sanctus Medicus: Secret Order
-190362 : Disciples of Sanctus Medicus: Collection of Exhibits — Semblance Reversion Essence
-190363 : General's Diary (I)
-190364 : General's Diary (II)
-190365 : General's Diary (III)
-190367 : Adler's Research Report on Ghost Stories (I)
-190368 : Adler's Research Report on Ghost Stories (II)
-190369 : Adler's Research Report on Ghost Stories (III)
-190370 : Belobog Chronicles: Before the Eternal Freeze
-190371 : Wanted Poster Gallery
-190372 : Curio Management Log (I)
-190373 : Curio Management Log (II)
-190374 : Curio Management Log (III)
-190375 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. <unbreak>10</unbreak>: <i>Robe Brethren</i>
-190376 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 9: <i>Verdantia</i>
-190377 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 8: <i>Kaib Mongb Kib</i>
-190378 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 7: <i>Lolling Grass</i>
-190379 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 6: <i>Life on a Plate</i>
-190380 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 5: <i>Deep Water</i>
-190381 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 4: <i>Starskiff Pilot</i>
-190382 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 3: <i>Last Evenings on Luofu</i>
-190383 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 2: <i>Reignbow Arbiter</i>
-190384 : <i>Butterfly Shadow</i>'s Special Issue: The Ten Best Butterfly Immersias of the Millennium — No. 1: <i>The Bridge to Grandma's Home</i>
-190385 : The Title Page of a Detective Novel Torn Off by Luocha
-190386 : The Luofu Sky-Faring Commission Guilds List
-190387 : Long-life Species I
+190360 : ...
+190361 : ...
+190362 : ...
+190363 : ...
+190364 : ...
+190365 : ...
+190367 : ...
+190368 : ...
+190369 : ...
+190370 : ...
+190371 : ...
+190372 : ...
+190373 : ...
+190374 : ...
+190375 : ...
+190376 : ...
+190377 : ...
+190378 : ...
+190379 : ...
+190380 : ...
+190381 : ...
+190382 : ...
+190383 : ...
+190384 : ...
+190385 : ...
+190386 : ...
+190387 : ...
 190388 : Thousand-Handed Merciful Medicus' Salvation
 190389 : Prescription: Draught of Draconic Surge
-190390 : Tiger Boxing Gym Admissions Ad
-190391 : Advocate legal and reasonable care for animals, strictly prohibit illegal wildlife trades for "releases"
-190392 : History of the Xianzhou: Three Sufferings — Fragmented Vol. 1
-190393 : History of the Xianzhou: Three Sufferings — Fragmented Vol. 2
-190394 : Summary of the Chronicles of the Sky-Faring Commission: <unbreak>3287</unbreak> Star Calendar — Vol. 3
-190395 : Xianzhou Alliance Declaration: A Preface (Digital Rubbing)
-190396 : Mysterious Advisory Letter
-190397 : Thank-You Letter
-190398 : Bereaved Letter
-190399 : Cloudcry Songbook
-190400 : Green Hibiscus' Secret Letter
-190401 : A Study into the Mara-Struck (Preface)
-190402 : A Study into the Mara-Struck (I)
-190403 : Surveillance Report from the Xianzhou Yuque
-190404 : Ruin Scroll: Lord Ravager
-190405 : Abomination Scroll: The Borisin
-190406 : Dahao's Diary (I)
-190407 : Dahao's Diary (II)
-190408 : Record of Reignbow's Road
-190409 : Divination Report
-190410 : "Inquiry Into The Gods: An Introduction"
-190411 : "Inquiry Into The Gods: The Arbiters"
-190412 : "Inquiry Into The Gods: The Sacrosancts"
-190413 : "Inquiry Into The Gods: The Authors of Calamity"
-190414 : Records of Yellowbell Resonance
-190415 : Records of Mingyue Divinations
-190416 : Records of Jingzhai Divinations
-190417 : Records of the Early Nation (Fragment)
-190420 : List of Archenemies, Abomination Scroll: Heliobi
-190421 : List of Archenemies, Abomination Scroll: Wingweavers
-190422 : An Appeal from the Vidyadhara (I)
-190423 : An Appeal from the Vidyadhara (II)
-190424 : Cloud Knights Patrol Report
-190425 : Directory of Lost Starskiffs
-190426 : Order from the Disciples of Sanctus Medicus
-190427 : A Martial Arts Novel That Stopped Updating <unbreak>300</unbreak> Years Ago
-190428 : A Found Divination Slip
-190429 : Starskiff Traffic Records
-190430 : A Collection of Intelligence on the Xianzhou Luofu
-190431 : Dan Shu's Diary (I)
-190432 : Dan Shu's Diary (II)
-190433 : Disciples of Sanctus Medicus: Collection of Exhibits — Pharmacological Studies on the Draught of Draconic Surge
-190434 : Overview of Xianzhou's Materia Medica: The Medical Research Collection
-190435 : Overview of Xianzhou's Materia Medica: The Nutritional Sciences
-190436 : Overview of Xianzhou's Materia Medica: The Unorthodox Collection
-190437 : Overview of Xianzhou's Materia Medica: The Heretical Collection
-190438 : Compendium of Remedies (I)
-190439 : Compendium of Remedies (II)
-190440 : Official Announcement on the Origins of the Disciples of Sanctus Medicus
-190441 : Yukong's Exchange Diary
-190442 : Caiyi's Exchange Diary
-190443 : Access Record of Reference Texts in the Elixir Research Terrace
-190444 : A Page From the Alchemy Commission's Official Gazette
-190445 : Travelogue on Xianzhou: Long-Life Species, Part 2
-190446 : Selected Classic Case Studies
-190447 : Undestroyed Letter
-190448 : Undestroyed Notes
-190449 : Report: A Rare Plant Specimen
-190450 : Sampo's Message
-190451 : Zhongshan's Letter
-190452 : Serval's Resume
-190453 : Natasha's Resume
-190454 : Hook's Resume
-190455 : Gepard's Resume
-190456 : Seele's Resume
-190457 : Verdict: The Great Rebellion of Imbibitor Lunae
-190458 : Cold Foods, Heliobi, and Injustice: A Study of the Custom of the Fire Taboo Festival
-190459 : The Account of Preceptor Sutuan Crafting a Statue of the High Elder
-190460 : Artisan Congyan's Stone Engraving
-190461 : The Pearlkeeper's Communication Stele
-190462 : Shredded Notes of Scholar Bernini
-190463 : Vidyadhara Elegy: Insight on "Six Charioteers Adjudicating the Imbibitor Lunae"
-190464 : A Vidyadhara Youth's Notes
-190465 : Preceptor Assembly Chronicle Fragment
-190466 : Investigation of Ancient Pattern Rubbings from the Luofu: Ethereal Shipcraft
-190467 : Investigation of Ancient Pattern Rubbings from the Luofu: Lone Voyage Era
-190468 : Investigation of Ancient Pattern Rubbings from the Luofu: Ambrosial Arbor's Arrival
-190469 : Investigation of Ancient Pattern Rubbings from the Luofu: Living and Flaming Catastrophes
-190470 : Investigation of Ancient Pattern Rubbings from the Luofu: A Shot From the Sky
-190471 : Investigation of Ancient Pattern Rubbings from the Luofu: Mara and Null
-190472 : Investigation of Ancient Pattern Rubbings from the Luofu: Divine Root Subdual
-190473 : Investigation of Ancient Pattern Rubbings from the Luofu: High-Cloud Quintet
-190474 : A Letter to Scholar Cleo
-190475 : Observational Monument on the Roots of the Arbor
-190476 : Views of the Universe from a Starskiff: The Xianzhou Zhuming (I)
-190477 : Views of the Universe from a Starskiff: The Xianzhou Zhuming (II)
-190478 : Views of the Universe from a Starskiff: The Xianzhou Zhuming (III)
-190479 : Star-Picking Tours: Aurum Alley Travel Guide
-190480 : Spices Supreme's Perfect Reviews
-190481 : Majima's Labor Contract
-190482 : Black Market Dealer Investigative Notes
-190483 : Guinaifen's food vlog script
-190484 : Xianzhou Alliance Travel Guide: The Fanghu
-190485 : Xianzhou Alliance Travel Guide: The Yaoqing
-190486 : Letter from Fu Xuan to Scholar Yaakob
-190487 : An Overview of the Faith Crises in the Xianzhou Alliance (I)
-190488 : An Overview of the Faith Crises in the Xianzhou Alliance (II)
-190489 : An Overview of the Faith Crises in the Xianzhou Alliance (III)
-190490 : An Overview of the Faith Crises in the Xianzhou Alliance (IV)
-190491 : Memorial to the Illustrious Officials Xiao and Hong
-190492 : Drift Bottle Letter (I)
-190493 : Drift Bottle Letter (II)
-190494 : Drift Bottle Letter (III)
-190495 : Drift Bottle Letter (IV)
-190496 : Drift Bottle Letter (V)
-190497 : Back'n and Forth Crosstalk Compilation
-190498 : Selection of Mr. Xiyan's Tales
-190499 : IPC Worker Loan Script
-190500 : Code of Conduct for Expatriate Employees: Jarilo-VI Edition
-190501 : Engine of Creation Component Improvement Proposal
-190502 : Engine of Creation Improvement Plan Description
-190503 : Site Safety Poster
-190504 : <i>Miners Weekly</i> Issue <unbreak>226</unbreak>
-190505 : Hook's Aetherium Wars Secrets
-190506 : Engine of Creation Project Proposal
-190507 : <i>Furnace Ash Tabloid: Part 1</i>
-190508 : <i>IPC Travel Safety Manual</i>
-190509 : <i>Mech Mayhem: Hot-Blooded Radiance</i>
-190510 : <i>Screwllum's Message</i>
-190511 : <i>A Letter of Unknown Origin</i>
-190512 : Note Left by Luocha
-190514 : Heliobus Purging Manual
-190515 : Nighttales of Fyxestroll Garden: Scene One (II)
-190516 : Nighttales of Fyxestroll Garden: Scene One (III)
-190517 : Message From a Stone Block
-190518 : Summary of the Luofu's Ambrosial Arbor Crisis
-190519 : Foxian Drum Chant <i>Lament of the Six Follies</i>
-190520 : Otherworldly Delights: Prologue
-190521 : Borisin Folk Song Collection (Volume 1)
-190522 : Exalting Sanctum Chancery Report to the General Affairs Office
-190523 : Sanctus Medicus Devils Criminal Evidence Records
-190524 : Ten Unpardonable Sins Detailed Breakdown
-190525 : Ten-Lords Commission Criminal Directory
-190526 : Transcript of Ten-Lords Commission Interrogation With the Wingweaver Xili
-190527 : <i>The Angler Mystery Anniversary Special Edition</i> Review
-190528 : List of Ten-Lords Commission Criminals Transferral by Cloud Knights
-190529 : Correspondence From Realm-Keeping Commissioner
-190530 : Face of Fourteen Illusions
-190531 : <i>Wedding Wine</i> Lyric Book
-190532 : Genius Society: Research Results
-190533 : Remnants of Ruan Mei's Diary
-190534 : Ruan Mei's Lab Log
-190535 : Department of Ecology's Plant Cultivation Program
-190536 : Warning!!!
-190537 : Extracts of Comprehensive Snack Recipe
-190538 : The Nature of Emotion — A Physiological Analysis
-190539 : Dr. Ratio's Note (1)
-190540 : Dr. Ratio's Note (2)
-190541 : Dr. Ratio's Note (3)
-190542 : Dr. Ratio's Note (4)
-190543 : Welcome to ■■■■
-190544 : Giovanna's Work Diary
-190545 : <i>Night of the Majestic Cosmos</i>: The Dawn of Dreams & Freedom
-190546 : <i>Coastline</i>: Metamorphosis & Rebirth
-190547 : <i>Paradise on Earth</i>: When Dreamscape Overlooks Reality
-190548 : Dreamscape Nursery Rhyme: The Family of Seven
-190549 : <i>Nickodeum Cinemas Special Feature: Night of Fright</i>
-190550 : SoulGlad Cyclopedia
-190551 : Goldhammer Residence Security Regulations
-190552 : Case Review (I)
-190553 : Case Review (II)
-190554 : Sampo's Advice?
-190555 : Watchmaker's Advice
-190556 : <i>Hanu's Adventure</i> Foreword
-190557 : <i>Hanu's Adventure</i> Part 1, Chapter 1
-190558 : <i>Hanu's Adventure</i> Part 1, Chapter 2
-190559 : <i>Hanu's Adventure</i> Part 1, Chapter 3
-190560 : <i>Hanu's Adventure</i> Part 1, Chapter 4
-190561 : The Planet Of Canticles' Final Song: Song of Beauty Concert
-190562 : <i>Silver Screen Shockwave</i> Issue <unbreak>280</unbreak>
-190563 : <i>Memory Zone Meme Victim List Snippet</i>
-190564 : <i>Memory Zone Mmee Vticim Lsit Spenpit (Encrypted)</i>
-190565 : <i>Night of Bruce</i> Promotional Flyer
-190566 : Cosmic Star's Story — Clippings From Fans
-190567 : Cosmic Star's Story — Lesley Dean's Rebirth Project
-190568 : Research On Capsule Machine No. ■
-190569 : Press Releases
-190570 : <i>Dreamscape Tourist Compendium — Transport</i>
-190571 : <i>Dreamscape Tourist Compendium — Shopping</i>
-190572 : <i>Dreamscape Tourist Compendium — Entertainment</i>
-190573 : Planet of Festivities Collectible Card — Planet of Festivities: Robin
-190574 : Planet of Festivities Collectible Card — Planet of Festivities: Hanunue
-190575 : Planet of Festivities Collectible Card - Planet of Festivities: Glaux
-190576 : Planet of Festivities Collectible Card — Planet of Festivities: Oti Alfalfa
-190577 : Planet of Festivities Collectible Card — The Planet of Festivities: Hamz
-190578 : Planet of Festivities Collectible Card — Planet of Festivities: Mr. Aideen
-190579 : Planet of Festivities Collectible Card - Planet of Festivities: Nameless Hero
-190580 : Planet of Festivities Collectible Card — Planet of Festivities: Lesley Dean
-190581 : Cocona's Note
-190582 : Attendant Hamilton's Notes (I)
-190583 : Attendant Hamilton's Notes (II)
-190584 : Attendant Hamilton's Notes (III)
-190585 : Attendant Hamilton's Notes (IV)
-190586 : Planet of Festivities Collectible Card — The Planet of Festivities: Maeven Ellis
-190587 : Planet of Festivities Collectible Card — The Planet of Festivities: Gopher Wood
-190588 : A Letter from Robin
-190589 : "Doctor's Advice"
-190590 : List of Suspects
-190591 : List of Death's Victims
-190592 : A Letter from Alfalfa
-190593 : Summary of Clock Studios Financial Report
-190594 : Maker's Diary about <i>Mecha Town</i>
-190595 : <i>Clockie and Mirror Princess</i>, Part A
-190596 : <i>Clockie and Mirror Princess</i>, Part B
-190597 : Watchmaker Investigation Record
-190598 : <i>A Hymn of Charmonic Strings</i>
-190599 : <i>Odes of Harmony</i>, First Movement
-190600 : Stowaway Investigative Report Part 1
-190601 : Stowaway Investigative Report Part 2
-190602 : Penacony Flight Guide
-190603 : Comments on <i>Scorchsand Adventure</i>
-190604 : A Letter of Complaint
-190605 : My Romantic Encounters
-190606 : <i>A Letter to Dreamscape Motivators</i>
-190608 : <i>Project: Scarab</i>
-190609 : A Scrawled Note
-190610 : A Handwritten Letter
-190611 : Supernatural Encounters in Paperfold University
-190612 : An Unsent Letter
-190613 : Claudia's Gathered Clues
-190614 : A Letter of Diffidation
-190615 : Classified: Major Incidents in Dreamscape
-190616 : Excerpts from <i>Dreamscape Crime Files</i>
-190617 : Quinn's Diary
-190618 : <i>Alfalfa Bank Insurance Package Information Booklet</i>
-190619 : <i>Hanu's Adventure</i> Part 2, Chapter 1
-190620 : <i>Hanu's Adventure</i> Part 2, Chapter 2
-190621 : <i>Hanu's Adventure</i> Part 2, Chapter 3
-190622 : <i>Hanu's Adventure</i> Part 2, Chapter 4
-190624 : Planet of Festivities Collectible Card - Planet of Festivities: Origami Dreamweaver
-190625 : Lost Property
-190626 : Someone's Treasure
-190627 : Dreamflux Reef Travel Guide <unbreak>19.0</unbreak>
-190628 : <i>Clockie and Captain Revolver</i> Part 1
-190629 : <i>Clockie and Captain Revolver</i> Part 2
-190630 : <i>Clockie and Captain Revolver</i> Part 3
-190631 : <i>Hanu's Adventure</i> Part 3, Chapter 1
-190632 : <i>Hanu's Adventure</i> Part 3, Chapter 2
-190634 : <i>Mr. Soda's Extras</i>
-190635 : <i>Boss Stone's Extras</i>
-190636 : <i>Brother Hanu's Extras</i>
-190637 : <i>Origami Bird's Extras</i>
-190638 : <i>Old Man Wood's Extras</i>
-190639 : <i>Hamster Ball Knight's Extras</i>
-190640 : <i>The Dreamweaver Archives</i>
-190641 : Claudia's Gathered Clues (II)
-190642 : Death of the Crow
-190643 : The Story of SoulGlad: Dreams in a Bottle
-190644 : <i>Night of Burning Dreams</i> Script
-190645 : Collection of Audition Violation Cases
-190646 : A Hundred Truths about the Pepeshi
-190647 : <i>Evening Tavern Stories: SoulGlad Special Issue</i>
-190648 : The Unchosen Path (I)
-190649 : The Unchosen Path (II)
-190650 : The Unchosen Path (III)
-190651 : The Unchosen Path (IV)
-190652 : The Unchosen Path (V)
-190653 : The Unchosen Path (VI)
-190654 : This_is_a_memetic_virus.exe
-190655 : Shelved Business Proposal Draft (Version <unbreak>7.0</unbreak>)
-190656 : Evening Tavern Stories: Halovian Special Issue
-190657 : Letter to Be Sent
-190658 : Back to the Radiant Feldspar
-190659 : <i>The History of Penacony Airship Design</i> Excerpt
-190660 : Whispers of the Elites: A Reporter's Correspondence
-190661 : <i>Era of Dreams: A Record of Legendary Captains</i> Excerpt
-190662 : Card Addressed to a Guest
-190663 : The Search For Calypso
-190664 : Fabricated Travelogue
-190665 : Meal List of Unknown Origin
-190666 : Invalid Pawn Ticket
-190667 : Dream Bubble Notes
-190668 : Observational Notes on Memory Zone Lifeforms
-190669 : Dreamscape Literary Bestsellers
-190670 : VIP Itinerary Guide
-190671 : Memory Zone Fairy Tales: The Ghost Ship
-190672 : In-Flight Precautions
-190673 : Mysterious Invitation Received by Qingque
-190674 : Note Left by Gallagher
-190675 : New Londinium Freight Check Report
-190676 : New Londinium's Transport Log Record
-190677 : Other Page of the Alchemy Commission Official Gazette
-190678 : Reminders When Visiting Hoolay
-190679 : Yancui Interrogation Transcript
-190680 : The Shackling Prison Convict Directory — Shapeless Doot-Doot
-190681 : March 7th's Sword Training Notes
-190682 : Sword Hunt Journal: Crimson Thorn
-190683 : Jiaoqiu's Consumable Prescription
-190684 : <i>My Return to the Path</i> Foreword
-190685 : Respect Only the Strong: A Borisin Cultural Study and Commentary
-190686 : Arma Correctional Group Recruitment Notice
-190687 : Yaoqing Recruit Handbook: Borisin Pack Overview
-190688 : Report submitted by the Interastral Peace Corporation's Luofu Office
-190689 : Xianzhou Luofu Wardance Guide
-190690 : The Luofu Cauldron Master's Report to the Six Charioteers
-190691 : Opinion About the Claretwheel Temple Issue
-190692 : Anecdotes from the Wardance Arena
-190693 : Jiaoqiu's Follow-Up Medical Report
-190694 : The Seven Wonders of Paperfold University
-190695 : Welcome to Ethansville (Trial Episode)
-190696 : Dreamweaver Academy Syllabus
-190697 : The Paperfold University Student Handbook — Comments on the <unbreak>43</unbreak>rd Revised Edition
-190698 : Compendium of Dreamway Road Accidents
-190699 : Paperfold University Librarian Diary
-190700 : <i>Dreamlight Anniversary Special</i> (Excerpt)
-190701 : Joint Letter of Complaint Regarding a Fortune Academy Representative
-190702 : Classmate's Note
-190703 : Excerpt from <i>Penaconian Art History</i>
-190704 : Excerpt from <i>Oti Alfalfa: The Biography</i>
-190705 : Crumpled Paper
-190706 : Paperfold University Student Disciplinary Record (Vol. 3)
-190707 : The <unbreak>58</unbreak>th Petition to the Student Court
-190708 : Student Court Investigation Results
-190709 : Campus Message Board
-190710 : Paperfold University Society Activities Flyer
-190711 : Incident Report Regarding the "Slumbernana Monkey" Memetic Virus
-190712 : Page: Czipo
-190713 : Page: Montana
-190714 : Page: Arfey
-190715 : Page: Dafanchy
-190716 : Page: Richie
-190717 : Page: Chaletka
-190718 : Page: Gabbana
-190719 : Digital Save of Klein's Handwritten Notes (Excerpt)
-190720 : AtaviSearch Record for Forest No. <unbreak>17</unbreak> "Cultivation Forest"
-190721 : {NICKNAME}'s Student ID Card
-190722 : Slumbernana Monkey Fan Creation: Dreams of Monkeys and Bananas
-190723 : Dreamlight Anniversary Promotional Video: The Legend of Slumbernana Monkey
-190727 : {NICKNAME}'s Student ID Card
-190728 : {NICKNAME}'s Student ID Card
+190390 : ...
+190391 : ...
+190392 : ...
+190393 : ...
+190394 : ...
+190395 : ...
+190396 : ...
+190397 : ...
+190398 : ...
+190399 : ...
+190400 : ...
+190401 : ...
+190402 : ...
+190403 : ...
+190404 : ...
+190405 : ...
+190406 : ...
+190407 : ...
+190408 : ...
+190409 : ...
+190410 : ...
+190411 : ...
+190412 : ...
+190413 : ...
+190414 : ...
+190415 : ...
+190416 : ...
+190417 : ...
+190420 : ...
+190421 : ...
+190422 : ...
+190423 : ...
+190424 : ...
+190425 : ...
+190426 : ...
+190427 : ...
+190428 : ...
+190429 : ...
+190430 : ...
+190431 : ...
+190432 : ...
+190433 : ...
+190434 : ...
+190435 : ...
+190436 : ...
+190437 : ...
+190438 : ...
+190439 : ...
+190440 : ...
+190441 : ...
+190442 : ...
+190443 : ...
+190444 : ...
+190445 : ...
+190446 : ...
+190447 : ...
+190448 : ...
+190449 : ...
+190450 : ...
+190451 : ...
+190452 : ...
+190453 : ...
+190454 : ...
+190455 : ...
+190456 : ...
+190457 : ...
+190458 : ...
+190459 : ...
+190460 : ...
+190461 : ...
+190462 : ...
+190463 : ...
+190464 : ...
+190465 : ...
+190466 : ...
+190467 : ...
+190468 : ...
+190469 : ...
+190470 : ...
+190471 : ...
+190472 : ...
+190473 : ...
+190474 : ...
+190475 : ...
+190476 : ...
+190477 : ...
+190478 : ...
+190479 : ...
+190480 : ...
+190481 : ...
+190482 : ...
+190483 : ...
+190484 : ...
+190485 : ...
+190486 : ...
+190487 : ...
+190488 : ...
+190489 : ...
+190490 : ...
+190491 : ...
+190492 : ...
+190493 : ...
+190494 : ...
+190495 : ...
+190496 : ...
+190497 : ...
+190498 : ...
+190499 : ...
+190500 : ...
+190501 : ...
+190502 : ...
+190503 : ...
+190504 : ...
+190505 : ...
+190506 : ...
+190507 : ...
+190508 : ...
+190509 : ...
+190510 : ...
+190511 : ...
+190512 : ...
+190514 : ...
+190515 : ...
+190516 : ...
+190517 : ...
+190518 : ...
+190519 : ...
+190520 : ...
+190521 : ...
+190522 : ...
+190523 : ...
+190524 : ...
+190525 : ...
+190526 : ...
+190527 : ...
+190528 : ...
+190529 : ...
+190530 : ...
+190531 : ...
+190532 : ...
+190533 : ...
+190534 : ...
+190535 : ...
+190536 : ...
+190537 : ...
+190538 : ...
+190539 : ...
+190540 : ...
+190541 : ...
+190542 : ...
+190543 : ...
+190544 : ...
+190545 : ...
+190546 : ...
+190547 : ...
+190548 : ...
+190549 : ...
+190550 : ...
+190551 : ...
+190552 : ...
+190553 : ...
+190554 : ...
+190555 : ...
+190556 : ...
+190557 : ...
+190558 : ...
+190559 : ...
+190560 : ...
+190561 : ...
+190562 : ...
+190563 : ...
+190564 : ...
+190565 : ...
+190566 : ...
+190567 : ...
+190568 : ...
+190569 : ...
+190570 : ...
+190571 : ...
+190572 : ...
+190573 : ...
+190574 : ...
+190575 : ...
+190576 : ...
+190577 : ...
+190578 : ...
+190579 : ...
+190580 : ...
+190581 : ...
+190582 : ...
+190583 : ...
+190584 : ...
+190585 : ...
+190586 : ...
+190587 : ...
+190588 : ...
+190589 : ...
+190590 : ...
+190591 : ...
+190592 : ...
+190593 : ...
+190594 : ...
+190595 : ...
+190596 : ...
+190597 : ...
+190598 : ...
+190599 : ...
+190600 : ...
+190601 : ...
+190602 : ...
+190603 : ...
+190604 : ...
+190605 : ...
+190606 : ...
+190608 : ...
+190609 : ...
+190610 : ...
+190611 : ...
+190612 : ...
+190613 : ...
+190614 : ...
+190615 : ...
+190616 : ...
+190617 : ...
+190618 : ...
+190619 : ...
+190620 : ...
+190621 : ...
+190622 : ...
+190624 : ...
+190625 : ...
+190626 : ...
+190627 : ...
+190628 : ...
+190629 : ...
+190630 : ...
+190631 : ...
+190632 : ...
+190634 : ...
+190635 : ...
+190636 : ...
+190637 : ...
+190638 : ...
+190639 : ...
+190640 : ...
+190641 : ...
+190642 : ...
+190643 : ...
+190644 : ...
+190645 : ...
+190646 : ...
+190647 : ...
+190648 : ...
+190649 : ...
+190650 : ...
+190651 : ...
+190652 : ...
+190653 : ...
+190654 : ...
+190655 : ...
+190656 : ...
+190657 : ...
+190658 : ...
+190659 : ...
+190660 : ...
+190661 : ...
+190662 : ...
+190663 : ...
+190664 : ...
+190665 : ...
+190666 : ...
+190667 : ...
+190668 : ...
+190669 : ...
+190670 : ...
+190671 : ...
+190672 : ...
+190673 : ...
+190674 : ...
+190675 : ...
+190676 : ...
+190677 : ...
+190678 : ...
+190679 : ...
+190680 : ...
+190681 : ...
+190682 : ...
+190683 : ...
+190684 : ...
+190685 : ...
+190686 : ...
+190687 : ...
+190688 : ...
+190689 : ...
+190690 : ...
+190691 : ...
+190692 : ...
+190693 : ...
+190694 : ...
+190695 : ...
+190696 : ...
+190697 : ...
+190698 : ...
+190699 : ...
+190700 : ...
+190701 : ...
+190702 : ...
+190703 : ...
+190704 : ...
+190705 : ...
+190706 : ...
+190707 : ...
+190708 : ...
+190709 : ...
+190710 : ...
+190711 : ...
+190712 : ...
+190713 : ...
+190714 : ...
+190715 : ...
+190716 : ...
+190717 : ...
+190718 : ...
+190719 : ...
+190720 : ...
+190721 : ...
+190722 : ...
+190723 : ...
+190724 : ...
+190725 : ...
+190726 : ...
+190727 : ...
+190728 : ...
+190729 : ...
+190730 : ...
+190731 : ...
 190901 : <i>The Adventurous Moles: Hidden Treasure</i> — Table of Contents
 190902 : <i>The Adventurous Moles: Hidden Treasure</i> — Preface
 190903 : <i>The Adventurous Moles: Hidden Treasure</i> — "The Unexpected Parchment"
@@ -2415,6 +2451,8 @@
 200128 : Moze: Fitness
 200129 : Rappa: Opening
 200130 : Silver Wolf: Opening
+200131 : Robin: Brilliant Youth
+200132 : Sunday: Brilliant Youth
 201001 : March 7th: Preservation
 201002 : Dan Heng
 201003 : Himeko
@@ -2458,6 +2496,7 @@
 201222 : Lingsha
 201223 : Moze
 201224 : March 7th: The Hunt
+201225 : Fugue
 201301 : Gallagher
 201302 : Argenti
 201303 : Ruan Mei
@@ -2469,6 +2508,7 @@
 201309 : Robin
 201310 : Firefly
 201312 : Misha
+201313 : Sunday
 201314 : Jade
 201315 : Boothill
 201317 : Rappa
@@ -2498,130 +2538,130 @@
 208004 : {NICKNAME}: Preservation
 208005 : {NICKNAME}: Harmony
 208006 : {NICKNAME}: Harmony
-210001 : "Dawn of Disaster"
-210003 : "fReeStyLE"
-210008 : "Crises"
-210010 : "Flashpoint"
-210100 : "Order"
-210101 : "Kindling"
-210102 : "Underground"
-210103 : "Godfather"
-210104 : "Frozen March"
-210105 : "A Trap With No Return"
-210106 : "Wildfire"
-210107 : "Faded Sun"
-210108 : "Ghost From the Past"
-210109 : "Everwinter"
-210110 : "Fate"
-210111 : "Embers"
-210112 : "Hearthfire"
-210113 : "Warm Sun"
-210114 : "Streets Abuzz"
-210115 : "Sleep Tight"
-210200 : "Cumulus Formations"
-210201 : "Ave Astra et Viator"
-210202 : "Upon the Firmament"
-210203 : "Exquisite Ingenuity"
-210204 : "Anthropic Domain"
-210205 : "Warden of Jade"
-210206 : "Into the Desolate"
-210207 : "Blade Abracadabra"
-210208 : "Deerstalker"
-210209 : "Lustrous Moonlight"
-210210 : "Fabulous Foresight"
-210211 : "Thundering Chariot"
-210212 : "Hunter's Intuition"
-210213 : "Into the Breach"
-210214 : "Sanctus Medicus Dharani"
-210215 : "Mokshasatya"
-210216 : "Gleaming Clash"
-210217 : "Evanescent Dreams"
-210218 : "Erstwhile Resonance"
-210219 : "Samudrartha"
-210220 : "Obscured Pearls"
-210221 : "Arteria Inceptionis"
-210222 : "Pedujara: Ephemeral Cycle"
-210223 : "Pedujara: Even Immortality Ends"
-210224 : "Pedujara: Demiseless Existence"
-210225 : "Paean of Indulgence"
-210226 : "Cosmic Sacrifice for Love"
-210227 : "A Gentleman's Fantasy"
-210228 : "Dancing Fantasms"
-210229 : "Nesting Avians"
-210300 : "Against The Day"
-210301 : "Challenge to the Reader"
-210302 : "The Player on the Other Side"
-210303 : "Fair Play"
-210304 : "Return of None"
-210305 : "Nevermore"
-210306 : "This Side of Paradise"
-210307 : "Golden Land"
-210308 : "Ace in the Hole"
-210309 : "The Big Sleep"
-210310 : "Realitätsprinzip"
-210311 : "Lustprinzip"
-210312 : "Halfway House"
-210313 : "If I Can Stop One Heart From Breaking"
-210314 : "Chaîne Signifiante"
-210315 : "Stade du Miroir"
-210316 : "City Upon a Hill"
-210317 : "Spellbound"
-210318 : "Hi, Dolly!"
-210319 : "The Midnight Special"
-210320 : "If One Wakes at Midnight"
-210321 : "Stranger Than Paradise"
-210322 : "On the Disintegration of Evermemoria"
-210323 : "Citizen Hanunue"
-210324 : "Into the Yawning Chasm"
-210325 : "Dream First!"
-210326 : "Speedy Hamz"
-210327 : "Omertà"
-210328 : "Polaris"
-210329 : "Oed' und leer das Meer"
-210330 : "Fast & Furynuts"
-210331 : "Way of the Wolf"
-210332 : "Infirma Nostri Corporis"
-210333 : "Symphony No. 8 'A Thousand Suns'"
-210334 : <i>Hope Is the Thing With Feathers</i>
-210335 : "Some Like It Hot"
-210336 : "No Business Like Show Business"
-210337 : "The Strength of Sin Is the Law"
-210338 : "The Sting of Death Is Sin"
-210339 : "The City in the Sea"
-210340 : "A Star Is Born"
-210341 : "An Actor Prepares"
-210342 : "Little Little Caesar"
-210343 : "Nobility of Time"
-210344 : "Walk of Fame"
-210345 : "Lux Aeterna"
-210346 : "Hosanna in Excelsis"
-210347 : "Confutatis"
-210348 : "Agnus Aeon"
-210349 : "Requiem Aeternam"
-210350 : "Sway to My Beat in Cosmos"
-210351 : "Hope Is the Thing With Feathers (Overture)"
-210352 : "Morns Like These"
-210353 : "Now, Voyager"
-210354 : "La Messe de l'athée"
-210355 : "Had I Not Seen the Sun"
-210356 : <i>To Naraka We Sink</i>
-210357 : <i>Eight Great Cold Hells</i>
-210358 : <i>Moonhowl Stampede</i>
-210359 : <i>Life's Suffering, An Endless Tide</i>
-210360 : <i>Cloudwide Voyage</i>
-210361 : <i>With My Heartstring as Bow</i>
-210362 : <i>Welkin's Advent</i>
-210363 : <i>A Duel of Connecting Blades</i>
-210364 : <i>Fatal Clash of Swordgraves</i>
-210365 : <i>Inner Beast Vanquished</i>
-210366 : <i>Color Your Dreams</i>
-210367 : <i>Takeoff at Dusk</i>
-210368 : <i>Melody of Dazzling Light</i>
-210369 : <i>Floating Tempo</i>
-210370 : <i>Dance in a Deep Dream</i>
-210371 : <i>Up to This</i>
-220000 : The Art of Language
-220001 : Where's the Rabbit?
+210001 : ...
+210003 : ...
+210008 : ...
+210010 : ...
+210100 : ...
+210101 : ...
+210102 : ...
+210103 : ...
+210104 : ...
+210105 : ...
+210106 : ...
+210107 : ...
+210108 : ...
+210109 : ...
+210110 : ...
+210111 : ...
+210112 : ...
+210113 : ...
+210114 : ...
+210115 : ...
+210200 : ...
+210201 : ...
+210202 : ...
+210203 : ...
+210204 : ...
+210205 : ...
+210206 : ...
+210207 : ...
+210208 : ...
+210209 : ...
+210210 : ...
+210211 : ...
+210212 : ...
+210213 : ...
+210214 : ...
+210215 : ...
+210216 : ...
+210217 : ...
+210218 : ...
+210219 : ...
+210220 : ...
+210221 : ...
+210222 : ...
+210223 : ...
+210224 : ...
+210225 : ...
+210226 : ...
+210227 : ...
+210228 : ...
+210229 : ...
+210300 : ...
+210301 : ...
+210302 : ...
+210303 : ...
+210304 : ...
+210305 : ...
+210306 : ...
+210307 : ...
+210308 : ...
+210309 : ...
+210310 : ...
+210311 : ...
+210312 : ...
+210313 : ...
+210314 : ...
+210315 : ...
+210316 : ...
+210317 : ...
+210318 : ...
+210319 : ...
+210320 : ...
+210321 : ...
+210322 : ...
+210323 : ...
+210324 : ...
+210325 : ...
+210326 : ...
+210327 : ...
+210328 : ...
+210329 : ...
+210330 : ...
+210331 : ...
+210332 : ...
+210333 : ...
+210334 : ...
+210335 : ...
+210336 : ...
+210337 : ...
+210338 : ...
+210339 : ...
+210340 : ...
+210341 : ...
+210342 : ...
+210343 : ...
+210344 : ...
+210345 : ...
+210346 : ...
+210347 : ...
+210348 : ...
+210349 : ...
+210350 : ...
+210351 : ...
+210352 : ...
+210353 : ...
+210354 : ...
+210355 : ...
+210356 : ...
+210357 : ...
+210358 : ...
+210359 : ...
+210360 : ...
+210361 : ...
+210362 : ...
+210363 : ...
+210364 : ...
+210365 : ...
+210366 : ...
+210367 : ...
+210368 : ...
+210369 : ...
+210370 : ...
+210371 : ...
+220000 : ...
+220001 : ...
 220002 : {TEXTJOIN#54}
 220003 : Celestial Incubator
 220004 : Monster Tavern
@@ -2630,275 +2670,276 @@
 220007 : Let's Rock, Sound Waves!
 221000 : Nameless Journey
 221001 : Ingenium Dreams
-221002 : Conductor's Treat
-221003 : Starfire Parkland
+221002 : ...
+221003 : ...
 221004 : The Planet of Festivities
 221005 : Cosmodyssey
 221006 : Task in Progress
 221007 : Moment of Triumph
-222000 : Dreamscape Pass
-223000 : Aventurine
-223001 : Black Swan
-223002 : Sparkle
-223003 : Acheron
-223004 : Firefly
-223005 : Misha
-223006 : Robin
-223007 : Stellaron Hunter: Sam
-223008 : Sunday
-223009 : Gallagher
-223010 : Dr. Ratio
-223011 : Boothill
-223012 : Argenti
-223020 : About Money
-223021 : About Happiness
-223022 : About Love
-223023 : About Life
-223024 : About Death
-223050 : The Family
-223051 : Celebrity
-223052 : Merchant
-223053 : Tyrant
-223054 : Scholar
-223055 : Messenger
-223056 : Hero
-223057 : Host
-223058 : The Reverie VIP Lounge
-223059 : Daughter
-223060 : Jazz
-223080 : Who is this?
-223081 : Distance
-223082 : Great People
-223083 : Best Buddies
-223084 : True Grit
-223085 : Blank Tile
-223100 : Oti Mall
-223101 : Dreamscape Sales Store
-223102 : Golden Central Station
-223103 : "Sales Rep"
-223104 : Cash-Spewer
-223105 : Classic SoulGlad
-223106 : Golden Times
-223107 : Floatdisc Burger
-223108 : Nameless' Dream Bubble
-223109 : 1:<unbreak>1000</unbreak> Model of the Astral Express
-223150 : The Greatest Clockie
-223151 : Dream Within A Reverie
-223152 : Eye of Dreamchaser
-223153 : Penacony TV Station
-223154 : The Family Needs You!
-223155 : Empyrean Hymnos
-223156 : Smokescreen
-223157 : Sound of Chaos
-223180 : Clipping (I)
-223181 : Clipping (II)
-223182 : Clipping (III)
-223183 : Clipping (IV)
-223184 : Clipping (V)
-223185 : Clipping (VI)
-223200 : Aideen Park
-223201 : Golden Capsule Machine
-223202 : Let's Dance
-223203 : Clock Credits
-223204 : Aideen Tokens
-223205 : Yes, It's All Yours
-223206 : Good-Omen Capsule Machine
-223207 : Cosmos's Most Lucky Capsule Machine
-223208 : Enjoy Your Drink
-223230 : Anecdote (I)
-223231 : Anecdote (II)
-223232 : Anecdote (III)
-223233 : Anecdote (IV)
-223250 : Hey! I'm Clockie
-223251 : If Only There's A Bed
-223252 : Sadie
-223253 : Angrie
-223254 : Happie
-223255 : Calmie
-223256 : Look! He's Called Brother Hanu
-223257 : "Don't Mess With Me" Rocket Propeller
-223258 : Hey! Isn't This The Origami Bird?
-223259 : Flying With Your Dream In Your Mouth
-223260 : Ah! The Annoying Boss Stone!
-223261 : A Pure Antagonist
-223270 : Line: Violence
-223271 : Line: Affection
-223272 : Line: Philosophy
-223273 : Line: Narcissism
-223274 : Line: Inferiority
-223300 : The Family's Construction Authority
-223301 : Observation Deck
-223302 : A Strange Statue
-223303 : Producer
-223304 : Pirate
-223305 : Action
-223306 : Dreambird
-223307 : Dreambird (Another one)
-223308 : Mr. Stone
-223309 : Soda Bottle
-223330 : Dreamweaver: Angry
-223331 : Dreamweaver: Pursuit
-223332 : Dreamweaver: Obsession
-223333 : Dreamweaver: Fatigue
-223334 : Dreamweaver: Resignation
-223350 : Icy Fountain of Memory
-223351 : Toy House
-223352 : Study
-223353 : Grandpa's Work
-223354 : Migratory Memory
-223355 : Frozen Memory
-223356 : Chair
-223357 : Building Blocks
-223358 : Balloon
-223370 : Memories (I)
-223371 : Memories (II)
-223372 : Memories (III)
-223373 : Memories (IV)
-223400 : Dreamscape Room
-223401 : Dreamscape Lobby
-223402 : Monitoring Room
-223403 : Allseer
-223404 : Heartbreaker
-223405 : Something Unto Death
-223406 : W?
-223407 : null
-223408 : No Signal
-223409 : Faulty Screen
-223410 : Mirrored Who
-223411 : null
-223412 : Insatiable Vanity
-223430 : Lost (I)
-223431 : Lost (II)
-223432 : Lost (III)
-223433 : Lost (IV)
-223434 : Lost (V)
-223450 : null
-223451 : null
-223452 : null
-223453 : null
-223454 : null
-223455 : null
-223456 : null
-223457 : null
-223500 : Theme Park Guide
-223501 : Best Buddies (I)
-223502 : Best Buddies (II)
-223503 : Gaseous Laughter
-223504 : 3... 2... 1... Action!
-223505 : No Open Flames Allowed
-223506 : "Philanthropist"
-223507 : Penacony City Mob
-223508 : Hamster Speedrun
-223509 : Limousine Cinema
-223531 : Clockie's Quote
-223532 : Brother Hanu's Quote
-223533 : Hamster Ball Knight's Quote
-223534 : Boss Stone's Quote
-223600 : City Sandpit: Entrance
-223601 : City Sandpit: Foundation
-223602 : City Sandpit: Building Complex
-223603 : City Sandpit: Advertisement
-223604 : City Sandpit: SoulGlad
-223605 : City Sandpit: Booth
-223606 : City Sandpit: Force of Evil
-223607 : City Sandpit: Drunk "Little" Bird
-223631 : Conclusion of the 3rd Round of Inspection: Failed
-223632 : Conclusion of the 8th Round of Inspection: Failed
-223633 : Conclusion of the <unbreak>11</unbreak>th Round of Inspection: Failed
-223634 : Conclusion of the <unbreak>20</unbreak>th Round of Inspection: Failed
-223700 : Oak
-223701 : Alfalfa
-223702 : Nightingale
-223703 : Bloodhound
-223704 : Iris
-223705 : Mr. Aideen
-223706 : Oti Alfalfa
-223707 : Glaux
-223708 : Hamz
-223709 : Hanunue
-223710 : Lesley Dean
-223711 : Nameless Hero
-223712 : Robin
-223713 : Maeven Ellis
-223714 : Gopher Wood
-223715 : Famous Five Origamists
-223731 : Oak Family Teachings
-223732 : Alfalfa Family Teachings
-223733 : Nightingale Family Teachings
-223734 : Bloodhound Family Teachings
-223735 : Iris Family Teachings
-223800 : Graffiti 1
-223801 : Graffiti 2
-223802 : Graffiti 3
-223803 : Streetside Repose
-223804 : Watchmaker's Hat
-223805 : Mikhail's Slumber
-223806 : The Existence of God
-223807 : Old Friend
-223808 : Slumbertown
-223809 : The Essense of Dreams
-223811 : Lost Diary: Soldier
-223812 : Lost Diary: Dancer
-223813 : Lost Diary: Vagrant
-223814 : Lost Diary: Affluent Man
-223901 : On Set
-223902 : Brand Ambassador
-223903 : Action!
-223904 : Sponsor
-223905 : Base Camp
-223906 : Lonely Giant
-223907 : Festival's Starting Point
-223908 : The Birth of a Superstar
-223911 : Foxian Contestant's Note
-223912 : Masked Fool Contestant's Note
-223913 : Knight of Beauty Contestant's Note
-224001 : All-Seeing Eye
-224002 : Intermission
-224003 : Where Starlight Congregate
-224004 : Program List
-224005 : Dancer 1
-224006 : Dancer 2
-224007 : Dancer 3
-224008 : Tomorrow in Harmonious Chords
-224009 : Present Inebriated in Revelry
-224010 : Past Confined and Caged
-224011 : Dress Rehearsal (I)
-224012 : Dress Rehearsal (II)
-224013 : Dress Rehearsal (III)
-225001 : Firefly
-225002 : Stellaron Hunter: Sam
-225003 : Aventurine
-225004 : Kakavasha
-225005 : Topaz
-225006 : Dr. Ratio
-225007 : Jade
-225008 : Black Swan
-225009 : Acheron
-225010 : Sparkle
-225011 : Miss Sparkle's Bomb
-225012 : Misha
-225013 : Gallagher
-225014 : Robin
-225015 : Sunday
-225016 : Boothill
-225017 : Argenti
-225018 : Siobhan
-225019 : Micah
-225020 : Lordly Trashcan
-225021 : Clockie
-225022 : Brother Hanu
-225023 : Dr. Blues
-225024 : Verdant Manager
-225025 : Lady Vermilion
-225026 : Boss Red
-225027 : Young Master Gold
-225028 : {NICKNAME}
-225029 : {NICKNAME}
-225030 : Encounter and Farewell (I)
-225031 : Encounter and Farewell (II)
-225032 : Encounter and Farewell (III)
-225033 : The Perfect Ending (I)
-225034 : The Perfect Ending (II)
+221008 : To a Dreamless Sleep
+222000 : ...
+223000 : ...
+223001 : ...
+223002 : ...
+223003 : ...
+223004 : ...
+223005 : ...
+223006 : ...
+223007 : ...
+223008 : ...
+223009 : ...
+223010 : ...
+223011 : ...
+223012 : ...
+223020 : ...
+223021 : ...
+223022 : ...
+223023 : ...
+223024 : ...
+223050 : ...
+223051 : ...
+223052 : ...
+223053 : ...
+223054 : ...
+223055 : ...
+223056 : ...
+223057 : ...
+223058 : ...
+223059 : ...
+223060 : ...
+223080 : ...
+223081 : ...
+223082 : ...
+223083 : ...
+223084 : ...
+223085 : ...
+223100 : ...
+223101 : ...
+223102 : ...
+223103 : ...
+223104 : ...
+223105 : ...
+223106 : ...
+223107 : ...
+223108 : ...
+223109 : ...
+223150 : ...
+223151 : ...
+223152 : ...
+223153 : ...
+223154 : ...
+223155 : ...
+223156 : ...
+223157 : ...
+223180 : ...
+223181 : ...
+223182 : ...
+223183 : ...
+223184 : ...
+223185 : ...
+223200 : ...
+223201 : ...
+223202 : ...
+223203 : ...
+223204 : ...
+223205 : ...
+223206 : ...
+223207 : ...
+223208 : ...
+223230 : ...
+223231 : ...
+223232 : ...
+223233 : ...
+223250 : ...
+223251 : ...
+223252 : ...
+223253 : ...
+223254 : ...
+223255 : ...
+223256 : ...
+223257 : ...
+223258 : ...
+223259 : ...
+223260 : ...
+223261 : ...
+223270 : ...
+223271 : ...
+223272 : ...
+223273 : ...
+223274 : ...
+223300 : ...
+223301 : ...
+223302 : ...
+223303 : ...
+223304 : ...
+223305 : ...
+223306 : ...
+223307 : ...
+223308 : ...
+223309 : ...
+223330 : ...
+223331 : ...
+223332 : ...
+223333 : ...
+223334 : ...
+223350 : ...
+223351 : ...
+223352 : ...
+223353 : ...
+223354 : ...
+223355 : ...
+223356 : ...
+223357 : ...
+223358 : ...
+223370 : ...
+223371 : ...
+223372 : ...
+223373 : ...
+223400 : ...
+223401 : ...
+223402 : ...
+223403 : ...
+223404 : ...
+223405 : ...
+223406 : ...
+223407 : ...
+223408 : ...
+223409 : ...
+223410 : ...
+223411 : ...
+223412 : ...
+223430 : ...
+223431 : ...
+223432 : ...
+223433 : ...
+223434 : ...
+223450 : ...
+223451 : ...
+223452 : ...
+223453 : ...
+223454 : ...
+223455 : ...
+223456 : ...
+223457 : ...
+223500 : ...
+223501 : ...
+223502 : ...
+223503 : ...
+223504 : ...
+223505 : ...
+223506 : ...
+223507 : ...
+223508 : ...
+223509 : ...
+223531 : ...
+223532 : ...
+223533 : ...
+223534 : ...
+223600 : ...
+223601 : ...
+223602 : ...
+223603 : ...
+223604 : ...
+223605 : ...
+223606 : ...
+223607 : ...
+223631 : ...
+223632 : ...
+223633 : ...
+223634 : ...
+223700 : ...
+223701 : ...
+223702 : ...
+223703 : ...
+223704 : ...
+223705 : ...
+223706 : ...
+223707 : ...
+223708 : ...
+223709 : ...
+223710 : ...
+223711 : ...
+223712 : ...
+223713 : ...
+223714 : ...
+223715 : ...
+223731 : ...
+223732 : ...
+223733 : ...
+223734 : ...
+223735 : ...
+223800 : ...
+223801 : ...
+223802 : ...
+223803 : ...
+223804 : ...
+223805 : ...
+223806 : ...
+223807 : ...
+223808 : ...
+223809 : ...
+223811 : ...
+223812 : ...
+223813 : ...
+223814 : ...
+223901 : ...
+223902 : ...
+223903 : ...
+223904 : ...
+223905 : ...
+223906 : ...
+223907 : ...
+223908 : ...
+223911 : ...
+223912 : ...
+223913 : ...
+224001 : ...
+224002 : ...
+224003 : ...
+224004 : ...
+224005 : ...
+224006 : ...
+224007 : ...
+224008 : ...
+224009 : ...
+224010 : ...
+224011 : ...
+224012 : ...
+224013 : ...
+225001 : ...
+225002 : ...
+225003 : ...
+225004 : ...
+225005 : ...
+225006 : ...
+225007 : ...
+225008 : ...
+225009 : ...
+225010 : ...
+225011 : ...
+225012 : ...
+225013 : ...
+225014 : ...
+225015 : ...
+225016 : ...
+225017 : ...
+225018 : ...
+225019 : ...
+225020 : ...
+225021 : ...
+225022 : ...
+225023 : ...
+225024 : ...
+225025 : ...
+225026 : ...
+225027 : ...
+225028 : ...
+225029 : ...
+225030 : ...
+225031 : ...
+225032 : ...
+225033 : ...
+225034 : ...
 250001 : Meteor Fragment
 250005 : Oil Painting with a Distant View of Belobog
 250006 : Cannon
@@ -3005,10 +3046,10 @@
 250319 : Silvermane Gunner
 250320 : Aether Spirit Upgrade Data
 250321 : Everwinter Shadewalker
-250401 : Corridor of Fading Echoes Mastery Mark
-250402 : Cloudford Mastery Mark
-250403 : Herta Space Station Mastery Mark
-250404 : Great Mine Mastery Mark
+250401 : ...
+250402 : ...
+250403 : ...
+250404 : ...
 250500 : null
 250501 : null
 250502 : null
@@ -3112,6 +3153,7 @@
 250601 : Road of the Mundanite
 250602 : Herta: Collector's Edition
 250603 : Pursuit's End
+250604 : Dr. Ratio — Bespoke Version
 250700 : Tactical Codex: Feint Attack
 250701 : Tactical Codex: Early Reveal
 250702 : Tactical Codex: Lie in Wait
@@ -3125,6 +3167,8 @@
 250710 : Tactical Beverage: Mighty Quench
 250711 : Tactical Beverage: High Energy SoulGlad
 251001 : Tuskpir
+252000 : Solemn Scarlet! Conductor Outfit
+252001 : Clamoring Fry-Master! Chef Outfit Set
 270000 : Always Smiling
 270001 : Prosperity Certificate
 270002 : Gratuity Points
@@ -3147,6 +3191,33 @@
 281024 : null
 281025 : Wardance Sword Badge
 281026 : Conjecture
+291001 : Hanunue's Soap
+291002 : Rose Scented Bathing Lotion
+291003 : Spicy Hot Oil Bathing Lotion
+291004 : Parmenides Bathing Lotion
+291005 : Yellow Ducky
+291006 : Musings of the Mundane
+291007 : Gradient Fragrance
+292001 : Mixed-Color Cushion (Orange)
+292002 : Mixed-Color Cushion (Blue)
+292003 : Plush Bear
+292004 : Sincerely Loving You
+292005 : Medicine Gourd
+292006 : Heavy Chip
+293001 : Poster: Blade of Chaos: Arahato
+293002 : Peppy's Food Bowl
+293003 : Poster: Stellaron Hunter: Kafka
+293004 : Hanging Painting: <i>Cityscape</i>
+293005 : Hanging Painting: <i>Ray of Dawn</i>
+293006 : Hanging Painting: <i>Settlement</i>
+293007 : Poster: <i>Life is a Song</i> Concert
+293008 : Poster: Young Bird Leaving Its Roost
+294001 : Teddy Burger
+294002 : Mutually Assured Destruction Button
+294003 : Cute Miss Sparkle (Does Not Explode)
+294004 : Polar Survival Canned Food
+294005 : Poster: Hurrylove
+294006 : Fruit Cake
 300002 : Gift of the Pathstriders
 300003 : Grand Gift of the Pathstriders
 300011 : Treasure of the Starry Seas
@@ -3169,6 +3240,7 @@
 309002 : Fateful Crossings: Hanu's Prison Break
 309003 : Fateful Crossings: Vignettes in a Cup
 309004 : Fateful Crossings: Origami Bird Clash
+309007 : Fateful Crossings: Cosmic Home Décor Guide
 310001 : Herta Contract: Trailblaze Aid
 310002 : Herta Contract: Fuel Refill
 310003 : Herta Contract: Quest Sharing
@@ -3413,9 +3485,12 @@
 408633 : Enemy's Scandal
 408634 : Golden Slumbernana
 408635 : Embrace the Mistakenana
+408636 : Express Special Blend: Rustic Infusion
+408637 : Wrench Tossed Salad
+408638 : At Least We Gather for Now
 408801 : Dreamy Cone (Three Flavors)
 408802 : Daring Wager
-408803 : {NICKNAME}@BananaPie
+408803 : {NICKNAME}© BananaPie
 
 
 # Props (Spawnable)
@@ -3433,7 +3508,7 @@
 108 : null
 109 : null
 110 : null
-111 : Investigate
+111 : null
 113 : Echo of War
 114 : null
 115 : null
@@ -3455,6 +3530,7 @@
 139 : null
 140 : null
 141 : null
+142 : null
 211 : null
 217 : null
 218 : null
@@ -3482,6 +3558,11 @@
 915 : null
 916 : null
 917 : null
+918 : null
+919 : null
+920 : null
+923 : null
+924 : null
 1000 : Exit the Simulated Universe
 1001 : Downloader
 1002 : Reviver
@@ -3654,6 +3735,7 @@
 100094 : Graffiti Zone
 100095 : Graffiti Zone
 100096 : null
+100097 : null
 101001 : Controller
 101003 : Controller
 101004 : Locked Gate
@@ -4229,6 +4311,9 @@
 103265 : null
 103266 : Graffiti Zone
 103267 : null
+103268 : null
+103269 : null
+103270 : null
 300000 : null
 300001 : null
 300002 : null
@@ -4333,7 +4418,7 @@
 1003016 : Silvermane Lieutenant
 1004010 : Cocolia
 1004011 : Cocolia (Complete)
-1004012 : Annihilator of Desolation Mistral
+1004012 : null
 1004020 : Gepard
 1004021 : Gepard (Complete)
 1004030 : Bronya
@@ -4418,6 +4503,7 @@
 3003012 : Dreamjolt Troupe's Beyond Overcooked (Bug)
 3003013 : Dreamjolt Troupe's Beyond Overcooked
 3003014 : Wonder Forest's Banacademic Office Staff
+3003015 : null
 3003020 : Dreamjolt Troupe's Sweet Gorilla
 3003021 : Dreamjolt Troupe's Sweet Gorilla
 3003022 : Dreamjolt Troupe's Sweet Gorilla (Bug)
@@ -4521,6 +4607,327 @@
 
 
 # Battle Stages
+47 : [Level 40] Incineration Shadewalker
+48 : [Level 40] Blaze Out of Space
+49 : [Level 40] Silvermane Lieutenant (Bug)
+50 : [Level 40] Silvermane Lieutenant
+51 : [Level 42] Silvermane Soldier
+52 : [Level 42] Silvermane Gunner
+53 : [Level 42] Silvermane Gunner
+54 : [Level 42] Gepard
+55 : [Level 42] Blaze Out of Space
+56 : [Level 42] Ice Out of Space
+57 : [Level 42] Automaton Spider
+58 : [Level 42] Automaton Direwolf
+59 : [Level 45] Svarog
+60 : [Level 45] Cocolia
+61 : [Level 1] Silvermane Soldier
+62 : [Level 1] Silvermane Gunner
+63 : [Level 1] Silvermane Lieutenant
+64 : [Level 1] Gepard
+65 : [Level 1] Cocolia
+66 : [Level 1] Automaton Hound
+67 : [Level 1] Automaton Spider
+68 : [Level 1] Automaton Grizzly
+69 : [Level 1] Automaton Direwolf
+70 : [Level 1] Everwinter Shadewalker
+71 : [Level 1] Incineration Shadewalker
+72 : [Level 1] Flamespawn
+73 : [Level 1] Frostspawn
+74 : [Level 1] Ice Out of Space
+75 : [Level 1] Blaze Out of Space
+76 : [Level 1] Searing Prowler
+77 : [Level 1] Vagrant
+78 : [Level 1] Automaton Beetle
+79 : [Level 1] Svarog
+80 : [Level 1] Frigid Prowler
+81 : [Level 1] Bronya
+94 : [Level 8] Flamespawn
+95 : [Level 10] Incineration Shadewalker
+96 : [Level 8] Flamespawn
+97 : [Level 10] Flamespawn
+98 : [Level 10] Flamespawn
+99 : [Level 11] Incineration Shadewalker
+100 : [Level 1] Flamespawn
+117 : [Level 11] Decaying Shadow
+130 : [Level 40] Silvermane Soldier
+131 : [Level 40] Flamespawn
+132 : [Level 40] Frostspawn
+133 : [Level 40] Automaton Hound
+134 : [Level 40] Silvermane Gunner
+135 : [Level 40] Vagrant
+136 : [Level 40] Automaton Beetle
+137 : [Level 40] Automaton Spider
+138 : [Level 40] Automaton Grizzly
+139 : [Level 40] Searing Prowler
+140 : [Level 40] Svarog
+141 : [Level 40] Cocolia
+166 : [Level 87] Silvermane Lieutenant (Bug)
+167 : [Level 87] Automaton Grizzly (Bug)
+168 : [Level 87] Automaton Direwolf (Bug)
+169 : [Level 87] Searing Prowler (Bug)
+170 : [Level 87] Frigid Prowler (Bug)
+171 : [Level 87] Ice Out of Space (Bug)
+172 : [Level 87] Blaze Out of Space (Bug)
+173 : [Level 87] Guardian Shadow (Bug)
+174 : [Level 87] Decaying Shadow (Bug)
+175 : [Level 87] Voidranger: Trampler (Bug)
+176 : [Level 87] Stormbringer (Bug)
+177 : [Level 40] Silvermane Lieutenant
+178 : [Level 40] Automaton Grizzly
+179 : [Level 40] Automaton Direwolf
+180 : [Level 40] Searing Prowler
+181 : [Level 40] Frigid Prowler
+182 : [Level 40] Ice Out of Space
+183 : [Level 40] Blaze Out of Space
+184 : [Level 40] Guardian Shadow
+185 : [Level 40] Decaying Shadow
+186 : [Level 40] Voidranger: Trampler
+187 : [Level 40] Stormbringer
+188 : [Level 40] Silvermane Lieutenant
+189 : [Level 40] Automaton Grizzly
+190 : [Level 40] Voidranger: Trampler
+1001 : [Level 95] Silvermane Soldier
+1002 : [Level 95] Silvermane Gunner
+1003 : [Level 95] Automaton Hound
+1004 : [Level 95] Automaton Spider
+1005 : [Level 95] Silvermane Lieutenant
+1006 : [Level 95] Automaton Grizzly
+1007 : [Level 95] Automaton Direwolf
+1008 : [Level 95] Gepard
+1009 : [Level 95] Svarog
+1010 : [Level 95] Auxiliary Robot Arm Unit
+1011 : [Level 95] Bronya
+1012 : [Level 95] Cocolia
+1013 : [Level 95] Ice Edge
+1014 : [Level 95] Ice Edge
+1015 : [Level 95] Frostspawn
+1016 : [Level 95] Flamespawn
+1017 : [Level 95] Ice Out of Space
+1018 : [Level 95] Blaze Out of Space
+1019 : [Level 95] Everwinter Shadewalker
+1020 : [Level 95] Incineration Shadewalker
+1021 : [Level 95] Searing Prowler
+1022 : [Level 95] Automaton Beetle
+1023 : [Level 95] Vagrant
+1024 : [Level 95] Frigid Prowler
+1025 : [Level 95] Baryon
+1026 : [Level 95] Antibaryon
+1027 : [Level 95] Voidranger: Reaver
+1028 : [Level 95] Voidranger: Distorter
+1029 : [Level 95] Voidranger: Trampler
+1030 : [Level 95] Cocolia, Mother of Deception
+1031 : [Level 95] Lance of the Eternal Freeze
+1032 : [Level 95] Lance of the Eternal Freeze
+1033 : [Level 95] Doomsday Beast
+1034 : [Level 95] Antimatter Engine
+1035 : [Level 95] Disaster's Right Hand
+1036 : [Level 95] Dawn's Left Hand
+1037 : [Level 95] Voidranger: Eliminator
+1038 : [Level 95] Imaginary Weaver
+1039 : [Level 95] Silvermane Cannoneer
+1040 : [Level 95] Guardian Shadow
+1041 : [Level 95] Warp Trotter
+1042 : [Level 95] Mask of No Thought
+1043 : [Level 95] Stormbringer
+1044 : [Level 95] Cocolia (Complete)
+1045 : [Level 95] Svarog (Complete)
+1046 : [Level 95] Decaying Shadow
+1047 : [Level 95] Windspawn
+1048 : [Level 95] Thunderspawn
+1049 : [Level 95] Stellaron Hunter: Kafka
+1050 : [Level 95] Mara-Struck Soldier
+1051 : [Level 95] Cloud Knights Patroller
+1052 : [Level 95] Disciples of Sanctus Medicus: Shape Shifter
+1053 : [Level 95] Aurumaton Gatekeeper
+1054 : [Level 95] Sequence Trotter
+1055 : [Level 95] Trotter of Destruction
+1056 : [Level 95] Trotter of Preservation
+1057 : [Level 95] Trotter of Abundance
+1058 : [Level 95] Gepard (Complete)
+1059 : [Level 95] Stellaron Hunter: Kafka (Complete)
+1060 : [Level 95] Entranced Ingenium: Illumination Dragonfish
+1061 : [Level 95] Entranced Ingenium: Obedient Dracolion
+1062 : [Level 95] Entranced Ingenium: Golden Cloud Toad
+1063 : [Level 95] Automaton Grizzly (Complete)
+1064 : [Level 95] Sequence Trotter
+1065 : [Level 95] Trotter of Destruction
+1066 : [Level 95] Trotter of Abundance
+1067 : [Level 95] Trotter of Preservation
+1068 : [Level 95] Silvermane Lieutenant (Bug)
+1069 : [Level 95] Automaton Grizzly (Bug)
+1070 : [Level 95] Automaton Direwolf (Bug)
+1071 : [Level 95] Searing Prowler (Bug)
+1072 : [Level 95] Frigid Prowler (Bug)
+1073 : [Level 95] Ice Out of Space (Bug)
+1074 : [Level 95] Blaze Out of Space (Bug)
+1075 : [Level 95] Guardian Shadow (Bug)
+1076 : [Level 95] Decaying Shadow (Bug)
+1077 : [Level 95] Voidranger: Trampler (Bug)
+1078 : [Level 95] Stormbringer (Bug)
+1079 : [Level 95] Disciples of Sanctus Medicus: Internal Alchemist
+1080 : [Level 95] Abundant Ebon Deer
+1081 : [Level 95] Twig of Wintry Wind
+1082 : [Level 95] Twig of Marple Leaf
+1083 : [Level 95] Twig of Glorious Blooms
+1084 : [Level 95] Twig of Lavish Fruits
+1085 : [Level 95] Abundant Ebon Deer (Complete)
+1086 : [Level 95] Twig of Wintry Wind
+1087 : [Level 95] Twig of Marple Leaf
+1088 : [Level 95] Twig of Glorious Blooms
+1089 : [Level 95] Twig of Lavish Fruits
+1090 : [Level 95] Cloud Knight Lieutenant: Yanqing
+1091 : [Level 95] Flying Sword
+1092 : [Level 95] Flying Sword
+1093 : [Level 95] Phantylia the Undying
+1094 : [Level 95] Abundance Lotus
+1095 : [Level 95] Abundance Lotus
+1096 : [Level 95] Destruction Lotus
+1097 : [Level 95] Destruction Lotus
+1098 : [Level 95] Phantylia the Undying
+1099 : [Level 95] Abundance Sprite: Golden Hound
+1100 : [Level 95] Abundance Sprite: Wooden Lupus
+1101 : [Level 95] Abundance Sprite: Malefic Ape
+1102 : [Level 95] The Ascended
+1103 : [Level 95] Disciples of Sanctus Medicus: Ballistarius
+1104 : [Level 95] Cocolia (Complete)
+1105 : [Level 95] Svarog (Complete)
+1106 : [Level 95] Gepard (Complete)
+1107 : [Level 95] Stellaron Hunter: Kafka (Complete)
+1108 : [Level 95] Automaton Grizzly (Complete)
+1109 : [Level 95] Swarm: True Sting (Complete)
+1110 : [Level 95] Juvenile Sting
+1111 : [Level 95] Lesser Sting
+1112 : [Level 95] Grunt: Field Personnel
+1113 : [Level 95] Grunt: Security Personnel
+1114 : [Level 95] Senior Staff: Team Leader
+1115 : [Level 95] Wraith Warden
+1116 : [Level 95] Mara-Struck Warden
+1117 : [Level 95] Cloud Knight Lieutenant: Yanqing (Complete)
+1118 : [Level 95] null
+1119 : [Level 95] null
+1120 : [Level 95] Disciples of Sanctus Medicus: Shape Shifter (Bug)
+1121 : [Level 95] Aurumaton Gatekeeper (Bug)
+1122 : [Level 95] Aurumaton Spectral Envoy
+1123 : [Level 95] Argenti
+1124 : [Level 95] "The Honored"
+1125 : [Level 95] "Speartip"
+1126 : [Level 95] "The Shield"
+1127 : [Level 95] Abundance Sprite: Malefic Ape (Bug)
+1128 : [Level 95] The Ascended (Bug)
+1129 : [Level 95] Swarm: True Sting
+1130 : [Level 95] Dreamjolt Troupe's Bubble Hound
+1131 : [Level 95] Aurumaton Spectral Envoy (Bug)
+1132 : [Level 95] Wraith Warden
+1133 : [Level 95] Senior Staff: Team Leader (Bug)
+1134 : [Level 95] Dreamjolt Troupe's Mr. Domescreen
+1135 : [Level 95] Memory Zone Meme "Something Unto Death"
+1136 : [Level 95] Sombrous Sepulcher
+1137 : [Level 95] Sombrous Sepulcher
+1138 : [Level 95] Abundant Ebon Deer (Complete)
+1139 : [Level 95] Starcrusher Swarm King: Skaracabaz (Synthetic)
+1140 : [Level 95] Gepard (Illusion)
+1141 : [Level 95] Cocolia (Illusion)
+1142 : [Level 95] Cocolia, Mother of Deception (Illusion)
+1143 : [Level 95] Gepard (Illusion)
+1144 : [Level 95] Cloud Knight Lieutenant: Yanqing (Illusion)
+1145 : [Level 95] Abundant Ebon Deer (Illusion)
+1146 : [Level 95] Stellaron Hunter: Kafka (Illusion)
+1147 : [Level 95] Cloud Knight Lieutenant: Yanqing (Complete)
+1148 : [Level 95] Argenti (Complete)
+1149 : [Level 95] Gnaw Sting
+1150 : [Level 95] Ten Stonehearts: Aventurine of Stratagems
+1151 : [Level 95] "All or Nothing"
+1152 : [Level 95] Dreamjolt Troupe's Birdskull
+1153 : [Level 95] Memory Zone Meme "Heartbreaker"
+1154 : [Level 95] Dreamjolt Troupe's Spring Loader
+1155 : [Level 95] Lordly Trashcan
+1156 : [Level 95] Dreamjolt Troupe's Mr. Domescreen
+1157 : [Level 95] Memory Zone Meme "Allseer"
+1158 : [Level 95] Dreamjolt Troupe's Sweet Gorilla
+1159 : [Level 95] Dreamjolt Troupe's Beyond Overcooked
+1160 : [Level 95] Stellaron Hunter: Sam
+1161 : [Level 95] Dreamjolt Troupe's Winder Goon
+1162 : [Level 95] Memory Zone Meme "Something In The Mirror"
+1163 : [Level 95] Memory Zone Meme "Shell of Faded Rage"
+1164 : [Level 95] Memory Zone Meme "Something Unto Death" (Complete)
+1165 : [Level 95] Dreamjolt Troupe's Beyond Overcooked (Bug)
+1166 : [Level 95] Dreamjolt Troupe's Sweet Gorilla (Bug)
+1167 : [Level 95] Dreamjolt Troupe's Fortune Seller
+1168 : [Level 95] "Past Confined and Caged"
+1169 : [Level 95] "Tomorrow in Harmonious Chords"
+1170 : [Level 95] "Present Inebriated in Revelry"
+1171 : [Level 95] Memory Zone Meme "Insatiable Vanity"
+1172 : [Level 95] "Harmonious Choir" The Great Septimus
+1173 : [Level 95] Echo of Faded Dreams
+1174 : [Level 95] The Past, Present, and Eternal Show
+1175 : [Level 95] Annihilator of Desolation Mistral
+1176 : [Level 95] Lance of the Eternal Freeze
+1177 : [Level 95] Lance of the Eternal Freeze
+1178 : [Level 95] Lance of the Eternal Freeze
+1179 : [Level 95] Lance of the Eternal Freeze
+1180 : [Level 95] Annihilator of Desolation Mistral: Mother of Deception
+1181 : [Level 95] Silver Knight of Virtuous Gallantry
+1182 : [Level 95] The Honored
+1183 : [Level 95] Speartip
+1184 : [Level 95] The Shield
+1185 : [Level 95] Stellaron Hunter: Sam (Complete)
+1186 : [Level 95] Ten Stonehearts: Aventurine of Stratagems (Complete)
+1187 : [Level 95] "All or Nothing"
+1188 : [Level 95] "All or Nothing"
+1189 : [Level 95] "Tomorrow in Harmonious Chords" (Bug)
+1190 : [Level 95] "Present Inebriated in Revelry" (Bug)
+1191 : [Level 95] "Past Confined and Caged" (Bug)
+1192 : [Level 95] The Past, Present, and Eternal Show (Complete)
+1193 : [Level 95] Cirrus (Complete)
+1194 : [Level 95] Soulhook Sovereign
+1195 : [Level 95] Dreamjolt Troupe's Beyond Overcooked
+1196 : [Level 95] Memory Zone Meme "Shell of Faded Rage"
+1197 : [Level 95] Ice Out of Space
+1198 : [Level 95] Blaze Out of Space
+1199 : [Level 95] Starbane Doombringer
+1200 : [Level 95] Disaster's Right Hand
+1201 : [Level 95] Dawn's Left Hand
+1202 : [Level 95] Antimatter Engine
+1203 : [Level 95] Sableclaw Wolftrooper
+1204 : [Level 95] Eclipse Wolftrooper
+1205 : [Level 95] Howling Casket
+1206 : [Level 95] Borisin Warhead: Hoolay
+1207 : [Level 95] null
+1208 : [Level 95] Shadow of "Feixiao"
+1209 : [Level 95] Ecliptic Inner Beast & Shadow of "Feixiao"
+1210 : [Level 95] Nebula Devourer
+1211 : [Level 95] Planeshred Claws
+1212 : [Level 95] Worldpurge Tail
+1213 : [Level 95] Daring Diceroller
+1214 : [Level 95] "All or Nothing"
+1215 : [Level 95] "All or Nothing: Double Fortune"
+1216 : [Level 95] Opportunistic Provocateur
+1217 : [Level 95] Abundance Lotus
+1218 : [Level 95] Abundance Lotus
+1219 : [Level 95] Destruction Lotus
+1220 : [Level 95] Destruction Lotus
+1221 : [Level 95] null
+1222 : [Level 95] Wonder Forest's Banacademic Office Staff
+1223 : [Level 95] Banacademic Office's Assistanana
+1224 : [Level 95] Banacademic Office's Fortune BananAdvisor
+1225 : [Level 95] Banacademic Office's Dreamweaver BananAdvisor
+1226 : [Level 95] Banacademic Office's Charmony BananAdvisor
+1227 : [Level 95] null
+1228 : [Level 95] null
+1229 : [Level 95] Cacophonic Conductor
+1230 : [Level 95] Echo of Faded Dreams
+1231 : [Level 95] null
+1994 : [Level 95] Automaton Spider
+1995 : [Level 95] Memory Zone Meme "Insatiable Vanity"
+1996 : [Level 95] Dreamjolt Troupe's Mr. Domescreen
+1997 : [Level 95] Memory Zone Meme "Something In The Mirror"
+1998 : [Level 95] Silvermane Soldier
+1999 : [Level 95] Swarm: True Sting (Complete)
+2098 : [Level 85] null
+2112 : [Level 85] Lordly Trashcan
+2125 : [Level 82] null
+2135 : [Level 85] null
 103201 : [Level 29] Searing Prowler
 103202 : [Level 29] Ice Out of Space
 103203 : [Level 60] Stormbringer
@@ -4685,6 +5092,7 @@
 312210 : [Level 80] Aurumaton Gatekeeper
 312220 : [Level 80] Dreamjolt Troupe's Beyond Overcooked
 312230 : [Level 80] The Ascended
+312250 : [Level 80] Stormbringer
 313010 : [Level 80] Senior Staff: Team Leader
 313020 : [Level 80] Silvermane Lieutenant
 313030 : [Level 80] Silvermane Lieutenant
@@ -4703,6 +5111,7 @@
 313102 : [Level 80] Dreamjolt Troupe
 313103 : [Level 80] Dreamjolt Troupe
 313120 : [Level 80] Automaton Direwolf
+313130 : [Level 80] The Ascended
 313140 : [Level 80] Silvermane Lieutenant
 313150 : [Level 80] Silvermane Lieutenant
 313170 : [Level 80] Howling Casket
@@ -4787,6 +5196,47 @@
 420172 : [Level 70] Soulhook Sovereign
 420173 : [Level 80] Soulhook Sovereign
 420174 : [Level 90] Soulhook Sovereign
+420181 : [Level 60] Blaznana Monkey Trick
+420182 : [Level 70] Blaznana Monkey Trick
+420183 : [Level 80] Blaznana Monkey Trick
+420184 : [Level 90] Blaznana Monkey Trick
+420191 : [Level 60] Annihilator of Desolation Mistral
+420192 : [Level 70] Annihilator of Desolation Mistral
+420193 : [Level 80] Annihilator of Desolation Mistral
+420194 : [Level 90] Annihilator of Desolation Mistral
+900009 : [Level 20] Automaton Hound
+900010 : [Level 20] Automaton Hound
+900011 : [Level 20] Automaton Beetle
+900012 : [Level 20] Automaton Beetle
+900021 : [Level 32] null
+900022 : [Level 32] null
+900051 : [Level 9] null
+900055 : [Level 15] null
+900056 : [Level 11] Silvermane Gunner
+900059 : [Level 11] null
+900060 : [Level 11] Ice Out of Space
+900061 : [Level 20] Patrol Machine
+900062 : [Level 20] Silvermane Guard
+900063 : [Level 20] Silvermane Guard
+900064 : [Level 20] Patrol Machine
+900065 : [Level 20] Patrol Machine
+900091 : [Level 15] Patrol Machine
+900092 : [Level 15] Patrol Machine
+900093 : [Level 15] Patrol Machine
+900094 : [Level 15] Automaton Direwolf
+900095 : [Level 15] Automaton Grizzly
+900096 : [Level 15] Patrol Machine
+900101 : [Level 15] Patrol Machine
+900102 : [Level 15] Patrol Machine
+900103 : [Level 15] Patrol Machine
+900104 : [Level 15] Automaton Direwolf
+900105 : [Level 15] Automaton Grizzly
+900106 : [Level 15] Patrol Machine
+900107 : [Level 15] Patrol Machine
+900201 : [Level 40] Searing Prowler
+900202 : [Level 40] Frigid Prowler
+900203 : [Level 40] Ice Out of Space
+900302 : [Level 85] Dreamjolt Troupe's Beyond Overcooked
 1012010 : [Level 30] Voidranger: Trampler
 1012011 : [Level 38] Voidranger: Trampler
 1012012 : [Level 40] Voidranger: Trampler
@@ -8519,6 +8969,657 @@
 4210424 : [Level 55] Fragmentum Monster
 4210425 : [Level 72] Fragmentum Monster
 4210426 : [Level 80] Fragmentum Monster
+9000010 : [Level 25] Automaton Spider
+9000011 : [Level 25] Automaton Spider
+9000012 : [Level 25] Automaton Spider
+9000013 : [Level 25] Automaton Spider
+9000014 : [Level 25] Automaton Spider
+9000015 : [Level 25] Automaton Spider
+9000016 : [Level 25] Automaton Spider
+9000020 : [Level 23] Incineration Shadewalker
+9000021 : [Level 23] Incineration Shadewalker
+9000022 : [Level 23] Incineration Shadewalker
+9000023 : [Level 23] Incineration Shadewalker
+9000024 : [Level 23] Incineration Shadewalker
+9000025 : [Level 23] Incineration Shadewalker
+9000026 : [Level 23] Incineration Shadewalker
+9000030 : [Level 20] Automaton Beetle
+9000031 : [Level 30] Automaton Beetle
+9000032 : [Level 39] Automaton Beetle
+9000033 : [Level 49] Automaton Beetle
+9000034 : [Level 59] Automaton Beetle
+9000035 : [Level 69] Automaton Beetle
+9000036 : [Level 74] Automaton Beetle
+9000040 : [Level 20] Automaton Direwolf
+9000041 : [Level 30] Automaton Direwolf
+9000042 : [Level 39] Automaton Direwolf
+9000043 : [Level 49] Automaton Direwolf
+9000044 : [Level 59] Automaton Direwolf
+9000045 : [Level 69] Automaton Direwolf
+9000046 : [Level 74] Automaton Direwolf
+9000050 : [Level 15] Automaton Spider
+9000051 : [Level 15] Automaton Spider
+9000052 : [Level 15] Automaton Spider
+9000053 : [Level 15] Automaton Spider
+9000054 : [Level 15] Automaton Spider
+9000055 : [Level 15] Automaton Spider
+9000056 : [Level 15] Automaton Spider
+9000060 : [Level 15] Automaton Spider
+9000061 : [Level 15] Automaton Spider
+9000062 : [Level 15] Automaton Spider
+9000063 : [Level 15] Automaton Spider
+9000064 : [Level 15] Automaton Spider
+9000065 : [Level 15] Automaton Spider
+9000066 : [Level 15] Automaton Spider
+9000070 : [Level 15] Automaton Direwolf
+9000071 : [Level 15] Automaton Direwolf
+9000072 : [Level 15] Automaton Direwolf
+9000073 : [Level 15] Automaton Direwolf
+9000074 : [Level 15] Automaton Direwolf
+9000075 : [Level 15] Automaton Direwolf
+9000076 : [Level 15] Automaton Direwolf
+9000080 : [Level 15] Automaton Spider
+9000081 : [Level 15] Automaton Spider
+9000082 : [Level 15] Automaton Spider
+9000083 : [Level 15] Automaton Spider
+9000084 : [Level 15] Automaton Spider
+9000085 : [Level 15] Automaton Spider
+9000086 : [Level 15] Automaton Spider
+9000130 : [Level 20] Automaton Spider
+9000131 : [Level 30] Automaton Spider
+9000132 : [Level 39] Automaton Spider
+9000133 : [Level 49] Automaton Spider
+9000134 : [Level 59] Automaton Spider
+9000135 : [Level 69] Automaton Spider
+9000136 : [Level 74] Automaton Spider
+9000140 : [Level 20] Automaton Spider
+9000141 : [Level 30] Automaton Spider
+9000142 : [Level 39] Automaton Spider
+9000143 : [Level 49] Automaton Spider
+9000144 : [Level 59] Automaton Spider
+9000145 : [Level 69] Automaton Spider
+9000146 : [Level 74] Automaton Spider
+9000150 : [Level 20] Automaton Spider
+9000151 : [Level 30] Automaton Spider
+9000152 : [Level 39] Automaton Spider
+9000153 : [Level 49] Automaton Spider
+9000154 : [Level 59] Automaton Spider
+9000155 : [Level 69] Automaton Spider
+9000156 : [Level 74] Automaton Spider
+9000160 : [Level 20] Vagrant
+9000161 : [Level 30] Vagrant
+9000162 : [Level 39] Vagrant
+9000163 : [Level 49] Vagrant
+9000164 : [Level 59] Vagrant
+9000165 : [Level 69] Vagrant
+9000166 : [Level 74] Vagrant
+9000170 : [Level 25] Silvermane Soldier
+9000171 : [Level 25] Silvermane Soldier
+9000172 : [Level 25] Silvermane Soldier
+9000173 : [Level 25] Silvermane Soldier
+9000174 : [Level 25] Silvermane Soldier
+9000175 : [Level 25] Silvermane Soldier
+9000176 : [Level 25] Silvermane Soldier
+9000180 : [Level 25] Silvermane Soldier
+9000181 : [Level 25] Silvermane Soldier
+9000182 : [Level 25] Silvermane Soldier
+9000183 : [Level 25] Silvermane Soldier
+9000184 : [Level 25] Silvermane Soldier
+9000185 : [Level 25] Silvermane Soldier
+9000186 : [Level 25] Silvermane Soldier
+9000190 : [Level 25] Silvermane Lieutenant
+9000191 : [Level 25] Silvermane Lieutenant
+9000192 : [Level 25] Silvermane Lieutenant
+9000193 : [Level 25] Silvermane Lieutenant
+9000194 : [Level 25] Silvermane Lieutenant
+9000195 : [Level 25] Silvermane Lieutenant
+9000196 : [Level 25] Silvermane Lieutenant
+9000230 : [Level 20] Thunderspawn
+9000231 : [Level 20] Thunderspawn
+9000232 : [Level 20] Thunderspawn
+9000233 : [Level 20] Thunderspawn
+9000234 : [Level 20] Thunderspawn
+9000235 : [Level 20] Thunderspawn
+9000236 : [Level 20] Thunderspawn
+9000240 : [Level 20] Windspawn
+9000241 : [Level 20] Windspawn
+9000242 : [Level 20] Windspawn
+9000243 : [Level 20] Windspawn
+9000244 : [Level 20] Windspawn
+9000245 : [Level 20] Windspawn
+9000246 : [Level 20] Windspawn
+9000250 : [Level 20] Windspawn
+9000251 : [Level 20] Windspawn
+9000252 : [Level 20] Windspawn
+9000253 : [Level 20] Windspawn
+9000254 : [Level 20] Windspawn
+9000255 : [Level 20] Windspawn
+9000256 : [Level 20] Windspawn
+9000260 : [Level 20] Mara-Struck Soldier
+9000261 : [Level 20] Mara-Struck Soldier
+9000262 : [Level 20] Mara-Struck Soldier
+9000263 : [Level 20] Mara-Struck Soldier
+9000264 : [Level 20] Mara-Struck Soldier
+9000265 : [Level 20] Mara-Struck Soldier
+9000266 : [Level 20] Mara-Struck Soldier
+9000270 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000271 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000272 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000273 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000274 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000275 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000276 : [Level 20] Disciples of Sanctus Medicus: Internal Alchemist
+9000280 : [Level 34] Silvermane Soldier
+9000281 : [Level 34] Silvermane Soldier
+9000282 : [Level 34] Silvermane Soldier
+9000283 : [Level 34] Silvermane Soldier
+9000284 : [Level 34] Silvermane Soldier
+9000285 : [Level 34] Silvermane Soldier
+9000286 : [Level 34] Silvermane Soldier
+9000290 : [Level 34] Silvermane Soldier
+9000291 : [Level 34] Silvermane Soldier
+9000292 : [Level 34] Silvermane Soldier
+9000293 : [Level 34] Silvermane Soldier
+9000294 : [Level 34] Silvermane Soldier
+9000295 : [Level 34] Silvermane Soldier
+9000296 : [Level 34] Silvermane Soldier
+9000300 : [Level 38] Everwinter Shadewalker
+9000301 : [Level 38] Everwinter Shadewalker
+9000302 : [Level 38] Everwinter Shadewalker
+9000303 : [Level 38] Everwinter Shadewalker
+9000304 : [Level 38] Everwinter Shadewalker
+9000305 : [Level 38] Everwinter Shadewalker
+9000306 : [Level 38] Everwinter Shadewalker
+9000310 : [Level 38] Everwinter Shadewalker
+9000311 : [Level 38] Everwinter Shadewalker
+9000312 : [Level 38] Everwinter Shadewalker
+9000313 : [Level 38] Everwinter Shadewalker
+9000314 : [Level 38] Everwinter Shadewalker
+9000315 : [Level 38] Everwinter Shadewalker
+9000316 : [Level 38] Everwinter Shadewalker
+9000320 : [Level 34] Silvermane Soldier
+9000321 : [Level 34] Silvermane Soldier
+9000322 : [Level 34] Silvermane Soldier
+9000323 : [Level 34] Silvermane Soldier
+9000324 : [Level 34] Silvermane Soldier
+9000325 : [Level 34] Silvermane Soldier
+9000326 : [Level 34] Silvermane Soldier
+9000330 : [Level 38] Everwinter Shadewalker
+9000331 : [Level 38] Everwinter Shadewalker
+9000332 : [Level 38] Everwinter Shadewalker
+9000333 : [Level 38] Everwinter Shadewalker
+9000334 : [Level 38] Everwinter Shadewalker
+9000335 : [Level 38] Everwinter Shadewalker
+9000336 : [Level 38] Everwinter Shadewalker
+9000340 : [Level 38] Everwinter Shadewalker
+9000341 : [Level 38] Everwinter Shadewalker
+9000342 : [Level 38] Everwinter Shadewalker
+9000343 : [Level 38] Everwinter Shadewalker
+9000344 : [Level 38] Everwinter Shadewalker
+9000345 : [Level 38] Everwinter Shadewalker
+9000346 : [Level 38] Everwinter Shadewalker
+9000350 : [Level 30] Everwinter Shadewalker
+9000351 : [Level 30] Everwinter Shadewalker
+9000352 : [Level 30] Everwinter Shadewalker
+9000353 : [Level 30] Everwinter Shadewalker
+9000354 : [Level 30] Everwinter Shadewalker
+9000355 : [Level 30] Everwinter Shadewalker
+9000356 : [Level 30] Everwinter Shadewalker
+9000360 : [Level 30] Everwinter Shadewalker
+9000361 : [Level 30] Everwinter Shadewalker
+9000362 : [Level 30] Everwinter Shadewalker
+9000363 : [Level 30] Everwinter Shadewalker
+9000364 : [Level 30] Everwinter Shadewalker
+9000365 : [Level 30] Everwinter Shadewalker
+9000366 : [Level 30] Everwinter Shadewalker
+9000370 : [Level 30] Everwinter Shadewalker
+9000371 : [Level 30] Everwinter Shadewalker
+9000372 : [Level 30] Everwinter Shadewalker
+9000373 : [Level 30] Everwinter Shadewalker
+9000374 : [Level 30] Everwinter Shadewalker
+9000375 : [Level 30] Everwinter Shadewalker
+9000376 : [Level 30] Everwinter Shadewalker
+9000380 : [Level 40] Voidranger: Reaver
+9000381 : [Level 40] Voidranger: Reaver
+9000382 : [Level 40] Voidranger: Reaver
+9000383 : [Level 40] Voidranger: Reaver
+9000384 : [Level 40] Voidranger: Reaver
+9000385 : [Level 40] Voidranger: Reaver
+9000386 : [Level 40] Voidranger: Reaver
+9000390 : [Level 40] Voidranger: Reaver
+9000391 : [Level 40] Voidranger: Reaver
+9000392 : [Level 40] Voidranger: Reaver
+9000393 : [Level 40] Voidranger: Reaver
+9000394 : [Level 40] Voidranger: Reaver
+9000395 : [Level 40] Voidranger: Reaver
+9000396 : [Level 40] Voidranger: Reaver
+9000400 : [Level 20] Vagrant Thug
+9000401 : [Level 20] Vagrant Thug
+9000402 : [Level 20] Vagrant Thug
+9000403 : [Level 20] Vagrant Thug
+9000404 : [Level 20] Vagrant Thug
+9000405 : [Level 20] Vagrant Thug
+9000406 : [Level 20] Vagrant Thug
+9000410 : [Level 20] Patrol Machine
+9000411 : [Level 20] Patrol Machine
+9000412 : [Level 20] Patrol Machine
+9000413 : [Level 20] Patrol Machine
+9000414 : [Level 20] Patrol Machine
+9000415 : [Level 20] Patrol Machine
+9000416 : [Level 20] Patrol Machine
+9000420 : [Level 20] Vagrant Thug
+9000421 : [Level 20] Vagrant Thug
+9000422 : [Level 20] Vagrant Thug
+9000423 : [Level 20] Vagrant Thug
+9000424 : [Level 20] Vagrant Thug
+9000425 : [Level 20] Vagrant Thug
+9000426 : [Level 20] Vagrant Thug
+9000430 : [Level 20] Vagrant Thug
+9000431 : [Level 20] Vagrant Thug
+9000432 : [Level 20] Vagrant Thug
+9000433 : [Level 20] Vagrant Thug
+9000434 : [Level 20] Vagrant Thug
+9000435 : [Level 20] Vagrant Thug
+9000436 : [Level 20] Vagrant Thug
+9000440 : [Level 20] Vagrant Thug
+9000441 : [Level 20] Vagrant Thug
+9000442 : [Level 20] Vagrant Thug
+9000443 : [Level 20] Vagrant Thug
+9000444 : [Level 20] Vagrant Thug
+9000445 : [Level 20] Vagrant Thug
+9000446 : [Level 20] Vagrant Thug
+9000450 : [Level 20] Patrol Machine
+9000451 : [Level 20] Patrol Machine
+9000452 : [Level 20] Patrol Machine
+9000453 : [Level 20] Patrol Machine
+9000454 : [Level 20] Patrol Machine
+9000455 : [Level 20] Patrol Machine
+9000456 : [Level 20] Patrol Machine
+9000460 : [Level 20] Vagrant Thug
+9000461 : [Level 20] Vagrant Thug
+9000462 : [Level 20] Vagrant Thug
+9000463 : [Level 20] Vagrant Thug
+9000464 : [Level 20] Vagrant Thug
+9000465 : [Level 20] Vagrant Thug
+9000466 : [Level 20] Vagrant Thug
+9000470 : [Level 20] Vagrant Thug
+9000471 : [Level 20] Vagrant Thug
+9000472 : [Level 20] Vagrant Thug
+9000473 : [Level 20] Vagrant Thug
+9000474 : [Level 20] Vagrant Thug
+9000475 : [Level 20] Vagrant Thug
+9000476 : [Level 20] Vagrant Thug
+9000480 : [Level 20] Patrol Machine
+9000481 : [Level 20] Patrol Machine
+9000482 : [Level 20] Patrol Machine
+9000483 : [Level 20] Patrol Machine
+9000484 : [Level 20] Patrol Machine
+9000485 : [Level 20] Patrol Machine
+9000486 : [Level 20] Patrol Machine
+9000490 : [Level 20] Patrol Machine
+9000491 : [Level 20] Patrol Machine
+9000492 : [Level 20] Patrol Machine
+9000493 : [Level 20] Patrol Machine
+9000494 : [Level 20] Patrol Machine
+9000495 : [Level 20] Patrol Machine
+9000496 : [Level 20] Patrol Machine
+9000500 : [Level 20] Patrol Machine
+9000501 : [Level 20] Patrol Machine
+9000502 : [Level 20] Patrol Machine
+9000503 : [Level 20] Patrol Machine
+9000504 : [Level 20] Patrol Machine
+9000505 : [Level 20] Patrol Machine
+9000506 : [Level 20] Patrol Machine
+9000520 : [Level 20] Fragmentum Monster
+9000521 : [Level 20] Fragmentum Monster
+9000522 : [Level 20] Fragmentum Monster
+9000523 : [Level 20] Fragmentum Monster
+9000524 : [Level 20] Fragmentum Monster
+9000525 : [Level 20] Fragmentum Monster
+9000526 : [Level 20] Fragmentum Monster
+9000530 : [Level 20] Fragmentum Monster
+9000531 : [Level 20] Fragmentum Monster
+9000532 : [Level 20] Fragmentum Monster
+9000533 : [Level 20] Fragmentum Monster
+9000534 : [Level 20] Fragmentum Monster
+9000535 : [Level 20] Fragmentum Monster
+9000536 : [Level 20] Fragmentum Monster
+9000540 : [Level 20] Fragmentum Monster
+9000541 : [Level 20] Fragmentum Monster
+9000542 : [Level 20] Fragmentum Monster
+9000543 : [Level 20] Fragmentum Monster
+9000544 : [Level 20] Fragmentum Monster
+9000545 : [Level 20] Fragmentum Monster
+9000546 : [Level 20] Fragmentum Monster
+9000570 : [Level 20] Patrol Machine
+9000571 : [Level 20] Patrol Machine
+9000572 : [Level 20] Patrol Machine
+9000573 : [Level 20] Patrol Machine
+9000574 : [Level 20] Patrol Machine
+9000575 : [Level 20] Patrol Machine
+9000576 : [Level 20] Patrol Machine
+9000580 : [Level 20] Patrol Machine
+9000581 : [Level 20] Patrol Machine
+9000582 : [Level 20] Patrol Machine
+9000583 : [Level 20] Patrol Machine
+9000584 : [Level 20] Patrol Machine
+9000585 : [Level 20] Patrol Machine
+9000586 : [Level 20] Patrol Machine
+9000970 : [Level 20] null
+9000971 : [Level 20] null
+9000972 : [Level 20] null
+9000973 : [Level 20] null
+9000974 : [Level 20] null
+9000975 : [Level 20] null
+9000976 : [Level 20] null
+9000980 : [Level 20] null
+9000981 : [Level 20] null
+9000982 : [Level 20] null
+9000983 : [Level 20] null
+9000984 : [Level 20] null
+9000985 : [Level 20] null
+9000986 : [Level 20] null
+9000990 : [Level 20] null
+9000991 : [Level 20] null
+9000992 : [Level 20] null
+9000993 : [Level 20] null
+9000994 : [Level 20] null
+9000995 : [Level 20] null
+9000996 : [Level 20] null
+9001000 : [Level 20] null
+9001001 : [Level 20] null
+9001002 : [Level 20] null
+9001003 : [Level 20] null
+9001004 : [Level 20] null
+9001005 : [Level 20] null
+9001006 : [Level 20] null
+9003010 : [Level 15] null
+9003011 : [Level 15] null
+9003012 : [Level 15] null
+9003013 : [Level 15] null
+9003014 : [Level 15] null
+9003015 : [Level 15] null
+9003016 : [Level 15] null
+9004010 : [Level 36] Fragmentum Monster
+9004011 : [Level 36] Fragmentum Monster
+9004012 : [Level 45] Fragmentum Monster
+9004013 : [Level 55] Fragmentum Monster
+9004014 : [Level 65] Fragmentum Monster
+9004015 : [Level 75] Fragmentum Monster
+9004016 : [Level 78] Fragmentum Monster
+9004020 : [Level 36] Fragmentum Monster
+9004021 : [Level 36] Fragmentum Monster
+9004022 : [Level 45] Fragmentum Monster
+9004023 : [Level 55] Fragmentum Monster
+9004024 : [Level 65] Fragmentum Monster
+9004025 : [Level 75] Fragmentum Monster
+9004026 : [Level 78] Fragmentum Monster
+9004030 : [Level 36] Fragmentum Monster
+9004031 : [Level 36] Fragmentum Monster
+9004032 : [Level 45] Fragmentum Monster
+9004033 : [Level 55] Fragmentum Monster
+9004034 : [Level 65] Fragmentum Monster
+9004035 : [Level 75] Fragmentum Monster
+9004036 : [Level 78] Fragmentum Monster
+9004040 : [Level 36] Fragmentum Monster
+9004041 : [Level 36] Fragmentum Monster
+9004042 : [Level 45] Fragmentum Monster
+9004043 : [Level 55] Fragmentum Monster
+9004044 : [Level 65] Fragmentum Monster
+9004045 : [Level 75] Fragmentum Monster
+9004046 : [Level 78] Fragmentum Monster
+9004050 : [Level 36] Fragmentum Monster
+9004051 : [Level 36] Fragmentum Monster
+9004052 : [Level 45] Fragmentum Monster
+9004053 : [Level 55] Fragmentum Monster
+9004054 : [Level 65] Fragmentum Monster
+9004055 : [Level 75] Fragmentum Monster
+9004056 : [Level 78] Fragmentum Monster
+9004060 : [Level 36] Fragmentum Monster
+9004061 : [Level 36] Fragmentum Monster
+9004062 : [Level 45] Fragmentum Monster
+9004063 : [Level 55] Fragmentum Monster
+9004064 : [Level 65] Fragmentum Monster
+9004065 : [Level 75] Fragmentum Monster
+9004066 : [Level 78] Fragmentum Monster
+9004070 : [Level 36] Fragmentum Monster
+9004071 : [Level 36] Fragmentum Monster
+9004072 : [Level 45] Fragmentum Monster
+9004073 : [Level 55] Fragmentum Monster
+9004074 : [Level 65] Fragmentum Monster
+9004075 : [Level 75] Fragmentum Monster
+9004076 : [Level 78] Fragmentum Monster
+9004080 : [Level 36] Fragmentum Monster
+9004081 : [Level 36] Fragmentum Monster
+9004082 : [Level 45] Fragmentum Monster
+9004083 : [Level 55] Fragmentum Monster
+9004084 : [Level 65] Fragmentum Monster
+9004085 : [Level 75] Fragmentum Monster
+9004086 : [Level 78] Fragmentum Monster
+9004110 : [Level 36] Fragmentum Monster
+9004111 : [Level 36] Fragmentum Monster
+9004112 : [Level 45] Fragmentum Monster
+9004113 : [Level 55] Fragmentum Monster
+9004114 : [Level 65] Fragmentum Monster
+9004115 : [Level 75] Fragmentum Monster
+9004116 : [Level 78] Fragmentum Monster
+9004120 : [Level 36] Fragmentum Monster
+9004121 : [Level 36] Fragmentum Monster
+9004122 : [Level 45] Fragmentum Monster
+9004123 : [Level 55] Fragmentum Monster
+9004124 : [Level 65] Fragmentum Monster
+9004125 : [Level 75] Fragmentum Monster
+9004126 : [Level 78] Fragmentum Monster
+9004130 : [Level 36] Fragmentum Monster
+9004131 : [Level 36] Fragmentum Monster
+9004132 : [Level 45] Fragmentum Monster
+9004133 : [Level 55] Fragmentum Monster
+9004134 : [Level 65] Fragmentum Monster
+9004135 : [Level 75] Fragmentum Monster
+9004136 : [Level 78] Fragmentum Monster
+9004140 : [Level 36] Fragmentum Monster
+9004141 : [Level 36] Fragmentum Monster
+9004142 : [Level 45] Fragmentum Monster
+9004143 : [Level 55] Fragmentum Monster
+9004144 : [Level 65] Fragmentum Monster
+9004145 : [Level 75] Fragmentum Monster
+9004146 : [Level 78] Fragmentum Monster
+9004150 : [Level 36] Fragmentum Monster
+9004151 : [Level 36] Fragmentum Monster
+9004152 : [Level 45] Fragmentum Monster
+9004153 : [Level 55] Fragmentum Monster
+9004154 : [Level 65] Fragmentum Monster
+9004155 : [Level 75] Fragmentum Monster
+9004156 : [Level 78] Fragmentum Monster
+9004160 : [Level 36] Fragmentum Monster
+9004161 : [Level 36] Fragmentum Monster
+9004162 : [Level 45] Fragmentum Monster
+9004163 : [Level 55] Fragmentum Monster
+9004164 : [Level 65] Fragmentum Monster
+9004165 : [Level 75] Fragmentum Monster
+9004166 : [Level 78] Fragmentum Monster
+9004170 : [Level 36] Fragmentum Monster
+9004171 : [Level 36] Fragmentum Monster
+9004172 : [Level 45] Fragmentum Monster
+9004173 : [Level 55] Fragmentum Monster
+9004174 : [Level 65] Fragmentum Monster
+9004175 : [Level 75] Fragmentum Monster
+9004176 : [Level 78] Fragmentum Monster
+9004180 : [Level 36] Fragmentum Monster
+9004181 : [Level 36] Fragmentum Monster
+9004182 : [Level 45] Fragmentum Monster
+9004183 : [Level 55] Fragmentum Monster
+9004184 : [Level 65] Fragmentum Monster
+9004185 : [Level 75] Fragmentum Monster
+9004186 : [Level 78] Fragmentum Monster
+9004210 : [Level 36] Fragmentum Monster
+9004211 : [Level 36] Fragmentum Monster
+9004212 : [Level 45] Fragmentum Monster
+9004213 : [Level 55] Fragmentum Monster
+9004214 : [Level 65] Fragmentum Monster
+9004215 : [Level 75] Fragmentum Monster
+9004216 : [Level 78] Fragmentum Monster
+9004220 : [Level 36] Fragmentum Monster
+9004221 : [Level 36] Fragmentum Monster
+9004222 : [Level 45] Fragmentum Monster
+9004223 : [Level 55] Fragmentum Monster
+9004224 : [Level 65] Fragmentum Monster
+9004225 : [Level 75] Fragmentum Monster
+9004226 : [Level 78] Fragmentum Monster
+9004230 : [Level 36] Fragmentum Monster
+9004231 : [Level 36] Fragmentum Monster
+9004232 : [Level 45] Fragmentum Monster
+9004233 : [Level 55] Fragmentum Monster
+9004234 : [Level 65] Fragmentum Monster
+9004235 : [Level 75] Fragmentum Monster
+9004236 : [Level 78] Fragmentum Monster
+9004240 : [Level 36] Fragmentum Monster
+9004241 : [Level 36] Fragmentum Monster
+9004242 : [Level 45] Fragmentum Monster
+9004243 : [Level 55] Fragmentum Monster
+9004244 : [Level 65] Fragmentum Monster
+9004245 : [Level 75] Fragmentum Monster
+9004246 : [Level 78] Fragmentum Monster
+9004250 : [Level 36] Fragmentum Monster
+9004251 : [Level 36] Fragmentum Monster
+9004252 : [Level 45] Fragmentum Monster
+9004253 : [Level 55] Fragmentum Monster
+9004254 : [Level 65] Fragmentum Monster
+9004255 : [Level 75] Fragmentum Monster
+9004256 : [Level 78] Fragmentum Monster
+9004260 : [Level 36] Fragmentum Monster
+9004261 : [Level 36] Fragmentum Monster
+9004262 : [Level 45] Fragmentum Monster
+9004263 : [Level 55] Fragmentum Monster
+9004264 : [Level 65] Fragmentum Monster
+9004265 : [Level 75] Fragmentum Monster
+9004266 : [Level 78] Fragmentum Monster
+9004270 : [Level 36] Fragmentum Monster
+9004271 : [Level 36] Fragmentum Monster
+9004272 : [Level 45] Fragmentum Monster
+9004273 : [Level 55] Fragmentum Monster
+9004274 : [Level 65] Fragmentum Monster
+9004275 : [Level 75] Fragmentum Monster
+9004276 : [Level 78] Fragmentum Monster
+9004280 : [Level 36] Fragmentum Monster
+9004281 : [Level 36] Fragmentum Monster
+9004282 : [Level 45] Fragmentum Monster
+9004283 : [Level 55] Fragmentum Monster
+9004284 : [Level 65] Fragmentum Monster
+9004285 : [Level 75] Fragmentum Monster
+9004286 : [Level 78] Fragmentum Monster
+9004310 : [Level 36] Fragmentum Monster
+9004311 : [Level 36] Fragmentum Monster
+9004312 : [Level 45] Fragmentum Monster
+9004313 : [Level 55] Fragmentum Monster
+9004314 : [Level 65] Fragmentum Monster
+9004315 : [Level 75] Fragmentum Monster
+9004316 : [Level 78] Fragmentum Monster
+9004320 : [Level 36] Fragmentum Monster
+9004321 : [Level 36] Fragmentum Monster
+9004322 : [Level 45] Fragmentum Monster
+9004323 : [Level 55] Fragmentum Monster
+9004324 : [Level 65] Fragmentum Monster
+9004325 : [Level 75] Fragmentum Monster
+9004326 : [Level 78] Fragmentum Monster
+9004330 : [Level 36] Fragmentum Monster
+9004331 : [Level 36] Fragmentum Monster
+9004332 : [Level 45] Fragmentum Monster
+9004333 : [Level 55] Fragmentum Monster
+9004334 : [Level 65] Fragmentum Monster
+9004335 : [Level 75] Fragmentum Monster
+9004336 : [Level 78] Fragmentum Monster
+9004340 : [Level 36] Fragmentum Monster
+9004341 : [Level 36] Fragmentum Monster
+9004342 : [Level 45] Fragmentum Monster
+9004343 : [Level 55] Fragmentum Monster
+9004344 : [Level 65] Fragmentum Monster
+9004345 : [Level 75] Fragmentum Monster
+9004346 : [Level 78] Fragmentum Monster
+9004350 : [Level 36] Fragmentum Monster
+9004351 : [Level 36] Fragmentum Monster
+9004352 : [Level 45] Fragmentum Monster
+9004353 : [Level 55] Fragmentum Monster
+9004354 : [Level 65] Fragmentum Monster
+9004355 : [Level 75] Fragmentum Monster
+9004356 : [Level 78] Fragmentum Monster
+9004360 : [Level 36] Fragmentum Monster
+9004361 : [Level 36] Fragmentum Monster
+9004362 : [Level 45] Fragmentum Monster
+9004363 : [Level 55] Fragmentum Monster
+9004364 : [Level 65] Fragmentum Monster
+9004365 : [Level 75] Fragmentum Monster
+9004366 : [Level 78] Fragmentum Monster
+9004370 : [Level 36] Fragmentum Monster
+9004371 : [Level 36] Fragmentum Monster
+9004372 : [Level 45] Fragmentum Monster
+9004373 : [Level 55] Fragmentum Monster
+9004374 : [Level 65] Fragmentum Monster
+9004375 : [Level 75] Fragmentum Monster
+9004376 : [Level 78] Fragmentum Monster
+9004380 : [Level 36] Fragmentum Monster
+9004381 : [Level 36] Fragmentum Monster
+9004382 : [Level 45] Fragmentum Monster
+9004383 : [Level 55] Fragmentum Monster
+9004384 : [Level 65] Fragmentum Monster
+9004385 : [Level 75] Fragmentum Monster
+9004386 : [Level 78] Fragmentum Monster
+9004410 : [Level 36] Fragmentum Monster
+9004411 : [Level 36] Fragmentum Monster
+9004412 : [Level 45] Fragmentum Monster
+9004413 : [Level 55] Fragmentum Monster
+9004414 : [Level 65] Fragmentum Monster
+9004415 : [Level 75] Fragmentum Monster
+9004416 : [Level 78] Fragmentum Monster
+9004420 : [Level 36] Fragmentum Monster
+9004421 : [Level 36] Fragmentum Monster
+9004422 : [Level 45] Fragmentum Monster
+9004423 : [Level 55] Fragmentum Monster
+9004424 : [Level 65] Fragmentum Monster
+9004425 : [Level 75] Fragmentum Monster
+9004426 : [Level 78] Fragmentum Monster
+9004430 : [Level 36] Fragmentum Monster
+9004431 : [Level 36] Fragmentum Monster
+9004432 : [Level 45] Fragmentum Monster
+9004433 : [Level 55] Fragmentum Monster
+9004434 : [Level 65] Fragmentum Monster
+9004435 : [Level 75] Fragmentum Monster
+9004436 : [Level 78] Fragmentum Monster
+9004440 : [Level 36] Fragmentum Monster
+9004441 : [Level 36] Fragmentum Monster
+9004442 : [Level 45] Fragmentum Monster
+9004443 : [Level 55] Fragmentum Monster
+9004444 : [Level 65] Fragmentum Monster
+9004445 : [Level 75] Fragmentum Monster
+9004446 : [Level 78] Fragmentum Monster
+9004450 : [Level 36] Fragmentum Monster
+9004451 : [Level 36] Fragmentum Monster
+9004452 : [Level 45] Fragmentum Monster
+9004453 : [Level 55] Fragmentum Monster
+9004454 : [Level 65] Fragmentum Monster
+9004455 : [Level 75] Fragmentum Monster
+9004456 : [Level 78] Fragmentum Monster
+9004460 : [Level 36] Fragmentum Monster
+9004461 : [Level 36] Fragmentum Monster
+9004462 : [Level 45] Fragmentum Monster
+9004463 : [Level 55] Fragmentum Monster
+9004464 : [Level 65] Fragmentum Monster
+9004465 : [Level 75] Fragmentum Monster
+9004466 : [Level 78] Fragmentum Monster
+9004470 : [Level 36] Fragmentum Monster
+9004471 : [Level 36] Fragmentum Monster
+9004472 : [Level 45] Fragmentum Monster
+9004473 : [Level 55] Fragmentum Monster
+9004474 : [Level 65] Fragmentum Monster
+9004475 : [Level 75] Fragmentum Monster
+9004476 : [Level 78] Fragmentum Monster
+9004480 : [Level 36] Fragmentum Monster
+9004481 : [Level 36] Fragmentum Monster
+9004482 : [Level 45] Fragmentum Monster
+9004483 : [Level 55] Fragmentum Monster
+9004484 : [Level 65] Fragmentum Monster
+9004485 : [Level 75] Fragmentum Monster
+9004486 : [Level 78] Fragmentum Monster
 20241205 : [Level 82] null
 20241207 : [Level 82] null
 20241208 : [Level 82] null
@@ -9350,6 +10451,30 @@
 30109112 : [Level 92] Ten Stonehearts: Aventurine of Stratagems
 30109121 : [Level 95] Svarog
 30109122 : [Level 95] Wonder Forest's Banacademic Office Staff
+30110011 : [Level 68] Dreamjolt Troupe's Sweet Gorilla
+30110012 : [Level 68] Disciples of Sanctus Medicus: Shape Shifter
+30110021 : [Level 70] Automaton Grizzly
+30110022 : [Level 70] Dreamjolt Troupe's Beyond Overcooked
+30110031 : [Level 73] Howling Casket
+30110032 : [Level 73] Gepard
+30110041 : [Level 75] Frigid Prowler
+30110042 : [Level 75] Aurumaton Spectral Envoy
+30110051 : [Level 78] Senior Staff: Team Leader
+30110052 : [Level 78] Cocolia
+30110061 : [Level 80] Dreamjolt Troupe's Sweet Gorilla
+30110062 : [Level 80] Disciples of Sanctus Medicus: Shape Shifter
+30110071 : [Level 82] Automaton Grizzly
+30110072 : [Level 82] Dreamjolt Troupe's Beyond Overcooked
+30110081 : [Level 85] Howling Casket
+30110082 : [Level 85] Gepard
+30110091 : [Level 88] Frigid Prowler
+30110092 : [Level 88] Aurumaton Spectral Envoy
+30110101 : [Level 90] Senior Staff: Team Leader
+30110102 : [Level 90] Cocolia
+30110111 : [Level 92] Stellaron Hunter: Kafka
+30110112 : [Level 92] Stellaron Hunter: Sam
+30110121 : [Level 95] Svarog
+30110122 : [Level 95] Swarm: True Sting
 30301011 : [Level 55] Silvermane Lieutenant
 30301012 : [Level 55] Decaying Shadow
 30301021 : [Level 65] Ice Out of Space
@@ -9414,6 +10539,14 @@
 30308032 : [Level 75] Automaton Grizzly
 30308041 : [Level 85] Bronya
 30308042 : [Level 85] Cloud Knight Lieutenant: Yanqing
+30309011 : [Level 55] The Ascended
+30309012 : [Level 55] Aurumaton Spectral Envoy
+30309021 : [Level 65] "Past Confined and Caged"
+30309022 : [Level 65] Silvermane Lieutenant
+30309031 : [Level 75] The Ascended
+30309032 : [Level 75] Aurumaton Spectral Envoy
+30309041 : [Level 85] Gepard
+30309042 : [Level 85] Abundant Ebon Deer
 43103001 : [Level 2] Aether Spirit
 43103002 : [Level 3] Aether Spirit
 43103003 : [Level 4] Aether Spirit
@@ -10979,6 +12112,7 @@
 83004111 : [Level 44] Ten Stonehearts: Aventurine of Stratagems (Complete)
 83004121 : [Level 44] The Past, Present, and Eternal Show (Complete)
 83004131 : [Level 44] Cirrus (Complete)
+83004141 : [Level 44] Borisin Warhead: Hoolay (Complete)
 83005011 : [Level 48] Fragmentum Monster
 83005012 : [Level 48] Fragmentum Monster
 83005021 : [Level 48] Dreamjolt Troupe's Beyond Overcooked
@@ -11058,6 +12192,13 @@
 83005291 : [Level 48] Abundance Sprite: Malefic Ape
 83005301 : [Level 48] Dreamjolt Troupe
 83005302 : [Level 48] Dreamjolt Troupe
+83005311 : [Level 48] Abomination Legion
+83005312 : [Level 48] Patrol Machine
+83005313 : [Level 48] Disciples of Sanctus Medicus: Shape Shifter
+83005314 : [Level 48] Aurumaton Gatekeeper
+83005321 : [Level 48] Cloud Knight Lieutenant: Yanqing
+83005331 : [Level 48] Borisin Warhead: Hoolay
+83005341 : [Level 48] Howling Casket
 83006011 : [Level 44] Voidranger: Trampler (Bug)
 83006021 : [Level 44] Silvermane Lieutenant (Bug)
 83006031 : [Level 44] Automaton Direwolf (Bug)
@@ -19961,6 +21102,27 @@
 203320524 : [Level 67] null
 203320525 : [Level 76] null
 203320526 : [Level 82] null
+203320610 : [Level 26] null
+203320611 : [Level 35] null
+203320612 : [Level 42] null
+203320613 : [Level 53] null
+203320614 : [Level 63] null
+203320615 : [Level 75] null
+203320616 : [Level 88] null
+203320710 : [Level 26] null
+203320711 : [Level 35] null
+203320712 : [Level 42] null
+203320713 : [Level 53] null
+203320714 : [Level 63] null
+203320715 : [Level 75] null
+203320716 : [Level 88] null
+203320720 : [Level 26] null
+203320721 : [Level 35] null
+203320722 : [Level 42] null
+203320723 : [Level 53] null
+203320724 : [Level 63] null
+203320725 : [Level 75] null
+203320726 : [Level 88] null
 203321010 : [Level 30] Memory Zone Meme
 203321011 : [Level 40] Memory Zone Meme
 203321012 : [Level 50] Memory Zone Meme
@@ -23972,11 +25134,14 @@
 3001020 : Dreamjolt Troupe's Birdskull
 3002010 : Dreamjolt Troupe's Mr. Domescreen
 3002011 : Banacademic Office's Assistanana
+3002012 : Banacademic Office's Assistanana
 3002020 : Dreamjolt Troupe's Fortune Seller
 3002021 : Banacademic Office's Fortune BananAdvisor
+3002022 : Banacademic Office's Fortune BananAdvisor
 3002030 : Dreamjolt Troupe's Bubble Hound
 3002040 : Dreamjolt Troupe's Winder Goon
 3002041 : Banacademic Office's Dreamweaver BananAdvisor
+3002042 : Banacademic Office's Dreamweaver BananAdvisor
 3002050 : Lordly Trashcan
 3002051 : Lordly Trashcan (Projection)
 3002052 : Lordly Trashcan
@@ -23986,6 +25151,7 @@
 3003011 : Dreamjolt Troupe's Beyond Overcooked (Projection)
 3003012 : Dreamjolt Troupe's Beyond Overcooked (Bug)
 3003013 : Banacademic Office's Charmony BananAdvisor
+3003015 : Banacademic Office's Charmony BananAdvisor
 3003020 : Dreamjolt Troupe's Sweet Gorilla
 3003021 : Dreamjolt Troupe's Sweet Gorilla (Projection)
 3003022 : Dreamjolt Troupe's Sweet Gorilla (Bug)
@@ -24004,6 +25170,7 @@
 3004010 : The Past, Present, and Eternal Show
 3004011 : The Past, Present, and Eternal Show (Complete)
 3004020 : Wonder Forest's Banacademic Office Staff
+3004021 : Blaznana Monkey Trick
 3011010 : Memory Zone Meme "Allseer"
 3012010 : Memory Zone Meme "Something In The Mirror"
 3012020 : Memory Zone Meme "Heartbreaker"
@@ -24043,6 +25210,36 @@
 3025011 : "Harmonious Choir" The Great Septimus
 3025012 : "Harmonious Choir" The Great Septimus
 3025013 : Cacophonic Conductor
+3025014 : "Harmonious Choir" The Great Septimus
+7001010 : Entranced Ingenium: Obedient Dracolion
+7001011 : Voidranger: Reaver
+7001012 : Voidranger: Eliminator
+7001013 : Commerce Trotter
+7002010 : Abundance Sprite: Wooden Lupus
+7002011 : Shadow Jackhyena
+7002020 : Vagrant
+7002030 : Incineration Shadewalker
+7002040 : null
+7002050 : Entranced Ingenium: Illumination Dragonfish
+7002060 : Silvermane Cannoneer
+7002070 : Imaginary Weaver
+7002080 : Silvermane Gunner
+7002090 : Silvermane Soldier
+7002100 : Automaton Spider
+7002110 : Automaton Spider
+7002120 : Grunt: Field Personnel
+7002130 : Grunt: Security Personnel
+7002140 : Everwinter Shadewalker
+7003010 : Blaze Out of Space
+7003020 : Aurumaton Gatekeeper
+7003030 : Silvermane Lieutenant
+7003040 : Voidranger: Trampler
+7003050 : null
+7003060 : Frigid Prowler
+7003070 : Automaton Direwolf
+7003080 : Searing Prowler
+7003090 : Automaton Grizzly
+7003100 : Senior Staff: Team Leader
 8001010 : Flamespawn
 8001020 : Frostspawn
 8001030 : Mask of No Thought
@@ -24085,6 +25282,7 @@
 8003050 : Stormbringer
 8003051 : Stormbringer (Bug)
 8003052 : Stormbringer
+8003060 : Fictional Ensemble
 8011010 : Baryon
 8011020 : Antibaryon
 8012010 : Voidranger: Reaver
@@ -24212,6 +25410,7 @@
 100203020 : Silvermane Cannoneer
 100203021 : Silvermane Cannoneer
 100203022 : Silvermane Cannoneer
+100203023 : Silvermane Cannoneer
 100204001 : Silvermane Soldier
 100204002 : Silvermane Soldier
 100204003 : Silvermane Soldier - Sampi
@@ -24313,6 +25512,8 @@
 100301030 : Silvermane Lieutenant
 100301031 : Armored Will
 100301032 : "Ironshield" Gigantus Shieldus
+100301034 : Silvermane Lieutenant
+100301035 : Silvermane Lieutenant
 100301101 : Silvermane Lieutenant (Bug)
 100301102 : Silvermane Lieutenant (Bug)
 100401001 : Cocolia
@@ -24342,6 +25543,8 @@
 100402010 : Gepard
 100402011 : Gepard
 100402012 : Gepard
+100402013 : Gepard
+100402014 : Gepard
 100402201 : Gepard (Complete)
 100402601 : Gepard
 100402602 : Gepard
@@ -24358,6 +25561,8 @@
 100403005 : Bronya
 100403006 : Bronya
 100403007 : Bronya
+100403008 : Bronya
+100403009 : Bronya
 100403101 : Bronya (Complete)
 100403102 : Bronya (Complete)
 100501401 : Annihilator of Desolation Mistral: Mother of Deception
@@ -24384,6 +25589,7 @@
 101201018 : Automaton Hound
 101201019 : Automaton Hound
 101201020 : Automaton Hound
+101201021 : Automaton Hound
 101202001 : Rookie Buster: Silo
 101202002 : Rookie Buster: Yur
 101202003 : Gear-Stealing Robot
@@ -24471,6 +25677,7 @@
 101302029 : Automaton Direwolf
 101302030 : Automaton Direwolf
 101302031 : Automaton Direwolf
+101302032 : Automaton Direwolf
 101401001 : Svarog
 101401002 : Svarog
 101401003 : Svarog
@@ -24666,6 +25873,7 @@
 201302009 : Aurumaton Spectral Envoy
 201302010 : Aurumaton Spectral Envoy
 201302011 : Aurumaton Spectral Envoy
+201302012 : Aurumaton Spectral Envoy
 202201001 : Mara-Struck Soldier
 202201002 : Mara-Struck Soldier
 202201003 : Furtive Assassin
@@ -24745,6 +25953,7 @@
 202301011 : Disciples of Sanctus Medicus: Shape Shifter
 202301012 : Disciples of Sanctus Medicus: Shape Shifter
 202301013 : Disciples of Sanctus Medicus: Shape Shifter
+202301014 : Disciples of Sanctus Medicus: Shape Shifter
 202301101 : Disciples of Sanctus Medicus: Shape Shifter (Bug)
 202302001 : Abundance Sprite: Malefic Ape
 202302002 : Phantylia
@@ -24772,6 +25981,7 @@
 202303013 : The Ascended
 202303014 : Flowerbeing
 202303015 : The Ascended
+202303016 : The Ascended
 202401001 : Abundant Ebon Deer
 202401002 : Abundant Ebon Deer
 202401004 : Abundant Ebon Deer
@@ -24784,6 +25994,7 @@
 202401402 : Abundant Ebon Deer
 202401403 : Abundant Ebon Deer
 202401404 : Abundant Ebon Deer
+202401406 : Abundant Ebon Deer
 202402001 : Cirrus
 202402002 : Cirrus
 202402003 : Cirrus
@@ -24803,6 +26014,7 @@
 203301004 : Howling Casket
 203401001 : Borisin Warhead: Hoolay
 203401101 : Borisin Warhead: Hoolay
+203401201 : Borisin Warhead: Hoolay (Complete)
 300101001 : Cocona's Kindness
 300101002 : Dreamjolt Troupe's Spring Loader
 300101003 : Dreamjolt Troupe's Spring Loader
@@ -24820,10 +26032,18 @@
 300201007 : Ternary Assimilation Unit
 300201008 : Dreamjolt Troupe's Mr. Domescreen
 300201101 : Banacademic Office's Assistanana
+300201201 : Banacademic Office's Assistanana
+300201202 : Banacademic Office's Assistanana
+300201203 : Banacademic Office's Assistanana
+300201204 : Banacademic Office's Assistanana
 300202001 : Dreamjolt Troupe's Fortune Seller
 300202002 : Dreamjolt Troupe's Fortune Seller
 300202003 : Dreamjolt Troupe's Fortune Seller
 300202101 : Banacademic Office's Fortune BananAdvisor
+300202201 : Banacademic Office's Fortune BananAdvisor
+300202202 : Banacademic Office's Fortune BananAdvisor
+300202203 : Banacademic Office's Fortune BananAdvisor
+300202204 : Banacademic Office's Fortune BananAdvisor
 300203001 : Dreamjolt Troupe's Bubble Hound
 300203002 : Cocona's Principle
 300203003 : Dreamjolt Troupe's Bubble Hound
@@ -24837,12 +26057,18 @@
 300204001 : Dreamjolt Troupe's Winder Goon
 300204002 : Dreamjolt Troupe's Winder Goon
 300204003 : Dreamjolt Troupe's Winder Goon
+300204004 : Dreamjolt Troupe's Winder Goon
 300204005 : Dreamjolt Troupe's Winder Goon
 300204101 : Banacademic Office's Dreamweaver BananAdvisor
+300204201 : Banacademic Office's Dreamweaver BananAdvisor
+300204202 : Banacademic Office's Dreamweaver BananAdvisor
+300204203 : Banacademic Office's Dreamweaver BananAdvisor
+300204204 : Banacademic Office's Dreamweaver BananAdvisor
 300205002 : Cocona's Honesty
 300205003 : Lordly Trashcan
 300205004 : Head Judge
 300205005 : Lordly Trashcan
+300205006 : Lordly Trashcan
 300205007 : Mass-Production Machine
 300205201 : Unit<unbreak>-01</unbreak>
 300301001 : Dreamjolt Troupe's Beyond Overcooked
@@ -24856,10 +26082,15 @@
 300301101 : Dreamjolt Troupe's Beyond Overcooked (Projection)
 300301201 : Dreamjolt Troupe's Beyond Overcooked (Bug)
 300301301 : Banacademic Office's Charmony BananAdvisor
+300301302 : Banacademic Office's Charmony BananAdvisor
 300301401 : Dreamjolt Troupe's Beyond Overcooked
 300301402 : Dreamjolt Troupe's Beyond Overcooked
 300301403 : Dreamjolt Troupe's Beyond Overcooked
 300301404 : Dreamjolt Troupe's Beyond Overcooked
+300301501 : Banacademic Office's Charmony BananAdvisor
+300301502 : Banacademic Office's Charmony BananAdvisor
+300301503 : Banacademic Office's Charmony BananAdvisor
+300301504 : Banacademic Office's Charmony BananAdvisor
 300302001 : Dreamjolt Troupe's Sweet Gorilla
 300302002 : Dreamjolt Troupe's Sweet Gorilla
 300302003 : Dreamjolt Troupe's Sweet Gorilla
@@ -24870,6 +26101,7 @@
 300303003 : "Past Confined and Caged"
 300303004 : "Past Confined and Caged"
 300303005 : "Past Confined and Caged"
+300303006 : "Past Confined and Caged"
 300303101 : "Past Confined and Caged"
 300303102 : D. Celerate
 300304001 : "Tomorrow in Harmonious Chords"
@@ -24889,6 +26121,10 @@
 300402001 : Wonder Forest's Banacademic Office Staff
 300402002 : Wonder Forest's Banacademic Office Staff
 300402003 : Wonder Forest's Banacademic Office Staff
+300402101 : Blaznana Monkey Trick
+300402102 : Blaznana Monkey Trick
+300402103 : Blaznana Monkey Trick
+300402104 : Blaznana Monkey Trick
 301101001 : Prejudice
 301201001 : Memory Zone Meme "Something In The Mirror"
 301202001 : Memory Zone Meme "Heartbreaker"
@@ -24954,6 +26190,12 @@
 302501302 : Cacophonic Conductor
 302501303 : Cacophonic Conductor
 302501304 : Cacophonic Conductor
+700203001 : Incineration Shadewalker
+700203002 : Incineration Shadewalker
+700205001 : Entranced Ingenium: Illumination Dragonfish
+700207001 : Imaginary Weaver
+700207002 : Imaginary Weaver
+700209001 : Silvermane Soldier
 800101001 : Flamespawn
 800101002 : Flamespawn
 800101003 : Flamespawn
@@ -25091,6 +26333,13 @@
 800205063 : Sequence Trotter
 800205064 : Sequence Trotter
 800205065 : Sequence Trotter
+800205066 : Sequence Trotter
+800205067 : Sequence Trotter
+800205068 : Sequence Trotter
+800205069 : Sequence Trotter
+800205070 : Sequence Trotter
+800205071 : Sequence Trotter
+800205072 : Sequence Trotter
 800205101 : Trotter
 800205201 : Trotter
 800205301 : Trotter
@@ -25140,6 +26389,7 @@
 800302020 : Blaze Out of Space
 800302021 : Blaze Out of Space
 800302022 : Blaze Out of Space
+800302023 : Blaze Out of Space
 800302101 : Blaze Out of Space (Bug)
 800302201 : Blaze Out of Space
 800302202 : Blaze Out of Space
@@ -25304,6 +26554,7 @@
 801301022 : Voidranger: Trampler
 801301023 : Voidranger: Trampler
 801301024 : Voidranger: Trampler
+801301025 : Voidranger: Trampler
 801314501 : Antimatter Engine
 801314502 : Antimatter Engine
 801314503 : Antimatter Engine
@@ -25325,6 +26576,7 @@
 802401103 : Swarm: True Sting
 802401104 : Swarm: True Sting
 802401105 : Swarm: True Sting
+802401106 : Swarm: True Sting
 802501001 : Starcrusher Swarm King: Skaracabaz (Synthetic)
 803201001 : Grunt: Field Personnel
 803201002 : Grunt: Field Personnel
@@ -25368,6 +26620,7 @@
 803301008 : Senior Staff: Team Leader
 803301009 : Senior Staff: Team Leader
 803301010 : Senior Staff: Team Leader
+803301011 : Senior Staff: Team Leader
 803301012 : Senior Staff: Team Leader
 803301013 : Shuojin
 803301101 : Senior Staff: Team Leader (Bug)
@@ -25386,6 +26639,7 @@
 # Mazes
 10000 : [Train] Parlor Car
 10001 : [Town] Master Control Zone
+10002 : [Train] Astral Express
 10101 : [Town] Administrative District
 10102 : [Town] Boulder Town
 10201 : [Town] Central Starskiff Haven
@@ -25444,6 +26698,7 @@
 30124 : [Challenge] null
 30125 : [Challenge] null
 30126 : [Challenge] null
+30127 : [Challenge] null
 30201 : [Raid] Cavern of Corrosion
 30301 : [Raid] null
 30401 : [Raid] null
@@ -25483,6 +26738,8 @@
 40238 : [Raid] null
 40242 : [Raid] null
 40243 : [Raid] null
+40301 : [Raid] null
+40302 : [Raid] null
 40312 : [Raid] null
 41000 : [Raid] null
 41007 : [Raid] null

@@ -1,0 +1,44 @@
+{
+    "baseUrl": {
+      "CNWin": "https://autopatchcn.bhsr.com",
+      "OSWin": "https://autopatchos.starrails.com"
+    },
+    "downloadData": {
+      "2.6.0": {
+        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/V2.6Live/output_8327055_62a6dbe82d3a",
+        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.6Live/output_8408234_165d3aea019d",
+        "luaUrl": "https://autopatchcn.bhsr.com/lua/V2.6Live/output_8307107_e1604d6f0420",
+        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/V2.6Live/output_8337932_28f63efb23ac"
+      },
+      "2.6.51": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
+      },
+      "2.6.52": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
+      },
+      "2.6.53": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
+      },
+      "2.6.54": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
+      },
+      "2.6.55": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
+      }
+    }
+  }

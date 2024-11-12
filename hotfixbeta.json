@@ -6,7 +6,7 @@
     "downloadData": {
       "2.6.0": {
         "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/V2.6Live/output_8327055_62a6dbe82d3a",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.6Live/output_8408234_165d3aea019d",
+        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.6Live/output_8479830_ebb171333844",
         "luaUrl": "https://autopatchcn.bhsr.com/lua/V2.6Live/output_8307107_e1604d6f0420",
         "ifixUrl": "https://autopatchcn.bhsr.com/ifix/V2.6Live/output_8337932_28f63efb23ac"
       },
@@ -40,5 +40,5 @@
         "luaUrl": "",
         "ifixUrl": ""
       }
-    }
   }
+}    

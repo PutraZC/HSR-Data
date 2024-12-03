@@ -4,40 +4,40 @@
       "OSWin": "https://autopatchos.starrails.com"
     },
     "downloadData": {
-      "2.6.0": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/V2.6Live/output_8327055_62a6dbe82d3a",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.6Live/output_8479830_ebb171333844",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/V2.6Live/output_8307107_e1604d6f0420",
-        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/V2.6Live/output_8337932_28f63efb23ac"
+      "2.7.0": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
       },
-      "2.6.51": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8255911_73424ed8f1d9",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8278172_2bef625c3daf",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8256066_d4950eb37f1e",
+      "2.7.51": {
+        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8741764_7b9b37c5472a",
+        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8750523_aedf8b219ff5",
+        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8731095_98d00821dbd1",
         "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
       },
-      "2.6.52": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8311876_132b0541de56",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8319049_a676f5f1814c",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8312107_56d36149f634",
-        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
+      "2.7.52": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
       },
-      "2.6.53": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8373375_fe8534d45033",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8397887_2bec65c08d76",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8373879_2195928a1876",
-        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
+      "2.7.53": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
       },
-      "2.6.54": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8448286_c2eb6137cc64",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8448286_10002cf1a8a3",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8449174_c5fe4343f9f8",
-        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
+      "2.7.54": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
+        "ifixUrl": ""
       },
-      "2.6.55": {
-        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8515895_519c5179c9d5",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8548479_447180fdc6fb",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8516917_89a9da29e9bc",
+      "2.7.55": {
+        "assetBundleUrl": "",
+        "exResourceUrl": "",
+        "luaUrl": "",
         "ifixUrl": ""
       }
   }

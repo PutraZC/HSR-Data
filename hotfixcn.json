@@ -6,9 +6,9 @@
     "downloadData": {
       "2.7.0": {
         "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/V2.7Live/output_8749212_b6af1d01f94a",
-        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.7Live/output_8728265_3ad4505bb945",
-        "luaUrl": "https://autopatchcn.bhsr.com/lua/V2.7Live/output_8614915_6088d1a8abf9",
-        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/V2.7Live/output_0_63942f1724d0"
+        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/V2.7Live/output_8789622_e1208cef714d",
+        "luaUrl": "https://autopatchcn.bhsr.com/lua/V2.7Live/output_8774490_7f0c259f6163",
+        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/V2.7Live/output_8789622_f87ce52155b1"
       },
       "2.7.51": {
         "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8741764_7b9b37c5472a",

@@ -1,6 +1,5 @@
-# RiskaSR 2.6.5 Handbook
-# Created 2024/11/06 21:47:41
-
+# RiskaSR 2.7.5 Handbook
+# Created 2024/12/2 18:03:45
 
 # Commands
 /account {create | delete} [username] (reserved player uid). Creates or deletes an account.
@@ -13,6 +12,7 @@
 /giveall {materials | avatars | lightcones | relics | usables} lv(level). Gives the targeted player items.
 /heal. Heals your avatars.
 /help. Displays a list of available commands.
+/import. Import freesr-data.json to your account.
 /tempban @[player id]. Kick/Temporarily ban a player from the server.
 /lineup [avatar ids]. USE AT YOUR OWN RISK. Sets your current lineup with the specified avatar ids.
 /mail [content]. Sends the targeted player a system mail.
@@ -26,10 +26,10 @@
 /status. Displays the status of the server.
 /stop - Stops the server
 /tp [+-relative x] [+-relative y] [+-relative z]. Teleports the player to the specified pos frm self. (x1000)
+/unban @[player]. Bans a player from the server.
 /unstuck @[player id]. Unstucks an offline player if theyre in a scene that doesnt load.
 /windy [name] - Windy!
 /worldlevel [world level]. Sets the targeted player's equilibrium level.
-
 
 # Avatars
 1001 : March 7th
@@ -91,6 +91,8 @@
 1314 : Jade
 1315 : Boothill
 1317 : Rappa
+1401 : The Herta
+1402 : Aglaea
 6022 : March 7th
 6023 : Skott's Specially Appointed IPC Mech
 7005 : Kafka
@@ -104,6 +106,8 @@
 8004 : {NICKNAME}
 8005 : {NICKNAME}
 8006 : {NICKNAME}
+8007 : {NICKNAME}
+8008 : {NICKNAME}
 8901 : {NICKNAME}
 8902 : {NICKNAME}
 
@@ -144,6 +148,8 @@
 234 : Lost Essence
 235 : Relic Remains
 236 : Self-Modeling Resin
+237 : Wishful Resin
+238 : Variable Dice
 241 : Tracks of Destiny
 251 : Undying Embers
 252 : Undying Starlight
@@ -213,6 +219,8 @@
 1314 : Jade
 1315 : Boothill
 1317 : Rappa
+1401 : The Herta
+1402 : Aglaea
 6022 : March 7th
 6023 : March 7th
 7005 : Kafka
@@ -226,6 +234,8 @@
 8004 : {NICKNAME}
 8005 : {NICKNAME}
 8006 : {NICKNAME}
+8007 : {NICKNAME}
+8008 : {NICKNAME}
 8901 : {NICKNAME}
 8902 : {NICKNAME}
 11001 : March 7th: Preservation's Eidolon
@@ -287,12 +297,16 @@
 11314 : Jade's Eidolon
 11315 : Boothill's Eidolon
 11317 : Rappa's Eidolon
+11401 : "The Herta"'s Eidolon
+11402 : Aglaea's Eidolon
 18001 : Shadow of Destruction
 18002 : Shadow of Destruction
 18003 : Shadow of Preservation
 18004 : Shadow of Preservation
 18005 : Shadow of Harmony
 18006 : Shadow of Harmony
+18007 : Shadow of Remembrance
+18008 : Shadow of Remembrance
 20000 : Arrows
 20001 : Cornucopia
 20002 : Collapsing Sky
@@ -314,6 +328,8 @@
 20018 : Hidden Shadow
 20019 : Mediation
 20020 : Sagacity
+20021 : Shadowburn
+20022 : Reminiscence
 21000 : Post-Op Conversation
 21001 : Good Night and Sleep Well
 21002 : Day One of My New Life
@@ -363,6 +379,9 @@
 21046 : Poised to Bloom
 21047 : Shadowed by Night
 21048 : Dream's Montage
+21050 : Sweat Now, Cry Less
+21051 : Geniuses' Greetings
+21052 : Victory In a Blink
 22000 : Before the Tutorial Mission Starts
 22001 : Hey, Over Here
 22002 : For Tomorrow's Journey
@@ -403,6 +422,8 @@
 23033 : Ninjutsu Inscription: Dazzling Evilbreaker
 23034 : A Grounded Ascent
 23035 : Long Road Leads Home
+23036 : Time Woven Into Gold
+23037 : Into the Unreachable Veil
 24000 : On the Fall of an Aeon
 24001 : Cruising in the Stellar Sea
 24002 : Texture of Memories
@@ -496,6 +517,14 @@
 31222 : Scholar's Auxiliary Knuckle
 31223 : Scholar's Tweed Jacket
 31224 : Scholar's Felt Snowboots
+31231 : Hero's Wreath of Championship
+31232 : Hero's Gilded Bracers
+31233 : Hero's Gallant Golden Armor
+31234 : Hero's Firechasing Shinguard
+31241 : Poet's Dill Wreath
+31242 : Poet's Gilded Bracelet
+31243 : Poet's Star-Studded Skirt
+31244 : Poet's Silver-Studded Shoes
 33015 : Herta's Space Station
 33016 : Herta's Wandering Trek
 33025 : The Xianzhou Luofu's Celestial Ark
@@ -620,6 +649,14 @@
 41222 : Scholar's Auxiliary Knuckle
 41223 : Scholar's Tweed Jacket
 41224 : Scholar's Felt Snowboots
+41231 : Hero's Wreath of Championship
+41232 : Hero's Gilded Bracers
+41233 : Hero's Gallant Golden Armor
+41234 : Hero's Firechasing Shinguard
+41241 : Poet's Dill Wreath
+41242 : Poet's Gilded Bracelet
+41243 : Poet's Star-Studded Skirt
+41244 : Poet's Silver-Studded Shoes
 43015 : Herta's Space Station
 43016 : Herta's Wandering Trek
 43025 : The Xianzhou Luofu's Celestial Ark
@@ -744,6 +781,14 @@
 51222 : Scholar's Auxiliary Knuckle
 51223 : Scholar's Tweed Jacket
 51224 : Scholar's Felt Snowboots
+51231 : Hero's Wreath of Championship
+51232 : Hero's Gilded Bracers
+51233 : Hero's Gallant Golden Armor
+51234 : Hero's Firechasing Shinguard
+51241 : Poet's Dill Wreath
+51242 : Poet's Gilded Bracelet
+51243 : Poet's Star-Studded Skirt
+51244 : Poet's Silver-Studded Shoes
 53015 : Herta's Space Station
 53016 : Herta's Wandering Trek
 53025 : The Xianzhou Luofu's Celestial Ark
@@ -874,6 +919,14 @@
 61222 : Scholar's Auxiliary Knuckle
 61223 : Scholar's Tweed Jacket
 61224 : Scholar's Felt Snowboots
+61231 : Hero's Wreath of Championship
+61232 : Hero's Gilded Bracers
+61233 : Hero's Gallant Golden Armor
+61234 : Hero's Firechasing Shinguard
+61241 : Poet's Dill Wreath
+61242 : Poet's Gilded Bracelet
+61243 : Poet's Star-Studded Skirt
+61244 : Poet's Silver-Studded Shoes
 63015 : Herta's Space Station
 63016 : Herta's Wandering Trek
 63025 : The Xianzhou Luofu's Celestial Ark
@@ -1018,6 +1071,14 @@
 81222 : Scholar Lost in Erudition
 81223 : Scholar Lost in Erudition
 81224 : Scholar Lost in Erudition
+81231 : Hero of Triumphant Song
+81232 : Hero of Triumphant Song
+81233 : Hero of Triumphant Song
+81234 : Hero of Triumphant Song
+81241 : Poet of Mourning Collapse
+81242 : Poet of Mourning Collapse
+81243 : Poet of Mourning Collapse
+81244 : Poet of Mourning Collapse
 83011 : Space Sealing Station
 83012 : Space Sealing Station
 83013 : Space Sealing Station
@@ -1138,6 +1199,9 @@
 110241 : Alien Tree Seed
 110242 : Nourishing Honey
 110243 : Myriad Fruit
+110251 : Seed of Thought
+110252 : Mana Seedling
+110253 : Alayawah
 110400 : Enigmatic Ectostella
 110401 : Broken Teeth of Iron Wolf
 110402 : Endotherm Chitin
@@ -1190,10 +1254,14 @@
 114011 : Tatters of Thought
 114012 : Fragments of Impression
 114013 : Shards of Desires
+115001 : Fear-Stomped Flesh
+115002 : Courage-Torn Chest
+115003 : Glory-Aspersed Torso
 120000 : Hertareum
 120001 : Shield
 120002 : Strale
 120003 : Clock Credits
+120004 : Ambrosia
 121000 : Lil' Twisty Bubble Gum
 121001 : Exorcismal Fulu
 121002 : Clockwork Inspiration Notebook
@@ -1626,12 +1694,47 @@
 140510 : Luofu Sports Illustrated — Special Edition for Luka's Final
 140511 : SoulGlad Bottle Cap
 140512 : Slumbernana Monkey Pre-Order Special Freebie
+140513 : ...
 140514 : Group Photo of March 7th and the Crew
 140515 : Group Photo of March 7th and Friends
 140516 : Group Photo of March 7th and the Crew
 140517 : Group Photo of March 7th and Friends
 140518 : "Camereidoscope"
+140519 : ...
+140520 : ...
+140521 : ...
 140522 : Tingyun's Dream Bubble
+140523 : ...
+140524 : ...
+140525 : ...
+140526 : ...
+140527 : ...
+140528 : ...
+140529 : ...
+140530 : ...
+140531 : ...
+140534 : ...
+140535 : ...
+140536 : ...
+140537 : Goldweaver That Records Prophecy - Strife Ruin
+140538 : Portentous Goldwoven: Bloodbathed Battlefront
+140539 : Georios' Embers
+140540 : ...
+140541 : Scroll of Mysterious Rites
+140542 : ...
+140543 : ...
+140544 : ...
+140545 : Mystical Blacksoil
+140546 : Mystical Seeds
+140547 : Mystical Philter
+140548 : Scroll of Mysterious Rites
+140549 : Scroll of Mysterious Rites
+140550 : null
+140551 : null
+140552 : Slate
+140553 : teleslate
+140554 : Scroll
+140555 : null
 149957 : Photo With March 7th
 149958 : Photo With March 7th
 149959 : Thermic Core
@@ -1714,6 +1817,11 @@
 150053 : ...
 150054 : Guidance for Stygian Lantern
 150055 : "Wardance <unbreak>21</unbreak>-Gun Salute"
+150056 : Abyss of Fate's Hymn Tablet
+150057 : Strife Ruins' Hymn Tablet
+150058 : Bloodbathed Battlefront's Hymn Tablet
+150059 : Eternal Holy City's Hymn Tablet
+150060 : null
 180001 : Solid Water
 180002 : Basic Ingredients
 180004 : Phlogiston
@@ -1725,6 +1833,7 @@
 180010 : Tranquility
 180011 : Broken Dreams
 180012 : Rusty Gear
+180013 : Awakening Feather
 181001 : Mechanical Parts
 181002 : Virtual Particle
 181003 : Protein Rice
@@ -1741,6 +1850,8 @@
 181014 : Confounding
 181015 : Hunger
 181016 : Old Molar
+181017 : Thinking Branch
+181018 : Deep Rock Salt
 182001 : Strange Matter of Destruction
 182002 : Ambergris of Abundance
 182003 : Stone of The Hunt
@@ -1751,12 +1862,14 @@
 182008 : Dragon Scale Coral
 182009 : The Sound and the Fury
 182010 : Thermal Gel
+182011 : Silk Spindle
 183001 : Interdimensional Leaf
 183002 : Phase Flame
 183003 : Tear Crystal of Glorious Death
 183004 : Mythus Knots
 183005 : Weary
 183006 : Mechanical Cube
+183007 : New Seed of Dawn
 190101 : Floriography Manual Attached to a Bouquet
 190102 : Remnants of a Barista's Handbook
 190103 : <i>Miner's Safety Manual</i>
@@ -2377,6 +2490,66 @@
 190729 : ...
 190730 : ...
 190731 : ...
+190732 : ...
+190733 : ...
+190734 : ...
+190735 : ...
+190736 : ...
+190737 : ...
+190738 : ...
+190739 : ...
+190740 : ...
+190741 : ...
+190742 : ...
+190743 : ...
+190745 : ...
+190746 : ...
+190747 : ...
+190748 : ...
+190749 : ...
+190750 : ...
+190751 : ...
+190752 : ...
+190753 : ...
+190754 : ...
+190755 : ...
+190756 : ...
+190757 : ...
+190758 : ...
+190759 : ...
+190760 : ...
+190761 : ...
+190762 : ...
+190763 : ...
+190764 : ...
+190765 : ...
+190766 : ...
+190767 : ...
+190768 : ...
+190769 : ...
+190770 : ...
+190771 : ...
+190772 : ...
+190773 : ...
+190774 : ...
+190775 : ...
+190776 : ...
+190777 : ...
+190778 : ...
+190779 : ...
+190780 : ...
+190781 : ...
+190782 : ...
+190783 : ...
+190784 : ...
+190785 : ...
+190786 : ...
+190787 : ...
+190788 : ...
+190789 : ...
+190790 : ...
+190791 : ...
+190792 : ...
 190901 : <i>The Adventurous Moles: Hidden Treasure</i> — Table of Contents
 190902 : <i>The Adventurous Moles: Hidden Treasure</i> — Preface
 190903 : <i>The Adventurous Moles: Hidden Treasure</i> — "The Unexpected Parchment"
@@ -2453,6 +2626,8 @@
 200130 : Silver Wolf: Opening
 200131 : Robin: Brilliant Youth
 200132 : Sunday: Brilliant Youth
+200133 : The Herta: Tea Break
+200134 : Herta: Tea Break
 201001 : March 7th: Preservation
 201002 : Dan Heng
 201003 : Himeko
@@ -2512,6 +2687,8 @@
 201314 : Jade
 201315 : Boothill
 201317 : Rappa
+201401 : The Herta
+201402 : Aglaea
 202001 : Wubbaboo
 202002 : Trashcan
 202003 : Junjun
@@ -2532,12 +2709,16 @@
 202018 : "Hi, Come for a Test"
 202019 : Yanqing: Dreamland
 202020 : Dream Ticker
+202025 : Spirithief
+202028 : Owlbert: Bath
 208001 : {NICKNAME}: Destruction
 208002 : {NICKNAME}: Destruction
 208003 : {NICKNAME}: Preservation
 208004 : {NICKNAME}: Preservation
 208005 : {NICKNAME}: Harmony
 208006 : {NICKNAME}: Harmony
+208007 : {NICKNAME}: Remembrance
+208008 : {NICKNAME}: Remembrance
 210001 : ...
 210003 : ...
 210008 : ...
@@ -2660,6 +2841,22 @@
 210369 : ...
 210370 : ...
 210371 : ...
+210372 : ...
+210373 : ...
+210374 : ...
+210375 : ...
+210376 : ...
+210377 : ...
+210378 : ...
+210379 : ...
+210380 : ...
+210381 : ...
+210382 : ...
+210383 : ...
+210384 : ...
+210385 : ...
+210386 : ...
+210387 : ...
 220000 : ...
 220001 : ...
 220002 : {TEXTJOIN#54}
@@ -2677,6 +2874,7 @@
 221006 : Task in Progress
 221007 : Moment of Triumph
 221008 : To a Dreamless Sleep
+221010 : Dawn's Arrival
 222000 : ...
 223000 : ...
 223001 : ...
@@ -3192,9 +3390,9 @@
 281025 : Wardance Sword Badge
 281026 : Conjecture
 291001 : Hanunue's Soap
-291002 : Rose Scented Bathing Lotion
-291003 : Spicy Hot Oil Bathing Lotion
-291004 : Parmenides Bathing Lotion
+291002 : Rose Scented Bath Soak
+291003 : Spicy Hot Oil Bath Soak
+291004 : Parmenides Bath Soak
 291005 : Yellow Ducky
 291006 : Musings of the Mundane
 291007 : Gradient Fragrance
@@ -3204,9 +3402,9 @@
 292004 : Sincerely Loving You
 292005 : Medicine Gourd
 292006 : Heavy Chip
-293001 : Poster: Blade of Chaos: Arahato
+293001 : Poster: Blade of Chaos, Arahato
 293002 : Peppy's Food Bowl
-293003 : Poster: Stellaron Hunter: Kafka
+293003 : Poster: Stellaron Hunter, Kafka
 293004 : Hanging Painting: <i>Cityscape</i>
 293005 : Hanging Painting: <i>Ray of Dawn</i>
 293006 : Hanging Painting: <i>Settlement</i>
@@ -3221,6 +3419,7 @@
 300002 : Gift of the Pathstriders
 300003 : Grand Gift of the Pathstriders
 300011 : Treasure of the Starry Seas
+300012 : Treasure of the Starry Seas
 300020 : Memo-Keeping Light Casket
 300021 : Sparkle's Wondrous Pack
 300031 : Gift of the Stars
@@ -3236,10 +3435,12 @@
 300200 : <i>The Adventurous Moles: Hidden Treasure</i>
 300201 : null
 300202 : Credbits
+300210 : Goldweaver That Records Prophecy - Abyss of Fate
 309001 : Fateful Crossings: Aetherium Wars
 309002 : Fateful Crossings: Hanu's Prison Break
 309003 : Fateful Crossings: Vignettes in a Cup
 309004 : Fateful Crossings: Origami Bird Clash
+309006 : Fateful Crossings: Mysterious Labyrinth
 309007 : Fateful Crossings: Cosmic Home Décor Guide
 310001 : Herta Contract: Trailblaze Aid
 310002 : Herta Contract: Fuel Refill
@@ -3257,6 +3458,7 @@
 400006 : Trick Snack
 400007 : Simple First-Aid Device
 400008 : Startaro Bubble
+400009 : Redsoil Feed
 401003 : Cosmic Fried Rice
 401004 : Yucky Fried Rice
 401005 : Punitive Energy
@@ -3285,6 +3487,9 @@
 401028 : Momentary Freedom
 401029 : Sword in the Stone
 401030 : Interstellar Braised Beast
+401031 : Golden Honeycake
+401032 : Rough-Brew Ambrosia
+401033 : Dried Sagelore Fruit
 402001 : Healing Spray
 402002 : Disposable Shield
 402003 : Energy Drink (sugar-free)
@@ -3313,7 +3518,11 @@
 402026 : The Moment of Betrayal
 402027 : Fleeting Happiness
 402028 : The Cloud of Doubt
+402029 : ...
 402030 : Spine-Marrow Sparking Blade
+402031 : ...
+402032 : Dromas Steak
+402033 : Kremnos Shield
 403001 : Disposable Kinetic Arm
 403002 : Ruby Potion
 403003 : Disposable Kinetic Cannon
@@ -3326,11 +3535,13 @@
 403010 : Bustling Ambience
 403011 : Scare Box
 403012 : Take Your Life <unbreak>3000</unbreak>
+403013 : Veil Bundle
 404004 : Recipe: Comfort Food
 404005 : Recipe: Punitive Food
 404006 : Recipe: Trick Snack
 404007 : Recipe: Simple First-Aid Device
 404008 : Recipe: Startaro Bubble
+404009 : Recipe: Redsoil Feed
 405003 : Recipe: Cosmic Fried Rice
 405004 : Recipe: Yucky Fried Rice
 405005 : Recipe: Punitive Energy
@@ -3359,6 +3570,9 @@
 405028 : Recipe: Momentary Freedom
 405029 : Recipe: Sword in the Stone
 405030 : Recipe: Interstellar Braised Beast
+405031 : Recipe: Golden Honeycake
+405032 : Recipe: Rough-Brew Ambrosia
+405033 : Recipe: Dried Sagelore Fruit
 406001 : Recipe: Healing Spray
 406002 : Recipe: Disposable Shield
 406003 : Recipe: Energy Drink (sugar-free)
@@ -3387,7 +3601,11 @@
 406026 : Recipe: The Moment of Betrayal
 406027 : Recipe: Fleeting Happiness
 406028 : Recipe: The Cloud of Doubt
+406029 : ...
 406030 : Recipe: Spine-Marrow Sparking Blade
+406031 : ...
+406032 : Recipe: Dromas Steak
+406033 : Recipe: Kremnos Shield
 407001 : Recipe: Disposable Kinetic Arm
 407002 : Recipe: Ruby Potion
 407003 : Recipe: Disposable Kinetic Cannon
@@ -3400,6 +3618,7 @@
 407010 : Recipe: Bustling Ambience
 407011 : Recipe: Scare Box
 407012 : Recipe: Take Your Life <unbreak>3000</unbreak>
+407013 : Recipe: Veil Bundle
 408001 : Trash
 408002 : Pleasant-Looking Trash
 408003 : Sanctity of the Trashcan
@@ -3450,6 +3669,10 @@
 408434 : Origami Cake
 408435 : Full-Auto Dreampaint Spray
 408436 : Dazzling Ninja Provisions
+408437 : Steelclaw Dagger
+408438 : Chrysos Heir Dolium
+408439 : Oronyx Slate
+408440 : Earth Crystal Ore
 408601 : Belobog Sausage
 408602 : Stone-Grilled Olm
 408603 : Immortal's Delight
@@ -3486,11 +3709,17 @@
 408634 : Golden Slumbernana
 408635 : Embrace the Mistakenana
 408636 : Express Special Blend: Rustic Infusion
-408637 : Wrench Tossed Salad
+408637 : Wrench Drenched Salad
 408638 : At Least We Gather for Now
+408639 : Greatsword of Kremnos
 408801 : Dreamy Cone (Three Flavors)
 408802 : Daring Wager
 408803 : {NICKNAME}© BananaPie
+408901 : Treasure-Lover Band
+408902 : Bio-Wave Prospector
+408903 : Jade Claw of Covetousness
+408904 : The Dreamkeeper Tycoon
+408905 : Sky Eyes
 
 
 # Props (Spawnable)
@@ -3508,7 +3737,7 @@
 108 : null
 109 : null
 110 : null
-111 : null
+111 : Investigate
 113 : Echo of War
 114 : null
 115 : null
@@ -3531,6 +3760,7 @@
 140 : null
 141 : null
 142 : null
+143 : null
 211 : null
 217 : null
 218 : null
@@ -3561,8 +3791,11 @@
 918 : null
 919 : null
 920 : null
+921 : null
+922 : null
 923 : null
 924 : null
+925 : null
 1000 : Exit the Simulated Universe
 1001 : Downloader
 1002 : Reviver
@@ -3609,6 +3842,7 @@
 1056 : null
 1057 : null
 1058 : Adventure Game Console
+1059 : null
 1060 : Communing Device
 2000 : Vending Machine
 2001 : Phonograph
@@ -3646,6 +3880,9 @@
 60305 : Bountiful Treasure
 60306 : Precious Treasure
 60307 : Chaos Medicine Box
+60401 : Basic Treasure
+60402 : Bountiful Treasure
+60403 : Precious Treasure
 100000 : Controller
 100001 : Locked Gate
 100002 : Locked Gate
@@ -3736,6 +3973,7 @@
 100095 : Graffiti Zone
 100096 : null
 100097 : null
+100098 : null
 101001 : Controller
 101003 : Controller
 101004 : Locked Gate
@@ -4314,6 +4552,147 @@
 103268 : null
 103269 : null
 103270 : null
+104001 : null
+104002 : null
+104003 : null
+104004 : null
+104005 : null
+104006 : null
+104007 : null
+104008 : null
+104009 : null
+104010 : null
+104011 : null
+104012 : null
+104013 : null
+104014 : null
+104015 : null
+104016 : null
+104017 : null
+104018 : null
+104019 : null
+104020 : null
+104021 : null
+104022 : null
+104023 : null
+104024 : null
+104025 : null
+104026 : null
+104027 : null
+104028 : null
+104029 : null
+104030 : null
+104031 : null
+104032 : null
+104033 : null
+104034 : null
+104035 : null
+104036 : null
+104037 : null
+104038 : null
+104039 : null
+104040 : null
+104041 : null
+104042 : null
+104043 : null
+104044 : null
+104045 : null
+104046 : null
+104050 : null
+104051 : null
+104052 : null
+104053 : null
+104054 : null
+104055 : null
+104056 : null
+104057 : null
+104058 : null
+104059 : null
+104060 : null
+104061 : null
+104063 : null
+104064 : null
+104065 : null
+104066 : null
+104067 : null
+104068 : null
+104069 : null
+104070 : null
+104071 : null
+104072 : null
+104073 : null
+104074 : null
+104075 : null
+104076 : null
+104077 : null
+104078 : null
+104079 : null
+104080 : null
+104081 : null
+104082 : null
+104083 : null
+104084 : null
+104085 : null
+104086 : null
+104087 : null
+104088 : null
+104089 : null
+104090 : null
+104091 : null
+104092 : null
+104093 : null
+104094 : null
+104095 : null
+104096 : null
+104097 : null
+104098 : null
+104099 : null
+104100 : null
+104101 : null
+104102 : null
+104103 : null
+104104 : null
+104106 : null
+104107 : null
+104108 : null
+104109 : null
+104110 : null
+104111 : null
+104112 : null
+104113 : null
+104114 : null
+104116 : null
+104119 : null
+104120 : null
+104121 : null
+104122 : null
+104123 : null
+104124 : null
+104141 : null
+104142 : null
+104143 : null
+104144 : null
+104145 : null
+104146 : null
+104147 : null
+104148 : null
+104149 : null
+104150 : null
+104151 : null
+104152 : null
+104153 : null
+104154 : null
+104157 : null
+104158 : null
+104159 : null
+104160 : null
+104162 : Listen to the Titans' echoes
+104163 : null
+104165 : null
+104169 : null
+104174 : null
+104177 : null
+104196 : null
 300000 : null
 300001 : null
 300002 : null
@@ -4400,6 +4779,36 @@
 9300001 : null
 9300002 : null
 9300003 : null
+9300004 : null
+9300005 : null
+9300006 : null
+9300007 : null
+9300008 : null
+9300009 : null
+9300010 : null
+9300011 : null
+9300012 : null
+9300013 : null
+9300014 : null
+9300015 : null
+9300016 : null
+9300017 : null
+9300018 : null
+9300019 : null
+9300020 : null
+9300021 : null
+9300022 : null
+9300023 : null
+9300024 : null
+9300028 : null
+9300029 : null
+9300030 : null
+9300031 : null
+9300032 : null
+9300035 : null
+9300036 : null
+9300038 : null
+9300046 : null
 9310001 : null
 9310002 : null
 9310003 : null
@@ -4418,7 +4827,7 @@
 1003016 : Silvermane Lieutenant
 1004010 : Cocolia
 1004011 : Cocolia (Complete)
-1004012 : null
+1004012 : Annihilator of Desolation Mistral
 1004020 : Gepard
 1004021 : Gepard (Complete)
 1004030 : Bronya
@@ -4543,6 +4952,14 @@
 3024020 : Stellaron Hunter: Sam
 3024021 : Stellaron Hunter: Sam (Complete)
 3025010 : Cacophonic Conductor
+4012010 : Furiae Warrior
+4012020 : Furiae Philosopher
+4012030 : Furiae Archer
+4012040 : Furiae Troupe
+4013010 : Praetor Furiae
+4014010 : Savage and Mad God, Incarnation of Strife
+4014020 : The Giver, Master of Legions, Lance of Fury
+4043010 : Herta #ErrorModel
 7002010 : Imaginary Weaver
 7003030 : Decaying Shadow
 7010010 : Automaton Spider
@@ -4593,6 +5010,7 @@
 8022010 : Juvenile Sting
 8024010 : Swarm: True Sting (Complete)
 8024011 : Swarm: True Sting
+8025010 : null
 8032010 : Grunt: Field Personnel
 8032020 : Grunt: Security Personnel
 8033010 : Senior Staff: Team Leader
@@ -4893,7 +5311,7 @@
 1204 : [Level 95] Eclipse Wolftrooper
 1205 : [Level 95] Howling Casket
 1206 : [Level 95] Borisin Warhead: Hoolay
-1207 : [Level 95] null
+1207 : [Level 95] Furiae Warrior
 1208 : [Level 95] Shadow of "Feixiao"
 1209 : [Level 95] Ecliptic Inner Beast & Shadow of "Feixiao"
 1210 : [Level 95] Nebula Devourer
@@ -4907,17 +5325,40 @@
 1218 : [Level 95] Abundance Lotus
 1219 : [Level 95] Destruction Lotus
 1220 : [Level 95] Destruction Lotus
-1221 : [Level 95] null
+1221 : [Level 95] Furiae Philosopher
 1222 : [Level 95] Wonder Forest's Banacademic Office Staff
 1223 : [Level 95] Banacademic Office's Assistanana
 1224 : [Level 95] Banacademic Office's Fortune BananAdvisor
 1225 : [Level 95] Banacademic Office's Dreamweaver BananAdvisor
 1226 : [Level 95] Banacademic Office's Charmony BananAdvisor
-1227 : [Level 95] null
-1228 : [Level 95] null
+1227 : [Level 95] Furiae Archer
+1228 : [Level 95] Praetor Furiae
 1229 : [Level 95] Cacophonic Conductor
 1230 : [Level 95] Echo of Faded Dreams
 1231 : [Level 95] null
+1232 : [Level 95] Borisin Warhead: Hoolay (Complete)
+1233 : [Level 95] Blaznana Monkey Trick
+1234 : [Level 95] Banacademic Office's Assistanana
+1235 : [Level 95] Banacademic Office's Fortune BananAdvisor
+1236 : [Level 95] Banacademic Office's Dreamweaver BananAdvisor
+1237 : [Level 95] Cloud Knight Lieutenant: Yanqing (Complete)
+1238 : [Level 95] "Spirithief" Bartholos
+1239 : [Level 95] Furiae Troupe
+1240 : [Level 95] The Giver, Master of Legions, Lance of Fury
+1241 : [Level 95] Savage and Mad God, Incarnation of Strife
+1242 : [Level 95] Sky-Shrouding Stardevourer Swarm
+1243 : [Level 95] Juvenile Sting
+1244 : [Level 95] Lesser Sting
+1245 : [Level 95] Gnaw Sting
+1246 : [Level 95] null
+1247 : [Level 95] null
+1248 : [Level 95] null
+1249 : [Level 95] null
+1250 : [Level 95] null
+1251 : [Level 95] null
+1252 : [Level 95] null
+1253 : [Level 95] null
+1254 : [Level 95] null
 1994 : [Level 95] Automaton Spider
 1995 : [Level 95] Memory Zone Meme "Insatiable Vanity"
 1996 : [Level 95] Dreamjolt Troupe's Mr. Domescreen
@@ -5115,7 +5556,10 @@
 313140 : [Level 80] Silvermane Lieutenant
 313150 : [Level 80] Silvermane Lieutenant
 313170 : [Level 80] Howling Casket
+314010 : [Level 80] Silvermane Lieutenant
+314020 : [Level 80] The Ascended
 380050 : [Level 80] Memory Zone Meme "Shell of Faded Rage"
+380070 : [Level 80] Praetor Furiae
 400000 : [Level 30] Antimatter Legion
 400001 : [Level 30] Antimatter Legion
 400002 : [Level 30] Antimatter Legion
@@ -5204,6 +5648,14 @@
 420192 : [Level 70] Annihilator of Desolation Mistral
 420193 : [Level 80] Annihilator of Desolation Mistral
 420194 : [Level 90] Annihilator of Desolation Mistral
+420201 : [Level 60] Sky-Shrouding Stardevourer Swarm
+420202 : [Level 70] Sky-Shrouding Stardevourer Swarm
+420203 : [Level 80] Sky-Shrouding Stardevourer Swarm
+420204 : [Level 90] Sky-Shrouding Stardevourer Swarm
+420211 : [Level 60] Opportunistic Provocateur
+420212 : [Level 70] Opportunistic Provocateur
+420213 : [Level 80] Opportunistic Provocateur
+420214 : [Level 90] Opportunistic Provocateur
 900009 : [Level 20] Automaton Hound
 900010 : [Level 20] Automaton Hound
 900011 : [Level 20] Automaton Beetle
@@ -5867,6 +6319,27 @@
 1024234 : [Level 62] null
 1024235 : [Level 72] null
 1024236 : [Level 80] null
+1024310 : [Level 16] null
+1024311 : [Level 32] null
+1024312 : [Level 42] null
+1024313 : [Level 52] null
+1024314 : [Level 62] null
+1024315 : [Level 72] null
+1024316 : [Level 80] null
+1024320 : [Level 16] null
+1024321 : [Level 32] null
+1024322 : [Level 42] null
+1024323 : [Level 52] null
+1024324 : [Level 62] null
+1024325 : [Level 72] null
+1024326 : [Level 80] null
+1024330 : [Level 16] null
+1024331 : [Level 32] null
+1024332 : [Level 42] null
+1024333 : [Level 52] null
+1024334 : [Level 62] null
+1024335 : [Level 72] null
+1024336 : [Level 80] null
 1042010 : [Level 21] Automaton Grizzly
 1042011 : [Level 33] Automaton Grizzly
 1042012 : [Level 45] Automaton Grizzly
@@ -5986,6 +6459,13 @@
 1043114 : [Level 66] Howling Casket
 1043115 : [Level 75] Howling Casket
 1043116 : [Level 82] Howling Casket
+1043120 : [Level 21] Praetor Furiae
+1043121 : [Level 33] Praetor Furiae
+1043122 : [Level 45] Praetor Furiae
+1043123 : [Level 56] Praetor Furiae
+1043124 : [Level 66] Praetor Furiae
+1043125 : [Level 75] Praetor Furiae
+1043126 : [Level 82] Praetor Furiae
 1052010 : [Level 35] null
 1052011 : [Level 35] null
 1052012 : [Level 46] null
@@ -8969,6 +9449,41 @@
 4210424 : [Level 55] Fragmentum Monster
 4210425 : [Level 72] Fragmentum Monster
 4210426 : [Level 80] Fragmentum Monster
+4220010 : [Level 30] The Ascended
+4220011 : [Level 40] The Ascended
+4220012 : [Level 50] The Ascended
+4220013 : [Level 59] The Ascended
+4220014 : [Level 68] The Ascended
+4220015 : [Level 80] The Ascended
+4220016 : [Level 86] The Ascended
+4220020 : [Level 30] The Ascended
+4220021 : [Level 40] The Ascended
+4220022 : [Level 50] The Ascended
+4220023 : [Level 59] The Ascended
+4220024 : [Level 68] The Ascended
+4220025 : [Level 80] The Ascended
+4220026 : [Level 86] The Ascended
+4220030 : [Level 30] The Ascended
+4220031 : [Level 40] The Ascended
+4220032 : [Level 50] The Ascended
+4220033 : [Level 59] The Ascended
+4220034 : [Level 68] The Ascended
+4220035 : [Level 80] The Ascended
+4220036 : [Level 86] The Ascended
+4220040 : [Level 30] The Ascended
+4220041 : [Level 40] The Ascended
+4220042 : [Level 50] The Ascended
+4220043 : [Level 59] The Ascended
+4220044 : [Level 68] The Ascended
+4220045 : [Level 80] The Ascended
+4220046 : [Level 86] The Ascended
+4220050 : [Level 30] The Ascended
+4220051 : [Level 40] The Ascended
+4220052 : [Level 50] The Ascended
+4220053 : [Level 59] The Ascended
+4220054 : [Level 68] The Ascended
+4220055 : [Level 80] The Ascended
+4220056 : [Level 86] The Ascended
 9000010 : [Level 25] Automaton Spider
 9000011 : [Level 25] Automaton Spider
 9000012 : [Level 25] Automaton Spider
@@ -10473,8 +10988,32 @@
 30110102 : [Level 90] Cocolia
 30110111 : [Level 92] Stellaron Hunter: Kafka
 30110112 : [Level 92] Stellaron Hunter: Sam
-30110121 : [Level 95] Svarog
+30110121 : [Level 95] Borisin Warhead: Hoolay
 30110122 : [Level 95] Swarm: True Sting
+30111011 : [Level 68] Automaton Grizzly
+30111012 : [Level 68] Decaying Shadow
+30111021 : [Level 70] "Past Confined and Caged"
+30111022 : [Level 70] Aurumaton Gatekeeper
+30111031 : [Level 73] Howling Casket
+30111032 : [Level 73] Argenti
+30111041 : [Level 75] Praetor Furiae
+30111042 : [Level 75] Dreamjolt Troupe's Sweet Gorilla
+30111051 : [Level 78] Senior Staff: Team Leader
+30111052 : [Level 78] Borisin Warhead: Hoolay
+30111061 : [Level 80] Automaton Grizzly
+30111062 : [Level 80] Decaying Shadow
+30111071 : [Level 82] "Past Confined and Caged"
+30111072 : [Level 82] Aurumaton Gatekeeper
+30111081 : [Level 85] Howling Casket
+30111082 : [Level 85] Argenti
+30111091 : [Level 88] Praetor Furiae
+30111092 : [Level 88] Dreamjolt Troupe's Sweet Gorilla
+30111101 : [Level 90] Savage and Mad God, Incarnation of Strife
+30111102 : [Level 90] Borisin Warhead: Hoolay
+30111111 : [Level 92] Ten Stonehearts: Aventurine of Stratagems
+30111112 : [Level 92] Wonder Forest's Banacademic Office Staff
+30111121 : [Level 95] Swarm: True Sting
+30111122 : [Level 95] Savage and Mad God, Incarnation of Strife
 30301011 : [Level 55] Silvermane Lieutenant
 30301012 : [Level 55] Decaying Shadow
 30301021 : [Level 65] Ice Out of Space
@@ -10547,6 +11086,14 @@
 30309032 : [Level 75] Aurumaton Spectral Envoy
 30309041 : [Level 85] Gepard
 30309042 : [Level 85] Abundant Ebon Deer
+30310011 : [Level 55] Senior Staff: Team Leader
+30310012 : [Level 55] Dreamjolt Troupe's Sweet Gorilla
+30310021 : [Level 65] The Ascended
+30310022 : [Level 65] Aurumaton Spectral Envoy
+30310031 : [Level 75] Senior Staff: Team Leader
+30310032 : [Level 75] Dreamjolt Troupe's Sweet Gorilla
+30310041 : [Level 85] Cocolia
+30310042 : [Level 85] Argenti
 43103001 : [Level 2] Aether Spirit
 43103002 : [Level 3] Aether Spirit
 43103003 : [Level 4] Aether Spirit
@@ -14893,6 +15440,13 @@
 201342244 : [Level 67] null
 201342245 : [Level 76] null
 201342246 : [Level 82] null
+201342260 : [Level 18] Silvermane Guard
+201342261 : [Level 32] Silvermane Guard
+201342262 : [Level 42] Silvermane Guard
+201342263 : [Level 52] Silvermane Guard
+201342264 : [Level 62] Silvermane Guard
+201342265 : [Level 71] Silvermane Guard
+201342266 : [Level 78] Silvermane Guard
 201342310 : [Level 41] Decaying Shadow
 201342311 : [Level 41] Decaying Shadow
 201342312 : [Level 48] Decaying Shadow
@@ -21550,6 +22104,1903 @@
 203412424 : [Level 67] Lordly Trashcan
 203412425 : [Level 76] Lordly Trashcan
 203412426 : [Level 82] Lordly Trashcan
+204110010 : [Level 26] Titankin
+204110011 : [Level 35] Titankin
+204110012 : [Level 42] Titankin
+204110013 : [Level 53] Titankin
+204110014 : [Level 63] Titankin
+204110015 : [Level 75] Titankin
+204110016 : [Level 88] Titankin
+204110020 : [Level 26] Titankin
+204110021 : [Level 35] Titankin
+204110022 : [Level 42] Titankin
+204110023 : [Level 53] Titankin
+204110024 : [Level 63] Titankin
+204110025 : [Level 75] Titankin
+204110026 : [Level 88] Titankin
+204110030 : [Level 26] Titankin
+204110031 : [Level 35] Titankin
+204110032 : [Level 42] Titankin
+204110033 : [Level 53] Titankin
+204110034 : [Level 63] Titankin
+204110035 : [Level 75] Titankin
+204110036 : [Level 88] Titankin
+204110040 : [Level 26] Titankin
+204110041 : [Level 35] Titankin
+204110042 : [Level 42] Titankin
+204110043 : [Level 53] Titankin
+204110044 : [Level 63] Titankin
+204110045 : [Level 75] Titankin
+204110046 : [Level 88] Titankin
+204110050 : [Level 26] Titankin
+204110051 : [Level 35] Titankin
+204110052 : [Level 42] Titankin
+204110053 : [Level 53] Titankin
+204110054 : [Level 63] Titankin
+204110055 : [Level 75] Titankin
+204110056 : [Level 88] Titankin
+204110060 : [Level 26] Titankin
+204110061 : [Level 35] Titankin
+204110062 : [Level 42] Titankin
+204110063 : [Level 53] Titankin
+204110064 : [Level 63] Titankin
+204110065 : [Level 75] Titankin
+204110066 : [Level 88] Titankin
+204110070 : [Level 26] Titankin
+204110071 : [Level 35] Titankin
+204110072 : [Level 42] Titankin
+204110073 : [Level 53] Titankin
+204110074 : [Level 63] Titankin
+204110075 : [Level 75] Titankin
+204110076 : [Level 88] Titankin
+204110080 : [Level 26] Titankin
+204110081 : [Level 35] Titankin
+204110082 : [Level 42] Titankin
+204110083 : [Level 53] Titankin
+204110084 : [Level 63] Titankin
+204110085 : [Level 75] Titankin
+204110086 : [Level 88] Titankin
+204110090 : [Level 26] Titankin
+204110091 : [Level 35] Titankin
+204110092 : [Level 42] Titankin
+204110093 : [Level 53] Titankin
+204110094 : [Level 63] Titankin
+204110095 : [Level 75] Titankin
+204110096 : [Level 88] Titankin
+204110100 : [Level 26] Titankin
+204110101 : [Level 35] Titankin
+204110102 : [Level 42] Titankin
+204110103 : [Level 53] Titankin
+204110104 : [Level 63] Titankin
+204110105 : [Level 75] Titankin
+204110106 : [Level 88] Titankin
+204110110 : [Level 26] Titankin
+204110111 : [Level 35] Titankin
+204110112 : [Level 42] Titankin
+204110113 : [Level 53] Titankin
+204110114 : [Level 63] Titankin
+204110115 : [Level 75] Titankin
+204110116 : [Level 88] Titankin
+204110120 : [Level 26] Titankin
+204110121 : [Level 35] Titankin
+204110122 : [Level 42] Titankin
+204110123 : [Level 53] Titankin
+204110124 : [Level 63] Titankin
+204110125 : [Level 75] Titankin
+204110126 : [Level 88] Titankin
+204110140 : [Level 26] Titankin
+204110141 : [Level 35] Titankin
+204110142 : [Level 42] Titankin
+204110143 : [Level 53] Titankin
+204110144 : [Level 63] Titankin
+204110145 : [Level 75] Titankin
+204110146 : [Level 88] Titankin
+204110150 : [Level 26] Titankin
+204110151 : [Level 35] Titankin
+204110152 : [Level 42] Titankin
+204110153 : [Level 53] Titankin
+204110154 : [Level 63] Titankin
+204110155 : [Level 75] Titankin
+204110156 : [Level 88] Titankin
+204110160 : [Level 26] Titankin
+204110161 : [Level 35] Titankin
+204110162 : [Level 42] Titankin
+204110163 : [Level 53] Titankin
+204110164 : [Level 63] Titankin
+204110165 : [Level 75] Titankin
+204110166 : [Level 88] Titankin
+204110170 : [Level 26] Titankin
+204110171 : [Level 35] Titankin
+204110172 : [Level 42] Titankin
+204110173 : [Level 53] Titankin
+204110174 : [Level 63] Titankin
+204110175 : [Level 75] Titankin
+204110176 : [Level 88] Titankin
+204110180 : [Level 26] Titankin
+204110181 : [Level 35] Titankin
+204110182 : [Level 42] Titankin
+204110183 : [Level 53] Titankin
+204110184 : [Level 63] Titankin
+204110185 : [Level 75] Titankin
+204110186 : [Level 88] Titankin
+204110190 : [Level 26] Titankin
+204110191 : [Level 35] Titankin
+204110192 : [Level 42] Titankin
+204110193 : [Level 53] Titankin
+204110194 : [Level 63] Titankin
+204110195 : [Level 75] Titankin
+204110196 : [Level 88] Titankin
+204110200 : [Level 26] Titankin
+204110201 : [Level 35] Titankin
+204110202 : [Level 42] Titankin
+204110203 : [Level 53] Titankin
+204110204 : [Level 63] Titankin
+204110205 : [Level 75] Titankin
+204110206 : [Level 88] Titankin
+204110210 : [Level 26] Titankin
+204110211 : [Level 35] Titankin
+204110212 : [Level 42] Titankin
+204110213 : [Level 53] Titankin
+204110214 : [Level 63] Titankin
+204110215 : [Level 75] Titankin
+204110216 : [Level 88] Titankin
+204110220 : [Level 26] Titankin
+204110221 : [Level 35] Titankin
+204110222 : [Level 42] Titankin
+204110223 : [Level 53] Titankin
+204110224 : [Level 63] Titankin
+204110225 : [Level 75] Titankin
+204110226 : [Level 88] Titankin
+204110230 : [Level 26] Titankin
+204110231 : [Level 35] Titankin
+204110232 : [Level 42] Titankin
+204110233 : [Level 53] Titankin
+204110234 : [Level 63] Titankin
+204110235 : [Level 75] Titankin
+204110236 : [Level 88] Titankin
+204110240 : [Level 26] Titankin
+204110241 : [Level 35] Titankin
+204110242 : [Level 42] Titankin
+204110243 : [Level 53] Titankin
+204110244 : [Level 63] Titankin
+204110245 : [Level 75] Titankin
+204110246 : [Level 88] Titankin
+204110250 : [Level 26] Titankin
+204110251 : [Level 35] Titankin
+204110252 : [Level 42] Titankin
+204110253 : [Level 53] Titankin
+204110254 : [Level 63] Titankin
+204110255 : [Level 75] Titankin
+204110256 : [Level 88] Titankin
+204110260 : [Level 26] Titankin
+204110261 : [Level 35] Titankin
+204110262 : [Level 42] Titankin
+204110263 : [Level 53] Titankin
+204110264 : [Level 63] Titankin
+204110265 : [Level 75] Titankin
+204110266 : [Level 88] Titankin
+204110270 : [Level 26] Titankin
+204110271 : [Level 35] Titankin
+204110272 : [Level 42] Titankin
+204110273 : [Level 53] Titankin
+204110274 : [Level 63] Titankin
+204110275 : [Level 75] Titankin
+204110276 : [Level 88] Titankin
+204110280 : [Level 26] Titankin
+204110281 : [Level 35] Titankin
+204110282 : [Level 42] Titankin
+204110283 : [Level 53] Titankin
+204110284 : [Level 63] Titankin
+204110285 : [Level 75] Titankin
+204110286 : [Level 88] Titankin
+204110290 : [Level 26] Titankin
+204110291 : [Level 35] Titankin
+204110292 : [Level 42] Titankin
+204110293 : [Level 53] Titankin
+204110294 : [Level 63] Titankin
+204110295 : [Level 75] Titankin
+204110296 : [Level 88] Titankin
+204110300 : [Level 26] Titankin
+204110301 : [Level 35] Titankin
+204110302 : [Level 42] Titankin
+204110303 : [Level 53] Titankin
+204110304 : [Level 63] Titankin
+204110305 : [Level 75] Titankin
+204110306 : [Level 88] Titankin
+204110310 : [Level 26] Titankin
+204110311 : [Level 35] Titankin
+204110312 : [Level 42] Titankin
+204110313 : [Level 53] Titankin
+204110314 : [Level 63] Titankin
+204110315 : [Level 75] Titankin
+204110316 : [Level 88] Titankin
+204110320 : [Level 26] Titankin
+204110321 : [Level 35] Titankin
+204110322 : [Level 42] Titankin
+204110323 : [Level 53] Titankin
+204110324 : [Level 63] Titankin
+204110325 : [Level 75] Titankin
+204110326 : [Level 88] Titankin
+204110330 : [Level 26] Titankin
+204110331 : [Level 35] Titankin
+204110332 : [Level 42] Titankin
+204110333 : [Level 53] Titankin
+204110334 : [Level 63] Titankin
+204110335 : [Level 75] Titankin
+204110336 : [Level 88] Titankin
+204110340 : [Level 26] Titankin
+204110341 : [Level 35] Titankin
+204110342 : [Level 42] Titankin
+204110343 : [Level 53] Titankin
+204110344 : [Level 63] Titankin
+204110345 : [Level 75] Titankin
+204110346 : [Level 88] Titankin
+204110350 : [Level 26] Titankin
+204110351 : [Level 35] Titankin
+204110352 : [Level 42] Titankin
+204110353 : [Level 53] Titankin
+204110354 : [Level 63] Titankin
+204110355 : [Level 75] Titankin
+204110356 : [Level 88] Titankin
+204110360 : [Level 26] Titankin
+204110361 : [Level 35] Titankin
+204110362 : [Level 42] Titankin
+204110363 : [Level 53] Titankin
+204110364 : [Level 63] Titankin
+204110365 : [Level 75] Titankin
+204110366 : [Level 88] Titankin
+204110370 : [Level 26] Titankin
+204110371 : [Level 35] Titankin
+204110372 : [Level 42] Titankin
+204110373 : [Level 53] Titankin
+204110374 : [Level 63] Titankin
+204110375 : [Level 75] Titankin
+204110376 : [Level 88] Titankin
+204110380 : [Level 26] Titankin
+204110381 : [Level 35] Titankin
+204110382 : [Level 42] Titankin
+204110383 : [Level 53] Titankin
+204110384 : [Level 63] Titankin
+204110385 : [Level 75] Titankin
+204110386 : [Level 88] Titankin
+204110390 : [Level 26] Titankin
+204110391 : [Level 35] Titankin
+204110392 : [Level 42] Titankin
+204110393 : [Level 53] Titankin
+204110394 : [Level 63] Titankin
+204110395 : [Level 75] Titankin
+204110396 : [Level 88] Titankin
+204110410 : [Level 26] null
+204110411 : [Level 35] null
+204110412 : [Level 42] null
+204110413 : [Level 53] null
+204110414 : [Level 63] null
+204110415 : [Level 75] null
+204110416 : [Level 88] null
+204110420 : [Level 26] null
+204110421 : [Level 35] null
+204110422 : [Level 42] null
+204110423 : [Level 53] null
+204110424 : [Level 63] null
+204110425 : [Level 75] null
+204110426 : [Level 88] null
+204110450 : [Level 26] null
+204110451 : [Level 35] null
+204110452 : [Level 42] null
+204110453 : [Level 53] null
+204110454 : [Level 63] null
+204110455 : [Level 75] null
+204110456 : [Level 88] null
+204110500 : [Level 26] null
+204110501 : [Level 35] null
+204110502 : [Level 42] null
+204110503 : [Level 53] null
+204110504 : [Level 63] null
+204110505 : [Level 75] null
+204110506 : [Level 88] null
+204110510 : [Level 26] Titankin
+204110511 : [Level 35] Titankin
+204110512 : [Level 42] Titankin
+204110513 : [Level 53] Titankin
+204110514 : [Level 63] Titankin
+204110515 : [Level 75] Titankin
+204110516 : [Level 88] Titankin
+204110520 : [Level 26] Titankin
+204110521 : [Level 35] Titankin
+204110522 : [Level 42] Titankin
+204110523 : [Level 53] Titankin
+204110524 : [Level 63] Titankin
+204110525 : [Level 75] Titankin
+204110526 : [Level 88] Titankin
+204110530 : [Level 26] Titankin
+204110531 : [Level 35] Titankin
+204110532 : [Level 42] Titankin
+204110533 : [Level 53] Titankin
+204110534 : [Level 63] Titankin
+204110535 : [Level 75] Titankin
+204110536 : [Level 88] Titankin
+204110540 : [Level 26] Titankin
+204110541 : [Level 35] Titankin
+204110542 : [Level 42] Titankin
+204110543 : [Level 53] Titankin
+204110544 : [Level 63] Titankin
+204110545 : [Level 75] Titankin
+204110546 : [Level 88] Titankin
+204110580 : [Level 26] null
+204110581 : [Level 35] null
+204110582 : [Level 42] null
+204110583 : [Level 53] null
+204110584 : [Level 63] null
+204110585 : [Level 75] null
+204110586 : [Level 88] null
+204110610 : [Level 26] null
+204110611 : [Level 35] null
+204110612 : [Level 42] null
+204110613 : [Level 53] null
+204110614 : [Level 63] null
+204110615 : [Level 75] null
+204110616 : [Level 88] null
+204110620 : [Level 26] null
+204110621 : [Level 35] null
+204110622 : [Level 42] null
+204110623 : [Level 53] null
+204110624 : [Level 63] null
+204110625 : [Level 75] null
+204110626 : [Level 88] null
+204110660 : [Level 26] Titankin
+204110661 : [Level 35] Titankin
+204110662 : [Level 42] Titankin
+204110663 : [Level 53] Titankin
+204110664 : [Level 63] Titankin
+204110665 : [Level 75] Titankin
+204110666 : [Level 88] Titankin
+204110670 : [Level 26] Titankin
+204110671 : [Level 35] Titankin
+204110672 : [Level 42] Titankin
+204110673 : [Level 53] Titankin
+204110674 : [Level 63] Titankin
+204110675 : [Level 75] Titankin
+204110676 : [Level 88] Titankin
+204110680 : [Level 26] null
+204110681 : [Level 35] null
+204110682 : [Level 42] null
+204110683 : [Level 53] null
+204110684 : [Level 63] null
+204110685 : [Level 75] null
+204110686 : [Level 88] null
+204110700 : [Level 26] null
+204110701 : [Level 35] null
+204110702 : [Level 42] null
+204110703 : [Level 53] null
+204110704 : [Level 63] null
+204110705 : [Level 75] null
+204110706 : [Level 88] null
+204110910 : [Level 26] Titankin
+204110911 : [Level 35] Titankin
+204110912 : [Level 42] Titankin
+204110913 : [Level 53] Titankin
+204110914 : [Level 63] Titankin
+204110915 : [Level 75] Titankin
+204110916 : [Level 88] Titankin
+204110920 : [Level 26] Titankin
+204110921 : [Level 35] Titankin
+204110922 : [Level 42] Titankin
+204110923 : [Level 53] Titankin
+204110924 : [Level 63] Titankin
+204110925 : [Level 75] Titankin
+204110926 : [Level 88] Titankin
+204110930 : [Level 26] Titankin
+204110931 : [Level 35] Titankin
+204110932 : [Level 42] Titankin
+204110933 : [Level 53] Titankin
+204110934 : [Level 63] Titankin
+204110935 : [Level 75] Titankin
+204110936 : [Level 88] Titankin
+204110940 : [Level 26] Titankin
+204110941 : [Level 35] Titankin
+204110942 : [Level 42] Titankin
+204110943 : [Level 53] Titankin
+204110944 : [Level 63] Titankin
+204110945 : [Level 75] Titankin
+204110946 : [Level 88] Titankin
+204110950 : [Level 26] Titankin
+204110951 : [Level 35] Titankin
+204110952 : [Level 42] Titankin
+204110953 : [Level 53] Titankin
+204110954 : [Level 63] Titankin
+204110955 : [Level 75] Titankin
+204110956 : [Level 88] Titankin
+204110960 : [Level 26] Titankin
+204110961 : [Level 35] Titankin
+204110962 : [Level 42] Titankin
+204110963 : [Level 53] Titankin
+204110964 : [Level 63] Titankin
+204110965 : [Level 75] Titankin
+204110966 : [Level 88] Titankin
+204110970 : [Level 26] Titankin
+204110971 : [Level 35] Titankin
+204110972 : [Level 42] Titankin
+204110973 : [Level 53] Titankin
+204110974 : [Level 63] Titankin
+204110975 : [Level 75] Titankin
+204110976 : [Level 88] Titankin
+204110980 : [Level 26] Titankin
+204110981 : [Level 35] Titankin
+204110982 : [Level 42] Titankin
+204110983 : [Level 53] Titankin
+204110984 : [Level 63] Titankin
+204110985 : [Level 75] Titankin
+204110986 : [Level 88] Titankin
+204110990 : [Level 26] Titankin
+204110991 : [Level 35] Titankin
+204110992 : [Level 42] Titankin
+204110993 : [Level 53] Titankin
+204110994 : [Level 63] Titankin
+204110995 : [Level 75] Titankin
+204110996 : [Level 88] Titankin
+204111010 : [Level 26] Titankin
+204111011 : [Level 35] Titankin
+204111012 : [Level 42] Titankin
+204111013 : [Level 53] Titankin
+204111014 : [Level 63] Titankin
+204111015 : [Level 75] Titankin
+204111016 : [Level 88] Titankin
+204111020 : [Level 26] Titankin
+204111021 : [Level 35] Titankin
+204111022 : [Level 42] Titankin
+204111023 : [Level 53] Titankin
+204111024 : [Level 63] Titankin
+204111025 : [Level 75] Titankin
+204111026 : [Level 88] Titankin
+204111030 : [Level 26] Titankin
+204111031 : [Level 35] Titankin
+204111032 : [Level 42] Titankin
+204111033 : [Level 53] Titankin
+204111034 : [Level 63] Titankin
+204111035 : [Level 75] Titankin
+204111036 : [Level 88] Titankin
+204111040 : [Level 26] Titankin
+204111041 : [Level 35] Titankin
+204111042 : [Level 42] Titankin
+204111043 : [Level 53] Titankin
+204111044 : [Level 63] Titankin
+204111045 : [Level 75] Titankin
+204111046 : [Level 88] Titankin
+204111050 : [Level 26] Titankin
+204111051 : [Level 35] Titankin
+204111052 : [Level 42] Titankin
+204111053 : [Level 53] Titankin
+204111054 : [Level 63] Titankin
+204111055 : [Level 75] Titankin
+204111056 : [Level 88] Titankin
+204111060 : [Level 26] Titankin
+204111061 : [Level 35] Titankin
+204111062 : [Level 42] Titankin
+204111063 : [Level 53] Titankin
+204111064 : [Level 63] Titankin
+204111065 : [Level 75] Titankin
+204111066 : [Level 88] Titankin
+204111100 : [Level 26] Titankin
+204111101 : [Level 35] Titankin
+204111102 : [Level 42] Titankin
+204111103 : [Level 53] Titankin
+204111104 : [Level 63] Titankin
+204111105 : [Level 75] Titankin
+204111106 : [Level 88] Titankin
+204111110 : [Level 26] Titankin
+204111111 : [Level 35] Titankin
+204111112 : [Level 42] Titankin
+204111113 : [Level 53] Titankin
+204111114 : [Level 63] Titankin
+204111115 : [Level 75] Titankin
+204111116 : [Level 88] Titankin
+204111120 : [Level 26] Titankin
+204111121 : [Level 35] Titankin
+204111122 : [Level 42] Titankin
+204111123 : [Level 53] Titankin
+204111124 : [Level 63] Titankin
+204111125 : [Level 75] Titankin
+204111126 : [Level 88] Titankin
+204111130 : [Level 26] Titankin
+204111131 : [Level 35] Titankin
+204111132 : [Level 42] Titankin
+204111133 : [Level 53] Titankin
+204111134 : [Level 63] Titankin
+204111135 : [Level 75] Titankin
+204111136 : [Level 88] Titankin
+204111140 : [Level 26] Titankin
+204111141 : [Level 35] Titankin
+204111142 : [Level 42] Titankin
+204111143 : [Level 53] Titankin
+204111144 : [Level 63] Titankin
+204111145 : [Level 75] Titankin
+204111146 : [Level 88] Titankin
+204111150 : [Level 26] Titankin
+204111151 : [Level 35] Titankin
+204111152 : [Level 42] Titankin
+204111153 : [Level 53] Titankin
+204111154 : [Level 63] Titankin
+204111155 : [Level 75] Titankin
+204111156 : [Level 88] Titankin
+204111160 : [Level 26] Titankin
+204111161 : [Level 35] Titankin
+204111162 : [Level 42] Titankin
+204111163 : [Level 53] Titankin
+204111164 : [Level 63] Titankin
+204111165 : [Level 75] Titankin
+204111166 : [Level 88] Titankin
+204111170 : [Level 26] Titankin
+204111171 : [Level 35] Titankin
+204111172 : [Level 42] Titankin
+204111173 : [Level 53] Titankin
+204111174 : [Level 63] Titankin
+204111175 : [Level 75] Titankin
+204111176 : [Level 88] Titankin
+204111180 : [Level 26] Titankin
+204111181 : [Level 35] Titankin
+204111182 : [Level 42] Titankin
+204111183 : [Level 53] Titankin
+204111184 : [Level 63] Titankin
+204111185 : [Level 75] Titankin
+204111186 : [Level 88] Titankin
+204111190 : [Level 26] Titankin
+204111191 : [Level 35] Titankin
+204111192 : [Level 42] Titankin
+204111193 : [Level 53] Titankin
+204111194 : [Level 63] Titankin
+204111195 : [Level 75] Titankin
+204111196 : [Level 88] Titankin
+204111200 : [Level 26] Titankin
+204111201 : [Level 35] Titankin
+204111202 : [Level 42] Titankin
+204111203 : [Level 53] Titankin
+204111204 : [Level 63] Titankin
+204111205 : [Level 75] Titankin
+204111206 : [Level 88] Titankin
+204111210 : [Level 26] Titankin
+204111211 : [Level 35] Titankin
+204111212 : [Level 42] Titankin
+204111213 : [Level 53] Titankin
+204111214 : [Level 63] Titankin
+204111215 : [Level 75] Titankin
+204111216 : [Level 88] Titankin
+204111220 : [Level 26] Titankin
+204111221 : [Level 35] Titankin
+204111222 : [Level 42] Titankin
+204111223 : [Level 53] Titankin
+204111224 : [Level 63] Titankin
+204111225 : [Level 75] Titankin
+204111226 : [Level 88] Titankin
+204111230 : [Level 26] Titankin
+204111231 : [Level 35] Titankin
+204111232 : [Level 42] Titankin
+204111233 : [Level 53] Titankin
+204111234 : [Level 63] Titankin
+204111235 : [Level 75] Titankin
+204111236 : [Level 88] Titankin
+204111240 : [Level 26] Titankin
+204111241 : [Level 35] Titankin
+204111242 : [Level 42] Titankin
+204111243 : [Level 53] Titankin
+204111244 : [Level 63] Titankin
+204111245 : [Level 75] Titankin
+204111246 : [Level 88] Titankin
+204111260 : [Level 26] Titankin
+204111261 : [Level 35] Titankin
+204111262 : [Level 42] Titankin
+204111263 : [Level 53] Titankin
+204111264 : [Level 63] Titankin
+204111265 : [Level 75] Titankin
+204111266 : [Level 88] Titankin
+204111270 : [Level 26] Titankin
+204111271 : [Level 35] Titankin
+204111272 : [Level 42] Titankin
+204111273 : [Level 53] Titankin
+204111274 : [Level 63] Titankin
+204111275 : [Level 75] Titankin
+204111276 : [Level 88] Titankin
+204111280 : [Level 26] Titankin
+204111281 : [Level 35] Titankin
+204111282 : [Level 42] Titankin
+204111283 : [Level 53] Titankin
+204111284 : [Level 63] Titankin
+204111285 : [Level 75] Titankin
+204111286 : [Level 88] Titankin
+204111290 : [Level 26] Titankin
+204111291 : [Level 35] Titankin
+204111292 : [Level 42] Titankin
+204111293 : [Level 53] Titankin
+204111294 : [Level 63] Titankin
+204111295 : [Level 75] Titankin
+204111296 : [Level 88] Titankin
+204111300 : [Level 26] Titankin
+204111301 : [Level 35] Titankin
+204111302 : [Level 42] Titankin
+204111303 : [Level 53] Titankin
+204111304 : [Level 63] Titankin
+204111305 : [Level 75] Titankin
+204111306 : [Level 88] Titankin
+204111310 : [Level 26] Titankin
+204111311 : [Level 35] Titankin
+204111312 : [Level 42] Titankin
+204111313 : [Level 53] Titankin
+204111314 : [Level 63] Titankin
+204111315 : [Level 75] Titankin
+204111316 : [Level 88] Titankin
+204111320 : [Level 26] Titankin
+204111321 : [Level 35] Titankin
+204111322 : [Level 42] Titankin
+204111323 : [Level 53] Titankin
+204111324 : [Level 63] Titankin
+204111325 : [Level 75] Titankin
+204111326 : [Level 88] Titankin
+204111330 : [Level 26] Titankin
+204111331 : [Level 35] Titankin
+204111332 : [Level 42] Titankin
+204111333 : [Level 53] Titankin
+204111334 : [Level 63] Titankin
+204111335 : [Level 75] Titankin
+204111336 : [Level 88] Titankin
+204111340 : [Level 26] Titankin
+204111341 : [Level 35] Titankin
+204111342 : [Level 42] Titankin
+204111343 : [Level 53] Titankin
+204111344 : [Level 63] Titankin
+204111345 : [Level 75] Titankin
+204111346 : [Level 88] Titankin
+204111350 : [Level 26] Titankin
+204111351 : [Level 35] Titankin
+204111352 : [Level 42] Titankin
+204111353 : [Level 53] Titankin
+204111354 : [Level 63] Titankin
+204111355 : [Level 75] Titankin
+204111356 : [Level 88] Titankin
+204111360 : [Level 26] Titankin
+204111361 : [Level 35] Titankin
+204111362 : [Level 42] Titankin
+204111363 : [Level 53] Titankin
+204111364 : [Level 63] Titankin
+204111365 : [Level 75] Titankin
+204111366 : [Level 88] Titankin
+204111370 : [Level 26] Titankin
+204111371 : [Level 35] Titankin
+204111372 : [Level 42] Titankin
+204111373 : [Level 53] Titankin
+204111374 : [Level 63] Titankin
+204111375 : [Level 75] Titankin
+204111376 : [Level 88] Titankin
+204111380 : [Level 26] Titankin
+204111381 : [Level 35] Titankin
+204111382 : [Level 42] Titankin
+204111383 : [Level 53] Titankin
+204111384 : [Level 63] Titankin
+204111385 : [Level 75] Titankin
+204111386 : [Level 88] Titankin
+204111390 : [Level 26] Titankin
+204111391 : [Level 35] Titankin
+204111392 : [Level 42] Titankin
+204111393 : [Level 53] Titankin
+204111394 : [Level 63] Titankin
+204111395 : [Level 75] Titankin
+204111396 : [Level 88] Titankin
+204111700 : [Level 26] Warp Trotter
+204111701 : [Level 35] Warp Trotter
+204111702 : [Level 42] Warp Trotter
+204111703 : [Level 53] Warp Trotter
+204111704 : [Level 63] Warp Trotter
+204111705 : [Level 75] Warp Trotter
+204111706 : [Level 88] Warp Trotter
+204112310 : [Level 36] Praetor Furiae
+204112311 : [Level 44] Praetor Furiae
+204112312 : [Level 54] Praetor Furiae
+204112313 : [Level 64] Praetor Furiae
+204112314 : [Level 75] Praetor Furiae
+204112315 : [Level 85] Praetor Furiae
+204112316 : [Level 93] Praetor Furiae
+204112410 : [Level 26] "Spirithief" Bartholos
+204112411 : [Level 35] "Spirithief" Bartholos
+204112412 : [Level 42] "Spirithief" Bartholos
+204112413 : [Level 53] "Spirithief" Bartholos
+204112414 : [Level 63] "Spirithief" Bartholos
+204112415 : [Level 75] "Spirithief" Bartholos
+204112416 : [Level 88] "Spirithief" Bartholos
+204112420 : [Level 26] "Spirithief" Bartholos
+204112421 : [Level 35] "Spirithief" Bartholos
+204112422 : [Level 42] "Spirithief" Bartholos
+204112423 : [Level 53] "Spirithief" Bartholos
+204112424 : [Level 63] "Spirithief" Bartholos
+204112425 : [Level 75] "Spirithief" Bartholos
+204112426 : [Level 88] "Spirithief" Bartholos
+204112430 : [Level 26] "Spirithief" Bartholos
+204112431 : [Level 35] "Spirithief" Bartholos
+204112432 : [Level 42] "Spirithief" Bartholos
+204112433 : [Level 53] "Spirithief" Bartholos
+204112434 : [Level 63] "Spirithief" Bartholos
+204112435 : [Level 75] "Spirithief" Bartholos
+204112436 : [Level 88] "Spirithief" Bartholos
+204112440 : [Level 26] "Spirithief" Bartholos
+204112441 : [Level 35] "Spirithief" Bartholos
+204112442 : [Level 42] "Spirithief" Bartholos
+204112443 : [Level 53] "Spirithief" Bartholos
+204112444 : [Level 63] "Spirithief" Bartholos
+204112445 : [Level 75] "Spirithief" Bartholos
+204112446 : [Level 88] "Spirithief" Bartholos
+204120010 : [Level 26] Titankin
+204120011 : [Level 35] Titankin
+204120012 : [Level 42] Titankin
+204120013 : [Level 53] Titankin
+204120014 : [Level 63] Titankin
+204120015 : [Level 75] Titankin
+204120016 : [Level 88] Titankin
+204120020 : [Level 26] Titankin
+204120021 : [Level 35] Titankin
+204120022 : [Level 42] Titankin
+204120023 : [Level 53] Titankin
+204120024 : [Level 63] Titankin
+204120025 : [Level 75] Titankin
+204120026 : [Level 88] Titankin
+204120030 : [Level 26] Titankin
+204120031 : [Level 35] Titankin
+204120032 : [Level 42] Titankin
+204120033 : [Level 53] Titankin
+204120034 : [Level 63] Titankin
+204120035 : [Level 75] Titankin
+204120036 : [Level 88] Titankin
+204120040 : [Level 26] Titankin
+204120041 : [Level 35] Titankin
+204120042 : [Level 42] Titankin
+204120043 : [Level 53] Titankin
+204120044 : [Level 63] Titankin
+204120045 : [Level 75] Titankin
+204120046 : [Level 88] Titankin
+204120080 : [Level 26] Titankin
+204120081 : [Level 35] Titankin
+204120082 : [Level 42] Titankin
+204120083 : [Level 53] Titankin
+204120084 : [Level 63] Titankin
+204120085 : [Level 75] Titankin
+204120086 : [Level 88] Titankin
+204120090 : [Level 26] Titankin
+204120091 : [Level 35] Titankin
+204120092 : [Level 42] Titankin
+204120093 : [Level 53] Titankin
+204120094 : [Level 63] Titankin
+204120095 : [Level 75] Titankin
+204120096 : [Level 88] Titankin
+204120100 : [Level 26] Titankin
+204120101 : [Level 35] Titankin
+204120102 : [Level 42] Titankin
+204120103 : [Level 53] Titankin
+204120104 : [Level 63] Titankin
+204120105 : [Level 75] Titankin
+204120106 : [Level 88] Titankin
+204120110 : [Level 26] Titankin
+204120111 : [Level 35] Titankin
+204120112 : [Level 42] Titankin
+204120113 : [Level 53] Titankin
+204120114 : [Level 63] Titankin
+204120115 : [Level 75] Titankin
+204120116 : [Level 88] Titankin
+204120120 : [Level 26] Titankin
+204120121 : [Level 35] Titankin
+204120122 : [Level 42] Titankin
+204120123 : [Level 53] Titankin
+204120124 : [Level 63] Titankin
+204120125 : [Level 75] Titankin
+204120126 : [Level 88] Titankin
+204120150 : [Level 26] Titankin
+204120151 : [Level 35] Titankin
+204120152 : [Level 42] Titankin
+204120153 : [Level 53] Titankin
+204120154 : [Level 63] Titankin
+204120155 : [Level 75] Titankin
+204120156 : [Level 88] Titankin
+204120160 : [Level 26] Titankin
+204120161 : [Level 35] Titankin
+204120162 : [Level 42] Titankin
+204120163 : [Level 53] Titankin
+204120164 : [Level 63] Titankin
+204120165 : [Level 75] Titankin
+204120166 : [Level 88] Titankin
+204120170 : [Level 26] Titankin
+204120171 : [Level 35] Titankin
+204120172 : [Level 42] Titankin
+204120173 : [Level 53] Titankin
+204120174 : [Level 63] Titankin
+204120175 : [Level 75] Titankin
+204120176 : [Level 88] Titankin
+204120210 : [Level 26] Titankin
+204120211 : [Level 35] Titankin
+204120212 : [Level 42] Titankin
+204120213 : [Level 53] Titankin
+204120214 : [Level 63] Titankin
+204120215 : [Level 75] Titankin
+204120216 : [Level 88] Titankin
+204120220 : [Level 26] Titankin
+204120221 : [Level 35] Titankin
+204120222 : [Level 42] Titankin
+204120223 : [Level 53] Titankin
+204120224 : [Level 63] Titankin
+204120225 : [Level 75] Titankin
+204120226 : [Level 88] Titankin
+204120230 : [Level 26] Titankin
+204120231 : [Level 35] Titankin
+204120232 : [Level 42] Titankin
+204120233 : [Level 53] Titankin
+204120234 : [Level 63] Titankin
+204120235 : [Level 75] Titankin
+204120236 : [Level 88] Titankin
+204120240 : [Level 26] Titankin
+204120241 : [Level 35] Titankin
+204120242 : [Level 42] Titankin
+204120243 : [Level 53] Titankin
+204120244 : [Level 63] Titankin
+204120245 : [Level 75] Titankin
+204120246 : [Level 88] Titankin
+204120250 : [Level 26] Titankin
+204120251 : [Level 35] Titankin
+204120252 : [Level 42] Titankin
+204120253 : [Level 53] Titankin
+204120254 : [Level 63] Titankin
+204120255 : [Level 75] Titankin
+204120256 : [Level 88] Titankin
+204120260 : [Level 26] Titankin
+204120261 : [Level 35] Titankin
+204120262 : [Level 42] Titankin
+204120263 : [Level 53] Titankin
+204120264 : [Level 63] Titankin
+204120265 : [Level 75] Titankin
+204120266 : [Level 88] Titankin
+204120310 : [Level 26] Titankin
+204120311 : [Level 35] Titankin
+204120312 : [Level 42] Titankin
+204120313 : [Level 53] Titankin
+204120314 : [Level 63] Titankin
+204120315 : [Level 75] Titankin
+204120316 : [Level 88] Titankin
+204120320 : [Level 26] Titankin
+204120321 : [Level 35] Titankin
+204120322 : [Level 42] Titankin
+204120323 : [Level 53] Titankin
+204120324 : [Level 63] Titankin
+204120325 : [Level 75] Titankin
+204120326 : [Level 88] Titankin
+204120330 : [Level 26] Titankin
+204120331 : [Level 35] Titankin
+204120332 : [Level 42] Titankin
+204120333 : [Level 53] Titankin
+204120334 : [Level 63] Titankin
+204120335 : [Level 75] Titankin
+204120336 : [Level 88] Titankin
+204120340 : [Level 26] Titankin
+204120341 : [Level 35] Titankin
+204120342 : [Level 42] Titankin
+204120343 : [Level 53] Titankin
+204120344 : [Level 63] Titankin
+204120345 : [Level 75] Titankin
+204120346 : [Level 88] Titankin
+204120350 : [Level 26] Titankin
+204120351 : [Level 35] Titankin
+204120352 : [Level 42] Titankin
+204120353 : [Level 53] Titankin
+204120354 : [Level 63] Titankin
+204120355 : [Level 75] Titankin
+204120356 : [Level 88] Titankin
+204120360 : [Level 26] Titankin
+204120361 : [Level 35] Titankin
+204120362 : [Level 42] Titankin
+204120363 : [Level 53] Titankin
+204120364 : [Level 63] Titankin
+204120365 : [Level 75] Titankin
+204120366 : [Level 88] Titankin
+204120370 : [Level 26] Titankin
+204120371 : [Level 35] Titankin
+204120372 : [Level 42] Titankin
+204120373 : [Level 53] Titankin
+204120374 : [Level 63] Titankin
+204120375 : [Level 75] Titankin
+204120376 : [Level 88] Titankin
+204120380 : [Level 26] Titankin
+204120381 : [Level 35] Titankin
+204120382 : [Level 42] Titankin
+204120383 : [Level 53] Titankin
+204120384 : [Level 63] Titankin
+204120385 : [Level 75] Titankin
+204120386 : [Level 88] Titankin
+204120390 : [Level 26] Titankin
+204120391 : [Level 35] Titankin
+204120392 : [Level 42] Titankin
+204120393 : [Level 53] Titankin
+204120394 : [Level 63] Titankin
+204120395 : [Level 75] Titankin
+204120396 : [Level 88] Titankin
+204120400 : [Level 26] Titankin
+204120401 : [Level 35] Titankin
+204120402 : [Level 42] Titankin
+204120403 : [Level 53] Titankin
+204120404 : [Level 63] Titankin
+204120405 : [Level 75] Titankin
+204120406 : [Level 88] Titankin
+204120610 : [Level 26] null
+204120611 : [Level 35] null
+204120612 : [Level 42] null
+204120613 : [Level 53] null
+204120614 : [Level 63] null
+204120615 : [Level 75] null
+204120616 : [Level 88] null
+204120710 : [Level 26] null
+204120711 : [Level 35] null
+204120712 : [Level 42] null
+204120713 : [Level 53] null
+204120714 : [Level 63] null
+204120715 : [Level 75] null
+204120716 : [Level 88] null
+204120720 : [Level 26] null
+204120721 : [Level 35] null
+204120722 : [Level 42] null
+204120723 : [Level 53] null
+204120724 : [Level 63] null
+204120725 : [Level 75] null
+204120726 : [Level 88] null
+204121010 : [Level 26] Titankin
+204121011 : [Level 35] Titankin
+204121012 : [Level 42] Titankin
+204121013 : [Level 53] Titankin
+204121014 : [Level 63] Titankin
+204121015 : [Level 75] Titankin
+204121016 : [Level 88] Titankin
+204121020 : [Level 26] Titankin
+204121021 : [Level 35] Titankin
+204121022 : [Level 42] Titankin
+204121023 : [Level 53] Titankin
+204121024 : [Level 63] Titankin
+204121025 : [Level 75] Titankin
+204121026 : [Level 88] Titankin
+204121030 : [Level 26] Titankin
+204121031 : [Level 35] Titankin
+204121032 : [Level 42] Titankin
+204121033 : [Level 53] Titankin
+204121034 : [Level 63] Titankin
+204121035 : [Level 75] Titankin
+204121036 : [Level 88] Titankin
+204121040 : [Level 26] Titankin
+204121041 : [Level 35] Titankin
+204121042 : [Level 42] Titankin
+204121043 : [Level 53] Titankin
+204121044 : [Level 63] Titankin
+204121045 : [Level 75] Titankin
+204121046 : [Level 88] Titankin
+204121080 : [Level 26] Titankin
+204121081 : [Level 35] Titankin
+204121082 : [Level 42] Titankin
+204121083 : [Level 53] Titankin
+204121084 : [Level 63] Titankin
+204121085 : [Level 75] Titankin
+204121086 : [Level 88] Titankin
+204121090 : [Level 26] Titankin
+204121091 : [Level 35] Titankin
+204121092 : [Level 42] Titankin
+204121093 : [Level 53] Titankin
+204121094 : [Level 63] Titankin
+204121095 : [Level 75] Titankin
+204121096 : [Level 88] Titankin
+204121100 : [Level 26] Titankin
+204121101 : [Level 35] Titankin
+204121102 : [Level 42] Titankin
+204121103 : [Level 53] Titankin
+204121104 : [Level 63] Titankin
+204121105 : [Level 75] Titankin
+204121106 : [Level 88] Titankin
+204121110 : [Level 26] Titankin
+204121111 : [Level 35] Titankin
+204121112 : [Level 42] Titankin
+204121113 : [Level 53] Titankin
+204121114 : [Level 63] Titankin
+204121115 : [Level 75] Titankin
+204121116 : [Level 88] Titankin
+204121120 : [Level 26] Titankin
+204121121 : [Level 35] Titankin
+204121122 : [Level 42] Titankin
+204121123 : [Level 53] Titankin
+204121124 : [Level 63] Titankin
+204121125 : [Level 75] Titankin
+204121126 : [Level 88] Titankin
+204121150 : [Level 26] Titankin
+204121151 : [Level 35] Titankin
+204121152 : [Level 42] Titankin
+204121153 : [Level 53] Titankin
+204121154 : [Level 63] Titankin
+204121155 : [Level 75] Titankin
+204121156 : [Level 88] Titankin
+204121160 : [Level 26] Titankin
+204121161 : [Level 35] Titankin
+204121162 : [Level 42] Titankin
+204121163 : [Level 53] Titankin
+204121164 : [Level 63] Titankin
+204121165 : [Level 75] Titankin
+204121166 : [Level 88] Titankin
+204121180 : [Level 26] Titankin
+204121181 : [Level 35] Titankin
+204121182 : [Level 42] Titankin
+204121183 : [Level 53] Titankin
+204121184 : [Level 63] Titankin
+204121185 : [Level 75] Titankin
+204121186 : [Level 88] Titankin
+204121210 : [Level 26] Titankin
+204121211 : [Level 35] Titankin
+204121212 : [Level 42] Titankin
+204121213 : [Level 53] Titankin
+204121214 : [Level 63] Titankin
+204121215 : [Level 75] Titankin
+204121216 : [Level 88] Titankin
+204121220 : [Level 26] Titankin
+204121221 : [Level 35] Titankin
+204121222 : [Level 42] Titankin
+204121223 : [Level 53] Titankin
+204121224 : [Level 63] Titankin
+204121225 : [Level 75] Titankin
+204121226 : [Level 88] Titankin
+204121230 : [Level 26] Titankin
+204121231 : [Level 35] Titankin
+204121232 : [Level 42] Titankin
+204121233 : [Level 53] Titankin
+204121234 : [Level 63] Titankin
+204121235 : [Level 75] Titankin
+204121236 : [Level 88] Titankin
+204121240 : [Level 26] Titankin
+204121241 : [Level 35] Titankin
+204121242 : [Level 42] Titankin
+204121243 : [Level 53] Titankin
+204121244 : [Level 63] Titankin
+204121245 : [Level 75] Titankin
+204121246 : [Level 88] Titankin
+204121250 : [Level 26] Titankin
+204121251 : [Level 35] Titankin
+204121252 : [Level 42] Titankin
+204121253 : [Level 53] Titankin
+204121254 : [Level 63] Titankin
+204121255 : [Level 75] Titankin
+204121256 : [Level 88] Titankin
+204121260 : [Level 26] Titankin
+204121261 : [Level 35] Titankin
+204121262 : [Level 42] Titankin
+204121263 : [Level 53] Titankin
+204121264 : [Level 63] Titankin
+204121265 : [Level 75] Titankin
+204121266 : [Level 88] Titankin
+204121310 : [Level 26] Titankin
+204121311 : [Level 35] Titankin
+204121312 : [Level 42] Titankin
+204121313 : [Level 53] Titankin
+204121314 : [Level 63] Titankin
+204121315 : [Level 75] Titankin
+204121316 : [Level 88] Titankin
+204121320 : [Level 26] Titankin
+204121321 : [Level 35] Titankin
+204121322 : [Level 42] Titankin
+204121323 : [Level 53] Titankin
+204121324 : [Level 63] Titankin
+204121325 : [Level 75] Titankin
+204121326 : [Level 88] Titankin
+204121330 : [Level 26] Titankin
+204121331 : [Level 35] Titankin
+204121332 : [Level 42] Titankin
+204121333 : [Level 53] Titankin
+204121334 : [Level 63] Titankin
+204121335 : [Level 75] Titankin
+204121336 : [Level 88] Titankin
+204121340 : [Level 26] Titankin
+204121341 : [Level 35] Titankin
+204121342 : [Level 42] Titankin
+204121343 : [Level 53] Titankin
+204121344 : [Level 63] Titankin
+204121345 : [Level 75] Titankin
+204121346 : [Level 88] Titankin
+204121350 : [Level 26] Titankin
+204121351 : [Level 35] Titankin
+204121352 : [Level 42] Titankin
+204121353 : [Level 53] Titankin
+204121354 : [Level 63] Titankin
+204121355 : [Level 75] Titankin
+204121356 : [Level 88] Titankin
+204121360 : [Level 26] Titankin
+204121361 : [Level 35] Titankin
+204121362 : [Level 42] Titankin
+204121363 : [Level 53] Titankin
+204121364 : [Level 63] Titankin
+204121365 : [Level 75] Titankin
+204121366 : [Level 88] Titankin
+204121370 : [Level 26] Titankin
+204121371 : [Level 35] Titankin
+204121372 : [Level 42] Titankin
+204121373 : [Level 53] Titankin
+204121374 : [Level 63] Titankin
+204121375 : [Level 75] Titankin
+204121376 : [Level 88] Titankin
+204121380 : [Level 26] Titankin
+204121381 : [Level 35] Titankin
+204121382 : [Level 42] Titankin
+204121383 : [Level 53] Titankin
+204121384 : [Level 63] Titankin
+204121385 : [Level 75] Titankin
+204121386 : [Level 88] Titankin
+204121390 : [Level 26] Titankin
+204121391 : [Level 35] Titankin
+204121392 : [Level 42] Titankin
+204121393 : [Level 53] Titankin
+204121394 : [Level 63] Titankin
+204121395 : [Level 75] Titankin
+204121396 : [Level 88] Titankin
+204121400 : [Level 26] Titankin
+204121401 : [Level 35] Titankin
+204121402 : [Level 42] Titankin
+204121403 : [Level 53] Titankin
+204121404 : [Level 63] Titankin
+204121405 : [Level 75] Titankin
+204121406 : [Level 88] Titankin
+204121700 : [Level 26] Warp Trotter
+204121701 : [Level 35] Warp Trotter
+204121702 : [Level 42] Warp Trotter
+204121703 : [Level 53] Warp Trotter
+204121704 : [Level 63] Warp Trotter
+204121705 : [Level 75] Warp Trotter
+204121706 : [Level 88] Warp Trotter
+204122310 : [Level 36] Praetor Furiae
+204122311 : [Level 44] Praetor Furiae
+204122312 : [Level 54] Praetor Furiae
+204122313 : [Level 64] Praetor Furiae
+204122314 : [Level 75] Praetor Furiae
+204122315 : [Level 85] Praetor Furiae
+204122316 : [Level 93] Praetor Furiae
+204122410 : [Level 26] "Spirithief" Bartholos
+204122411 : [Level 35] "Spirithief" Bartholos
+204122412 : [Level 42] "Spirithief" Bartholos
+204122413 : [Level 53] "Spirithief" Bartholos
+204122414 : [Level 63] "Spirithief" Bartholos
+204122415 : [Level 75] "Spirithief" Bartholos
+204122416 : [Level 88] "Spirithief" Bartholos
+204122420 : [Level 26] "Spirithief" Bartholos
+204122421 : [Level 35] "Spirithief" Bartholos
+204122422 : [Level 42] "Spirithief" Bartholos
+204122423 : [Level 53] "Spirithief" Bartholos
+204122424 : [Level 63] "Spirithief" Bartholos
+204122425 : [Level 75] "Spirithief" Bartholos
+204122426 : [Level 88] "Spirithief" Bartholos
+204130010 : [Level 26] Titankin
+204130011 : [Level 35] Titankin
+204130012 : [Level 42] Titankin
+204130013 : [Level 53] Titankin
+204130014 : [Level 63] Titankin
+204130015 : [Level 75] Titankin
+204130016 : [Level 88] Titankin
+204130020 : [Level 26] Titankin
+204130021 : [Level 35] Titankin
+204130022 : [Level 42] Titankin
+204130023 : [Level 53] Titankin
+204130024 : [Level 63] Titankin
+204130025 : [Level 75] Titankin
+204130026 : [Level 88] Titankin
+204130030 : [Level 26] Titankin
+204130031 : [Level 35] Titankin
+204130032 : [Level 42] Titankin
+204130033 : [Level 53] Titankin
+204130034 : [Level 63] Titankin
+204130035 : [Level 75] Titankin
+204130036 : [Level 88] Titankin
+204130040 : [Level 26] Titankin
+204130041 : [Level 35] Titankin
+204130042 : [Level 42] Titankin
+204130043 : [Level 53] Titankin
+204130044 : [Level 63] Titankin
+204130045 : [Level 75] Titankin
+204130046 : [Level 88] Titankin
+204130050 : [Level 26] Titankin
+204130051 : [Level 35] Titankin
+204130052 : [Level 42] Titankin
+204130053 : [Level 53] Titankin
+204130054 : [Level 63] Titankin
+204130055 : [Level 75] Titankin
+204130056 : [Level 88] Titankin
+204130060 : [Level 26] Titankin
+204130061 : [Level 35] Titankin
+204130062 : [Level 42] Titankin
+204130063 : [Level 53] Titankin
+204130064 : [Level 63] Titankin
+204130065 : [Level 75] Titankin
+204130066 : [Level 88] Titankin
+204130070 : [Level 26] Titankin
+204130071 : [Level 35] Titankin
+204130072 : [Level 42] Titankin
+204130073 : [Level 53] Titankin
+204130074 : [Level 63] Titankin
+204130075 : [Level 75] Titankin
+204130076 : [Level 88] Titankin
+204130080 : [Level 26] Titankin
+204130081 : [Level 35] Titankin
+204130082 : [Level 42] Titankin
+204130083 : [Level 53] Titankin
+204130084 : [Level 63] Titankin
+204130085 : [Level 75] Titankin
+204130086 : [Level 88] Titankin
+204130090 : [Level 26] Titankin
+204130091 : [Level 35] Titankin
+204130092 : [Level 42] Titankin
+204130093 : [Level 53] Titankin
+204130094 : [Level 63] Titankin
+204130095 : [Level 75] Titankin
+204130096 : [Level 88] Titankin
+204130100 : [Level 26] Titankin
+204130101 : [Level 35] Titankin
+204130102 : [Level 42] Titankin
+204130103 : [Level 53] Titankin
+204130104 : [Level 63] Titankin
+204130105 : [Level 75] Titankin
+204130106 : [Level 88] Titankin
+204130110 : [Level 26] Titankin
+204130111 : [Level 35] Titankin
+204130112 : [Level 42] Titankin
+204130113 : [Level 53] Titankin
+204130114 : [Level 63] Titankin
+204130115 : [Level 75] Titankin
+204130116 : [Level 88] Titankin
+204130130 : [Level 26] Titankin
+204130131 : [Level 35] Titankin
+204130132 : [Level 42] Titankin
+204130133 : [Level 53] Titankin
+204130134 : [Level 63] Titankin
+204130135 : [Level 75] Titankin
+204130136 : [Level 88] Titankin
+204130140 : [Level 26] Titankin
+204130141 : [Level 35] Titankin
+204130142 : [Level 42] Titankin
+204130143 : [Level 53] Titankin
+204130144 : [Level 63] Titankin
+204130145 : [Level 75] Titankin
+204130146 : [Level 88] Titankin
+204130150 : [Level 26] Titankin
+204130151 : [Level 35] Titankin
+204130152 : [Level 42] Titankin
+204130153 : [Level 53] Titankin
+204130154 : [Level 63] Titankin
+204130155 : [Level 75] Titankin
+204130156 : [Level 88] Titankin
+204130160 : [Level 26] Titankin
+204130161 : [Level 35] Titankin
+204130162 : [Level 42] Titankin
+204130163 : [Level 53] Titankin
+204130164 : [Level 63] Titankin
+204130165 : [Level 75] Titankin
+204130166 : [Level 88] Titankin
+204130170 : [Level 26] Titankin
+204130171 : [Level 35] Titankin
+204130172 : [Level 42] Titankin
+204130173 : [Level 53] Titankin
+204130174 : [Level 63] Titankin
+204130175 : [Level 75] Titankin
+204130176 : [Level 88] Titankin
+204130180 : [Level 26] Titankin
+204130181 : [Level 35] Titankin
+204130182 : [Level 42] Titankin
+204130183 : [Level 53] Titankin
+204130184 : [Level 63] Titankin
+204130185 : [Level 75] Titankin
+204130186 : [Level 88] Titankin
+204130190 : [Level 26] Titankin
+204130191 : [Level 35] Titankin
+204130192 : [Level 42] Titankin
+204130193 : [Level 53] Titankin
+204130194 : [Level 63] Titankin
+204130195 : [Level 75] Titankin
+204130196 : [Level 88] Titankin
+204130210 : [Level 26] Titankin
+204130211 : [Level 35] Titankin
+204130212 : [Level 42] Titankin
+204130213 : [Level 53] Titankin
+204130214 : [Level 63] Titankin
+204130215 : [Level 75] Titankin
+204130216 : [Level 88] Titankin
+204130220 : [Level 26] Titankin
+204130221 : [Level 35] Titankin
+204130222 : [Level 42] Titankin
+204130223 : [Level 53] Titankin
+204130224 : [Level 63] Titankin
+204130225 : [Level 75] Titankin
+204130226 : [Level 88] Titankin
+204130230 : [Level 26] Titankin
+204130231 : [Level 35] Titankin
+204130232 : [Level 42] Titankin
+204130233 : [Level 53] Titankin
+204130234 : [Level 63] Titankin
+204130235 : [Level 75] Titankin
+204130236 : [Level 88] Titankin
+204130240 : [Level 26] Titankin
+204130241 : [Level 35] Titankin
+204130242 : [Level 42] Titankin
+204130243 : [Level 53] Titankin
+204130244 : [Level 63] Titankin
+204130245 : [Level 75] Titankin
+204130246 : [Level 88] Titankin
+204130250 : [Level 26] Titankin
+204130251 : [Level 35] Titankin
+204130252 : [Level 42] Titankin
+204130253 : [Level 53] Titankin
+204130254 : [Level 63] Titankin
+204130255 : [Level 75] Titankin
+204130256 : [Level 88] Titankin
+204130260 : [Level 26] Titankin
+204130261 : [Level 35] Titankin
+204130262 : [Level 42] Titankin
+204130263 : [Level 53] Titankin
+204130264 : [Level 63] Titankin
+204130265 : [Level 75] Titankin
+204130266 : [Level 88] Titankin
+204130280 : [Level 26] Titankin
+204130281 : [Level 35] Titankin
+204130282 : [Level 42] Titankin
+204130283 : [Level 53] Titankin
+204130284 : [Level 63] Titankin
+204130285 : [Level 75] Titankin
+204130286 : [Level 88] Titankin
+204130290 : [Level 26] Titankin
+204130291 : [Level 35] Titankin
+204130292 : [Level 42] Titankin
+204130293 : [Level 53] Titankin
+204130294 : [Level 63] Titankin
+204130295 : [Level 75] Titankin
+204130296 : [Level 88] Titankin
+204130300 : [Level 26] Titankin
+204130301 : [Level 35] Titankin
+204130302 : [Level 42] Titankin
+204130303 : [Level 53] Titankin
+204130304 : [Level 63] Titankin
+204130305 : [Level 75] Titankin
+204130306 : [Level 88] Titankin
+204130310 : [Level 26] Titankin
+204130311 : [Level 35] Titankin
+204130312 : [Level 42] Titankin
+204130313 : [Level 53] Titankin
+204130314 : [Level 63] Titankin
+204130315 : [Level 75] Titankin
+204130316 : [Level 88] Titankin
+204130320 : [Level 26] Titankin
+204130321 : [Level 35] Titankin
+204130322 : [Level 42] Titankin
+204130323 : [Level 53] Titankin
+204130324 : [Level 63] Titankin
+204130325 : [Level 75] Titankin
+204130326 : [Level 88] Titankin
+204130330 : [Level 26] Titankin
+204130331 : [Level 35] Titankin
+204130332 : [Level 42] Titankin
+204130333 : [Level 53] Titankin
+204130334 : [Level 63] Titankin
+204130335 : [Level 75] Titankin
+204130336 : [Level 88] Titankin
+204130340 : [Level 26] Titankin
+204130341 : [Level 35] Titankin
+204130342 : [Level 42] Titankin
+204130343 : [Level 53] Titankin
+204130344 : [Level 63] Titankin
+204130345 : [Level 75] Titankin
+204130346 : [Level 88] Titankin
+204130350 : [Level 26] Titankin
+204130351 : [Level 35] Titankin
+204130352 : [Level 42] Titankin
+204130353 : [Level 53] Titankin
+204130354 : [Level 63] Titankin
+204130355 : [Level 75] Titankin
+204130356 : [Level 88] Titankin
+204130360 : [Level 26] Titankin
+204130361 : [Level 35] Titankin
+204130362 : [Level 42] Titankin
+204130363 : [Level 53] Titankin
+204130364 : [Level 63] Titankin
+204130365 : [Level 75] Titankin
+204130366 : [Level 88] Titankin
+204130370 : [Level 26] Titankin
+204130371 : [Level 35] Titankin
+204130372 : [Level 42] Titankin
+204130373 : [Level 53] Titankin
+204130374 : [Level 63] Titankin
+204130375 : [Level 75] Titankin
+204130376 : [Level 88] Titankin
+204130400 : [Level 26] Titankin
+204130401 : [Level 35] Titankin
+204130402 : [Level 42] Titankin
+204130403 : [Level 53] Titankin
+204130404 : [Level 63] Titankin
+204130405 : [Level 75] Titankin
+204130406 : [Level 88] Titankin
+204130410 : [Level 26] Titankin
+204130411 : [Level 35] Titankin
+204130412 : [Level 42] Titankin
+204130413 : [Level 53] Titankin
+204130414 : [Level 63] Titankin
+204130415 : [Level 75] Titankin
+204130416 : [Level 88] Titankin
+204130420 : [Level 26] Titankin
+204130421 : [Level 35] Titankin
+204130422 : [Level 42] Titankin
+204130423 : [Level 53] Titankin
+204130424 : [Level 63] Titankin
+204130425 : [Level 75] Titankin
+204130426 : [Level 88] Titankin
+204130430 : [Level 26] Titankin
+204130431 : [Level 35] Titankin
+204130432 : [Level 42] Titankin
+204130433 : [Level 53] Titankin
+204130434 : [Level 63] Titankin
+204130435 : [Level 75] Titankin
+204130436 : [Level 88] Titankin
+204130440 : [Level 26] Titankin
+204130441 : [Level 35] Titankin
+204130442 : [Level 42] Titankin
+204130443 : [Level 53] Titankin
+204130444 : [Level 63] Titankin
+204130445 : [Level 75] Titankin
+204130446 : [Level 88] Titankin
+204130450 : [Level 26] Titankin
+204130451 : [Level 35] Titankin
+204130452 : [Level 42] Titankin
+204130453 : [Level 53] Titankin
+204130454 : [Level 63] Titankin
+204130455 : [Level 75] Titankin
+204130456 : [Level 88] Titankin
+204130460 : [Level 26] Titankin
+204130461 : [Level 35] Titankin
+204130462 : [Level 42] Titankin
+204130463 : [Level 53] Titankin
+204130464 : [Level 63] Titankin
+204130465 : [Level 75] Titankin
+204130466 : [Level 88] Titankin
+204130470 : [Level 26] Titankin
+204130471 : [Level 35] Titankin
+204130472 : [Level 42] Titankin
+204130473 : [Level 53] Titankin
+204130474 : [Level 63] Titankin
+204130475 : [Level 75] Titankin
+204130476 : [Level 88] Titankin
+204130480 : [Level 26] Titankin
+204130481 : [Level 35] Titankin
+204130482 : [Level 42] Titankin
+204130483 : [Level 53] Titankin
+204130484 : [Level 63] Titankin
+204130485 : [Level 75] Titankin
+204130486 : [Level 88] Titankin
+204130510 : [Level 26] Titankin
+204130511 : [Level 35] Titankin
+204130512 : [Level 42] Titankin
+204130513 : [Level 53] Titankin
+204130514 : [Level 63] Titankin
+204130515 : [Level 75] Titankin
+204130516 : [Level 88] Titankin
+204130520 : [Level 26] Titankin
+204130521 : [Level 35] Titankin
+204130522 : [Level 42] Titankin
+204130523 : [Level 53] Titankin
+204130524 : [Level 63] Titankin
+204130525 : [Level 75] Titankin
+204130526 : [Level 88] Titankin
+204130530 : [Level 26] Titankin
+204130531 : [Level 35] Titankin
+204130532 : [Level 42] Titankin
+204130533 : [Level 53] Titankin
+204130534 : [Level 63] Titankin
+204130535 : [Level 75] Titankin
+204130536 : [Level 88] Titankin
+204130540 : [Level 26] Titankin
+204130541 : [Level 35] Titankin
+204130542 : [Level 42] Titankin
+204130543 : [Level 53] Titankin
+204130544 : [Level 63] Titankin
+204130545 : [Level 75] Titankin
+204130546 : [Level 88] Titankin
+204130550 : [Level 26] Titankin
+204130551 : [Level 35] Titankin
+204130552 : [Level 42] Titankin
+204130553 : [Level 53] Titankin
+204130554 : [Level 63] Titankin
+204130555 : [Level 75] Titankin
+204130556 : [Level 88] Titankin
+204130610 : [Level 26] null
+204130611 : [Level 35] null
+204130612 : [Level 42] null
+204130613 : [Level 53] null
+204130614 : [Level 63] null
+204130615 : [Level 75] null
+204130616 : [Level 88] null
+204130650 : [Level 26] null
+204130651 : [Level 35] null
+204130652 : [Level 42] null
+204130653 : [Level 53] null
+204130654 : [Level 63] null
+204130655 : [Level 75] null
+204130656 : [Level 88] null
+204130710 : [Level 26] null
+204130711 : [Level 35] null
+204130712 : [Level 42] null
+204130713 : [Level 53] null
+204130714 : [Level 63] null
+204130715 : [Level 75] null
+204130716 : [Level 88] null
+204130720 : [Level 26] null
+204130721 : [Level 35] null
+204130722 : [Level 42] null
+204130723 : [Level 53] null
+204130724 : [Level 63] null
+204130725 : [Level 75] null
+204130726 : [Level 88] null
+204130760 : [Level 26] Fragmentum Monster
+204130761 : [Level 35] Fragmentum Monster
+204130762 : [Level 42] Fragmentum Monster
+204130763 : [Level 53] Fragmentum Monster
+204130764 : [Level 63] Fragmentum Monster
+204130765 : [Level 75] Fragmentum Monster
+204130766 : [Level 88] Fragmentum Monster
+204130770 : [Level 26] Fragmentum Monster
+204130771 : [Level 35] Fragmentum Monster
+204130772 : [Level 42] Fragmentum Monster
+204130773 : [Level 53] Fragmentum Monster
+204130774 : [Level 63] Fragmentum Monster
+204130775 : [Level 75] Fragmentum Monster
+204130776 : [Level 88] Fragmentum Monster
+204130780 : [Level 26] Fragmentum Monster
+204130781 : [Level 35] Fragmentum Monster
+204130782 : [Level 42] Fragmentum Monster
+204130783 : [Level 53] Fragmentum Monster
+204130784 : [Level 63] Fragmentum Monster
+204130785 : [Level 75] Fragmentum Monster
+204130786 : [Level 88] Fragmentum Monster
+204130810 : [Level 26] True Stings
+204130811 : [Level 35] True Stings
+204130812 : [Level 42] True Stings
+204130813 : [Level 53] True Stings
+204130814 : [Level 63] True Stings
+204130815 : [Level 75] True Stings
+204130816 : [Level 88] True Stings
+204130820 : [Level 26] True Stings
+204130821 : [Level 35] True Stings
+204130822 : [Level 42] True Stings
+204130823 : [Level 53] True Stings
+204130824 : [Level 63] True Stings
+204130825 : [Level 75] True Stings
+204130826 : [Level 88] True Stings
+204130830 : [Level 26] True Stings
+204130831 : [Level 35] True Stings
+204130832 : [Level 42] True Stings
+204130833 : [Level 53] True Stings
+204130834 : [Level 63] True Stings
+204130835 : [Level 75] True Stings
+204130836 : [Level 88] True Stings
+204130860 : [Level 26] Memory Zone Meme
+204130861 : [Level 35] Memory Zone Meme
+204130862 : [Level 42] Memory Zone Meme
+204130863 : [Level 53] Memory Zone Meme
+204130864 : [Level 63] Memory Zone Meme
+204130865 : [Level 75] Memory Zone Meme
+204130866 : [Level 88] Memory Zone Meme
+204130870 : [Level 26] Memory Zone Meme
+204130871 : [Level 35] Memory Zone Meme
+204130872 : [Level 42] Memory Zone Meme
+204130873 : [Level 53] Memory Zone Meme
+204130874 : [Level 63] Memory Zone Meme
+204130875 : [Level 75] Memory Zone Meme
+204130876 : [Level 88] Memory Zone Meme
+204130880 : [Level 26] Memory Zone Meme
+204130881 : [Level 35] Memory Zone Meme
+204130882 : [Level 42] Memory Zone Meme
+204130883 : [Level 53] Memory Zone Meme
+204130884 : [Level 63] Memory Zone Meme
+204130885 : [Level 75] Memory Zone Meme
+204130886 : [Level 88] Memory Zone Meme
+204131010 : [Level 26] Titankin
+204131011 : [Level 35] Titankin
+204131012 : [Level 42] Titankin
+204131013 : [Level 53] Titankin
+204131014 : [Level 63] Titankin
+204131015 : [Level 75] Titankin
+204131016 : [Level 88] Titankin
+204131020 : [Level 26] Titankin
+204131021 : [Level 35] Titankin
+204131022 : [Level 42] Titankin
+204131023 : [Level 53] Titankin
+204131024 : [Level 63] Titankin
+204131025 : [Level 75] Titankin
+204131026 : [Level 88] Titankin
+204131030 : [Level 26] Titankin
+204131031 : [Level 35] Titankin
+204131032 : [Level 42] Titankin
+204131033 : [Level 53] Titankin
+204131034 : [Level 63] Titankin
+204131035 : [Level 75] Titankin
+204131036 : [Level 88] Titankin
+204131050 : [Level 26] Titankin
+204131051 : [Level 35] Titankin
+204131052 : [Level 42] Titankin
+204131053 : [Level 53] Titankin
+204131054 : [Level 63] Titankin
+204131055 : [Level 75] Titankin
+204131056 : [Level 88] Titankin
+204131060 : [Level 26] Titankin
+204131061 : [Level 35] Titankin
+204131062 : [Level 42] Titankin
+204131063 : [Level 53] Titankin
+204131064 : [Level 63] Titankin
+204131065 : [Level 75] Titankin
+204131066 : [Level 88] Titankin
+204131070 : [Level 26] Titankin
+204131071 : [Level 35] Titankin
+204131072 : [Level 42] Titankin
+204131073 : [Level 53] Titankin
+204131074 : [Level 63] Titankin
+204131075 : [Level 75] Titankin
+204131076 : [Level 88] Titankin
+204131130 : [Level 26] Titankin
+204131131 : [Level 35] Titankin
+204131132 : [Level 42] Titankin
+204131133 : [Level 53] Titankin
+204131134 : [Level 63] Titankin
+204131135 : [Level 75] Titankin
+204131136 : [Level 88] Titankin
+204131140 : [Level 26] Titankin
+204131141 : [Level 35] Titankin
+204131142 : [Level 42] Titankin
+204131143 : [Level 53] Titankin
+204131144 : [Level 63] Titankin
+204131145 : [Level 75] Titankin
+204131146 : [Level 88] Titankin
+204131150 : [Level 26] Titankin
+204131151 : [Level 35] Titankin
+204131152 : [Level 42] Titankin
+204131153 : [Level 53] Titankin
+204131154 : [Level 63] Titankin
+204131155 : [Level 75] Titankin
+204131156 : [Level 88] Titankin
+204131160 : [Level 26] Titankin
+204131161 : [Level 35] Titankin
+204131162 : [Level 42] Titankin
+204131163 : [Level 53] Titankin
+204131164 : [Level 63] Titankin
+204131165 : [Level 75] Titankin
+204131166 : [Level 88] Titankin
+204131170 : [Level 26] Titankin
+204131171 : [Level 35] Titankin
+204131172 : [Level 42] Titankin
+204131173 : [Level 53] Titankin
+204131174 : [Level 63] Titankin
+204131175 : [Level 75] Titankin
+204131176 : [Level 88] Titankin
+204131180 : [Level 26] Titankin
+204131181 : [Level 35] Titankin
+204131182 : [Level 42] Titankin
+204131183 : [Level 53] Titankin
+204131184 : [Level 63] Titankin
+204131185 : [Level 75] Titankin
+204131186 : [Level 88] Titankin
+204131190 : [Level 26] Titankin
+204131191 : [Level 35] Titankin
+204131192 : [Level 42] Titankin
+204131193 : [Level 53] Titankin
+204131194 : [Level 63] Titankin
+204131195 : [Level 75] Titankin
+204131196 : [Level 88] Titankin
+204131210 : [Level 26] Titankin
+204131211 : [Level 35] Titankin
+204131212 : [Level 42] Titankin
+204131213 : [Level 53] Titankin
+204131214 : [Level 63] Titankin
+204131215 : [Level 75] Titankin
+204131216 : [Level 88] Titankin
+204131220 : [Level 26] Titankin
+204131221 : [Level 35] Titankin
+204131222 : [Level 42] Titankin
+204131223 : [Level 53] Titankin
+204131224 : [Level 63] Titankin
+204131225 : [Level 75] Titankin
+204131226 : [Level 88] Titankin
+204131230 : [Level 26] Titankin
+204131231 : [Level 35] Titankin
+204131232 : [Level 42] Titankin
+204131233 : [Level 53] Titankin
+204131234 : [Level 63] Titankin
+204131235 : [Level 75] Titankin
+204131236 : [Level 88] Titankin
+204131240 : [Level 26] Titankin
+204131241 : [Level 35] Titankin
+204131242 : [Level 42] Titankin
+204131243 : [Level 53] Titankin
+204131244 : [Level 63] Titankin
+204131245 : [Level 75] Titankin
+204131246 : [Level 88] Titankin
+204131250 : [Level 26] Titankin
+204131251 : [Level 35] Titankin
+204131252 : [Level 42] Titankin
+204131253 : [Level 53] Titankin
+204131254 : [Level 63] Titankin
+204131255 : [Level 75] Titankin
+204131256 : [Level 88] Titankin
+204131260 : [Level 26] Titankin
+204131261 : [Level 35] Titankin
+204131262 : [Level 42] Titankin
+204131263 : [Level 53] Titankin
+204131264 : [Level 63] Titankin
+204131265 : [Level 75] Titankin
+204131266 : [Level 88] Titankin
+204131280 : [Level 26] Titankin
+204131281 : [Level 35] Titankin
+204131282 : [Level 42] Titankin
+204131283 : [Level 53] Titankin
+204131284 : [Level 63] Titankin
+204131285 : [Level 75] Titankin
+204131286 : [Level 88] Titankin
+204131290 : [Level 26] Titankin
+204131291 : [Level 35] Titankin
+204131292 : [Level 42] Titankin
+204131293 : [Level 53] Titankin
+204131294 : [Level 63] Titankin
+204131295 : [Level 75] Titankin
+204131296 : [Level 88] Titankin
+204131300 : [Level 26] Titankin
+204131301 : [Level 35] Titankin
+204131302 : [Level 42] Titankin
+204131303 : [Level 53] Titankin
+204131304 : [Level 63] Titankin
+204131305 : [Level 75] Titankin
+204131306 : [Level 88] Titankin
+204131310 : [Level 26] Titankin
+204131311 : [Level 35] Titankin
+204131312 : [Level 42] Titankin
+204131313 : [Level 53] Titankin
+204131314 : [Level 63] Titankin
+204131315 : [Level 75] Titankin
+204131316 : [Level 88] Titankin
+204131320 : [Level 26] Titankin
+204131321 : [Level 35] Titankin
+204131322 : [Level 42] Titankin
+204131323 : [Level 53] Titankin
+204131324 : [Level 63] Titankin
+204131325 : [Level 75] Titankin
+204131326 : [Level 88] Titankin
+204131330 : [Level 26] Titankin
+204131331 : [Level 35] Titankin
+204131332 : [Level 42] Titankin
+204131333 : [Level 53] Titankin
+204131334 : [Level 63] Titankin
+204131335 : [Level 75] Titankin
+204131336 : [Level 88] Titankin
+204131340 : [Level 26] Titankin
+204131341 : [Level 35] Titankin
+204131342 : [Level 42] Titankin
+204131343 : [Level 53] Titankin
+204131344 : [Level 63] Titankin
+204131345 : [Level 75] Titankin
+204131346 : [Level 88] Titankin
+204131350 : [Level 26] Titankin
+204131351 : [Level 35] Titankin
+204131352 : [Level 42] Titankin
+204131353 : [Level 53] Titankin
+204131354 : [Level 63] Titankin
+204131355 : [Level 75] Titankin
+204131356 : [Level 88] Titankin
+204131360 : [Level 26] Titankin
+204131361 : [Level 35] Titankin
+204131362 : [Level 42] Titankin
+204131363 : [Level 53] Titankin
+204131364 : [Level 63] Titankin
+204131365 : [Level 75] Titankin
+204131366 : [Level 88] Titankin
+204131370 : [Level 26] Titankin
+204131371 : [Level 35] Titankin
+204131372 : [Level 42] Titankin
+204131373 : [Level 53] Titankin
+204131374 : [Level 63] Titankin
+204131375 : [Level 75] Titankin
+204131376 : [Level 88] Titankin
+204131400 : [Level 26] Titankin
+204131401 : [Level 35] Titankin
+204131402 : [Level 42] Titankin
+204131403 : [Level 53] Titankin
+204131404 : [Level 63] Titankin
+204131405 : [Level 75] Titankin
+204131406 : [Level 88] Titankin
+204131410 : [Level 26] Titankin
+204131411 : [Level 35] Titankin
+204131412 : [Level 42] Titankin
+204131413 : [Level 53] Titankin
+204131414 : [Level 63] Titankin
+204131415 : [Level 75] Titankin
+204131416 : [Level 88] Titankin
+204131420 : [Level 26] Titankin
+204131421 : [Level 35] Titankin
+204131422 : [Level 42] Titankin
+204131423 : [Level 53] Titankin
+204131424 : [Level 63] Titankin
+204131425 : [Level 75] Titankin
+204131426 : [Level 88] Titankin
+204131430 : [Level 26] Titankin
+204131431 : [Level 35] Titankin
+204131432 : [Level 42] Titankin
+204131433 : [Level 53] Titankin
+204131434 : [Level 63] Titankin
+204131435 : [Level 75] Titankin
+204131436 : [Level 88] Titankin
+204131440 : [Level 26] Titankin
+204131441 : [Level 35] Titankin
+204131442 : [Level 42] Titankin
+204131443 : [Level 53] Titankin
+204131444 : [Level 63] Titankin
+204131445 : [Level 75] Titankin
+204131446 : [Level 88] Titankin
+204131450 : [Level 26] Titankin
+204131451 : [Level 35] Titankin
+204131452 : [Level 42] Titankin
+204131453 : [Level 53] Titankin
+204131454 : [Level 63] Titankin
+204131455 : [Level 75] Titankin
+204131456 : [Level 88] Titankin
+204131460 : [Level 26] Titankin
+204131461 : [Level 35] Titankin
+204131462 : [Level 42] Titankin
+204131463 : [Level 53] Titankin
+204131464 : [Level 63] Titankin
+204131465 : [Level 75] Titankin
+204131466 : [Level 88] Titankin
+204131470 : [Level 26] Titankin
+204131471 : [Level 35] Titankin
+204131472 : [Level 42] Titankin
+204131473 : [Level 53] Titankin
+204131474 : [Level 63] Titankin
+204131475 : [Level 75] Titankin
+204131476 : [Level 88] Titankin
+204131480 : [Level 26] Titankin
+204131481 : [Level 35] Titankin
+204131482 : [Level 42] Titankin
+204131483 : [Level 53] Titankin
+204131484 : [Level 63] Titankin
+204131485 : [Level 75] Titankin
+204131486 : [Level 88] Titankin
+204131700 : [Level 26] Warp Trotter
+204131701 : [Level 35] Warp Trotter
+204131702 : [Level 42] Warp Trotter
+204131703 : [Level 53] Warp Trotter
+204131704 : [Level 63] Warp Trotter
+204131705 : [Level 75] Warp Trotter
+204131706 : [Level 88] Warp Trotter
+204132010 : [Level 26] null
+204132011 : [Level 35] null
+204132012 : [Level 42] null
+204132013 : [Level 53] null
+204132014 : [Level 63] null
+204132015 : [Level 75] null
+204132016 : [Level 88] null
+204132020 : [Level 26] null
+204132021 : [Level 35] null
+204132022 : [Level 42] null
+204132023 : [Level 53] null
+204132024 : [Level 63] null
+204132025 : [Level 75] null
+204132026 : [Level 88] null
+204132030 : [Level 26] null
+204132031 : [Level 35] null
+204132032 : [Level 42] null
+204132033 : [Level 53] null
+204132034 : [Level 63] null
+204132035 : [Level 75] null
+204132036 : [Level 88] null
+204132050 : [Level 26] null
+204132051 : [Level 35] null
+204132052 : [Level 42] null
+204132053 : [Level 53] null
+204132054 : [Level 63] null
+204132055 : [Level 75] null
+204132056 : [Level 88] null
+204132410 : [Level 26] "Spirithief" Bartholos
+204132411 : [Level 35] "Spirithief" Bartholos
+204132412 : [Level 42] "Spirithief" Bartholos
+204132413 : [Level 53] "Spirithief" Bartholos
+204132414 : [Level 63] "Spirithief" Bartholos
+204132415 : [Level 75] "Spirithief" Bartholos
+204132416 : [Level 88] "Spirithief" Bartholos
 400020010 : [Level 28] Antimatter Legion
 400020011 : [Level 34] Antimatter Legion
 400020012 : [Level 41] Antimatter Legion
@@ -25211,6 +27662,24 @@
 3025012 : "Harmonious Choir" The Great Septimus
 3025013 : Cacophonic Conductor
 3025014 : "Harmonious Choir" The Great Septimus
+4012010 : Furiae Warrior
+4012020 : Furiae Philosopher
+4012021 : Furiae Philosopher
+4012030 : Furiae Archer
+4012031 : Furiae Archer
+4012040 : Furiae Troupe
+4012041 : Furiae Troupe
+4012050 : "Spirithief" Bartholos
+4012051 : "Spirithief" Bartholos
+4012060 : Conquer or Be Conquered
+4013010 : Praetor Furiae
+4013011 : Praetor Furiae
+4013012 : Praetor Furiae
+4014010 : Savage and Mad God, Incarnation of Strife
+4014011 : Savage and Mad God, Incarnation of Strife
+4014012 : Savage and Mad God, Incarnation of Strife
+4014020 : The Giver, Master of Legions, Lance of Fury
+4043010 : Herta #ErrorModel
 7001010 : Entranced Ingenium: Obedient Dracolion
 7001011 : Voidranger: Reaver
 7001012 : Voidranger: Eliminator
@@ -25321,12 +27790,16 @@
 8015021 : Phantylia the Undying
 8015022 : Opportunistic Provocateur
 8022010 : Juvenile Sting
+8022011 : Juvenile Sting
 8022020 : Lesser Sting
+8022021 : Lesser Sting
 8022030 : Gnaw Sting
+8022031 : Gnaw Sting
 8024010 : Swarm: True Sting (Complete)
 8024011 : Swarm: True Sting
 8024012 : Swarm: True Sting (Complete)
 8025010 : Starcrusher Swarm King: Skaracabaz (Synthetic)
+8025011 : Sky-Shrouding Stardevourer Swarm
 8032010 : Grunt: Field Personnel
 8032020 : Grunt: Security Personnel
 8032030 : "All or Nothing"
@@ -25512,6 +27985,7 @@
 100301030 : Silvermane Lieutenant
 100301031 : Armored Will
 100301032 : "Ironshield" Gigantus Shieldus
+100301033 : Silvermane Lieutenant
 100301034 : Silvermane Lieutenant
 100301035 : Silvermane Lieutenant
 100301101 : Silvermane Lieutenant (Bug)
@@ -25526,6 +28000,7 @@
 100401008 : Cocolia
 100401010 : Cocolia
 100401011 : Cocolia
+100401012 : Cocolia
 100401401 : Annihilator of Desolation Mistral
 100401402 : Annihilator of Desolation Mistral
 100401403 : Annihilator of Desolation Mistral
@@ -25545,7 +28020,9 @@
 100402012 : Gepard
 100402013 : Gepard
 100402014 : Gepard
+100402015 : Gepard
 100402201 : Gepard (Complete)
+100402202 : Gepard (Complete)
 100402601 : Gepard
 100402602 : Gepard
 100402603 : Gepard
@@ -25563,6 +28040,7 @@
 100403007 : Bronya
 100403008 : Bronya
 100403009 : Bronya
+100403010 : Bronya
 100403101 : Bronya (Complete)
 100403102 : Bronya (Complete)
 100501401 : Annihilator of Desolation Mistral: Mother of Deception
@@ -25678,6 +28156,8 @@
 101302030 : Automaton Direwolf
 101302031 : Automaton Direwolf
 101302032 : Automaton Direwolf
+101302033 : Automaton Direwolf
+101302034 : Automaton Direwolf
 101401001 : Svarog
 101401002 : Svarog
 101401003 : Svarog
@@ -25692,6 +28172,8 @@
 101401012 : Svarog
 101401013 : Svarog
 101401014 : Svarog
+101401015 : Svarog
+101401016 : Svarog
 101401101 : Svarog (Complete)
 101401301 : Svarog
 101401302 : Svarog
@@ -25713,6 +28195,7 @@
 102201015 : Everwinter Shadewalker
 102201016 : IPC Field Personnel Illusion
 102201017 : IPC Field Personnel Illusion
+102201018 : Everwinter Shadewalker
 102202001 : Incineration Shadewalker
 102202002 : Incineration Shadewalker
 102202003 : Incineration Shadewalker
@@ -25781,6 +28264,7 @@
 200201009 : Cloud Knights Patroller
 200201010 : Cloud Knights Patroller
 200201011 : Cloud Knights Patroller
+200201012 : Cloud Knights Patroller
 200202001 : Flying Sword
 200202002 : Flying Sword
 200202003 : Flying Sword (Illusion)
@@ -25813,6 +28297,7 @@
 200401006 : Stellaron Hunter: Kafka
 200401007 : Stellaron Hunter: Kafka
 200401008 : Stellaron Hunter: Kafka
+200401201 : Stellaron Hunter: Kafka (Complete)
 200401401 : Soulhook Sovereign
 200401402 : Soulhook Sovereign
 200401403 : Soulhook Sovereign
@@ -25888,6 +28373,7 @@
 202201012 : Mara-Struck Soldier
 202201013 : Mara-Struck Soldier
 202201014 : Mara-Struck Soldier
+202201015 : Mara-Struck Soldier
 202202001 : Seat of Divine Foresight Guard
 202202002 : Furtive Assassin
 202202003 : Disciples of Sanctus Medicus: Internal Alchemist
@@ -25898,10 +28384,12 @@
 202202008 : Disciples of Sanctus Medicus: Internal Alchemist
 202202009 : Disciples of Sanctus Medicus: Internal Alchemist
 202202010 : Disciples of Sanctus Medicus: Internal Alchemist
+202202011 : Disciples of Sanctus Medicus: Internal Alchemist
 202204001 : Distortion
 202204002 : Abundance Sprite: Golden Hound
 202204003 : Abundance Sprite: Golden Hound
 202204004 : Abundance Sprite: Golden Hound
+202204005 : Abundance Sprite: Golden Hound
 202205001 : Abundance Sprite: Wooden Lupus
 202205002 : Abundance Sprite: Wooden Lupus
 202205003 : Abundance Sprite: Wooden Lupus
@@ -25919,6 +28407,8 @@
 202206009 : Disciples of Sanctus Medicus: Ballistarius
 202206010 : Disciples of Sanctus Medicus: Ballistarius
 202206011 : Disciples of Sanctus Medicus: Ballistarius
+202206012 : Disciples of Sanctus Medicus: Ballistarius
+202206013 : Disciples of Sanctus Medicus: Ballistarius
 202207001 : Twig of Wintry Wind
 202207002 : Twig of Wintry Wind
 202207003 : Twig of Wintry Wind
@@ -25940,6 +28430,8 @@
 202211004 : Mara-Struck Warden
 202211005 : Mara-Struck Warden
 202211006 : Mara-Struck Warden
+202211007 : Mara-Struck Warden
+202211008 : Mara-Struck Warden
 202301001 : Disciples of Sanctus Medicus: Shape Shifter
 202301002 : Disciples of Sanctus Medicus: Shape Shifter
 202301003 : Differently Appearing Enemy
@@ -25955,6 +28447,7 @@
 202301013 : Disciples of Sanctus Medicus: Shape Shifter
 202301014 : Disciples of Sanctus Medicus: Shape Shifter
 202301101 : Disciples of Sanctus Medicus: Shape Shifter (Bug)
+202301102 : Disciples of Sanctus Medicus: Shape Shifter (Bug)
 202302001 : Abundance Sprite: Malefic Ape
 202302002 : Phantylia
 202302003 : Abundance Sprite: Malefic Ape
@@ -25966,6 +28459,9 @@
 202302009 : Abundance Sprite: Malefic Ape
 202302011 : Abundance Sprite: Malefic Ape
 202302012 : Abundance Sprite: Malefic Ape
+202302013 : Abundance Sprite: Malefic Ape
+202302014 : Abundance Sprite: Malefic Ape
+202302101 : Abundance Sprite: Malefic Ape (Bug)
 202303001 : The Ascended
 202303002 : Master of the Disciples of Sanctus Medicus
 202303003 : Phantylia
@@ -25982,6 +28478,7 @@
 202303014 : Flowerbeing
 202303015 : The Ascended
 202303016 : The Ascended
+202303017 : The Ascended
 202401001 : Abundant Ebon Deer
 202401002 : Abundant Ebon Deer
 202401004 : Abundant Ebon Deer
@@ -25989,7 +28486,9 @@
 202401006 : Abundant Ebon Deer
 202401007 : Abundant Ebon Deer
 202401008 : Abundant Ebon Deer
+202401009 : Abundant Ebon Deer
 202401201 : Abundant Ebon Deer (Complete)
+202401202 : Abundant Ebon Deer (Complete)
 202401401 : Abundant Ebon Deer
 202401402 : Abundant Ebon Deer
 202401403 : Abundant Ebon Deer
@@ -26006,13 +28505,18 @@
 203201002 : Sableclaw Wolftrooper
 203201003 : Sableclaw Wolftrooper
 203202001 : Eclipse Wolftrooper
+203202002 : Eclipse Wolftrooper
 203202003 : Eclipse Wolftrooper
 203202004 : Eclipse Wolftrooper
 203301001 : Howling Casket
 203301002 : Howling Casket
 203301003 : Howling Casket
 203301004 : Howling Casket
+203301005 : Howling Casket
+203301006 : Howling Casket
+203301007 : Howling Casket
 203401001 : Borisin Warhead: Hoolay
+203401002 : Borisin Warhead: Hoolay
 203401101 : Borisin Warhead: Hoolay
 203401201 : Borisin Warhead: Hoolay (Complete)
 300101001 : Cocona's Kindness
@@ -26023,6 +28527,7 @@
 300102002 : Dreamjolt Troupe's Birdskull
 300102003 : Dreamjolt Troupe's Birdskull
 300102004 : Dreamjolt Troupe's Birdskull
+300102005 : Dreamjolt Troupe's Birdskull
 300201001 : Dreamjolt Troupe's Mr. Domescreen (Projection)
 300201002 : Dreamjolt Troupe's Mr. Domescreen (Projection)
 300201003 : Cocona's Purity
@@ -26039,6 +28544,7 @@
 300202001 : Dreamjolt Troupe's Fortune Seller
 300202002 : Dreamjolt Troupe's Fortune Seller
 300202003 : Dreamjolt Troupe's Fortune Seller
+300202004 : Dreamjolt Troupe's Fortune Seller
 300202101 : Banacademic Office's Fortune BananAdvisor
 300202201 : Banacademic Office's Fortune BananAdvisor
 300202202 : Banacademic Office's Fortune BananAdvisor
@@ -26054,11 +28560,14 @@
 300203008 : Dreamjolt Troupe's Bubble Hound
 300203009 : Dreamjolt Troupe's Bubble Hound
 300203010 : Dreamjolt Troupe's Bubble Hound
+300203011 : Dreamjolt Troupe's Bubble Hound
+300203012 : Dreamjolt Troupe's Bubble Hound
 300204001 : Dreamjolt Troupe's Winder Goon
 300204002 : Dreamjolt Troupe's Winder Goon
 300204003 : Dreamjolt Troupe's Winder Goon
 300204004 : Dreamjolt Troupe's Winder Goon
 300204005 : Dreamjolt Troupe's Winder Goon
+300204006 : Dreamjolt Troupe's Winder Goon
 300204101 : Banacademic Office's Dreamweaver BananAdvisor
 300204201 : Banacademic Office's Dreamweaver BananAdvisor
 300204202 : Banacademic Office's Dreamweaver BananAdvisor
@@ -26081,6 +28590,7 @@
 300301008 : Dreamjolt Troupe's Beyond Overcooked
 300301101 : Dreamjolt Troupe's Beyond Overcooked (Projection)
 300301201 : Dreamjolt Troupe's Beyond Overcooked (Bug)
+300301202 : Dreamjolt Troupe's Beyond Overcooked (Bug)
 300301301 : Banacademic Office's Charmony BananAdvisor
 300301302 : Banacademic Office's Charmony BananAdvisor
 300301401 : Dreamjolt Troupe's Beyond Overcooked
@@ -26096,12 +28606,17 @@
 300302003 : Dreamjolt Troupe's Sweet Gorilla
 300302004 : Dreamjolt Troupe's Sweet Gorilla
 300302005 : Dreamjolt Troupe's Sweet Gorilla
+300302006 : Dreamjolt Troupe's Sweet Gorilla
+300302007 : Dreamjolt Troupe's Sweet Gorilla
+300302201 : Dreamjolt Troupe's Sweet Gorilla (Bug)
 300303001 : "Past Confined and Caged"
 300303002 : "Past Confined and Caged"
 300303003 : "Past Confined and Caged"
 300303004 : "Past Confined and Caged"
 300303005 : "Past Confined and Caged"
 300303006 : "Past Confined and Caged"
+300303007 : "Past Confined and Caged"
+300303008 : "Past Confined and Caged"
 300303101 : "Past Confined and Caged"
 300303102 : D. Celerate
 300304001 : "Tomorrow in Harmonious Chords"
@@ -26114,8 +28629,10 @@
 300305004 : "Present Inebriated in Revelry"
 300305005 : "Present Inebriated in Revelry"
 300305006 : "Present Inebriated in Revelry"
+300305007 : "Present Inebriated in Revelry"
 300305101 : "Present Inebriated in Revelry"
 300305102 : D. Lite
+300305201 : "Present Inebriated in Revelry" (Bug)
 300401001 : The Past, Present, and Eternal Show
 300401002 : Tri-Dis of Zhuming
 300402001 : Wonder Forest's Banacademic Office Staff
@@ -26136,6 +28653,7 @@
 301301004 : Memory Zone Meme "Shell of Faded Rage"
 301301005 : Memory Zone Meme "Shell of Faded Rage"
 301301006 : Shuojin Illusion
+301301007 : Memory Zone Meme "Shell of Faded Rage"
 301301201 : Memory Zone Meme "Shell of Faded Rage"
 301301202 : Memory Zone Meme "Shell of Faded Rage"
 301301203 : Memory Zone Meme "Shell of Faded Rage"
@@ -26150,14 +28668,17 @@
 301402202 : Memory Zone Meme "Something Unto Death" (Complete)
 302102001 : "The Honored"
 302102002 : "The Honored"
+302102003 : "The Honored"
 302102101 : "The Honored"
 302102102 : "The Honored"
 302103001 : "Speartip"
 302103002 : "Speartip"
+302103003 : "Speartip"
 302103101 : "Speartip"
 302103102 : "Speartip"
 302104001 : "The Shield"
 302104002 : "The Shield"
+302104003 : "The Shield"
 302104101 : "The Shield"
 302104102 : "The Shield"
 302401001 : Argenti
@@ -26174,6 +28695,7 @@
 302401201 : Argenti
 302401202 : Argenti
 302401203 : Argenti
+302401204 : Argenti
 302401301 : Silver Knight of Virtuous Gallantry
 302401302 : Silver Knight of Virtuous Gallantry
 302401303 : Silver Knight of Virtuous Gallantry
@@ -26190,6 +28712,46 @@
 302501302 : Cacophonic Conductor
 302501303 : Cacophonic Conductor
 302501304 : Cacophonic Conductor
+401201004 : Furiae Warrior
+401201005 : Furiae Warrior
+401201006 : Furiae Warrior
+401201007 : Furiae Warrior
+401201008 : Furiae Warrior
+401202001 : Furiae Philosopher
+401202002 : Furiae Philosopher
+401202003 : Furiae Philosopher
+401202004 : Furiae Philosopher
+401202101 : Furiae Philosopher
+401202102 : Furiae Philosopher
+401202103 : Furiae Philosopher
+401202104 : Furiae Philosopher
+401203001 : Furiae Archer
+401203002 : Furiae Archer
+401203003 : Furiae Archer
+401203004 : Furiae Archer
+401203101 : Furiae Archer
+401203102 : Furiae Archer
+401203103 : Furiae Archer
+401203104 : Furiae Archer
+401203105 : Furiae Archer
+401204001 : Furiae Troupe
+401204002 : Furiae Troupe
+401204003 : Furiae Troupe
+401205001 : "Spirithief" Bartholos
+401205101 : "Spirithief" Bartholos
+401205102 : "Spirithief" Bartholos
+401205103 : "Spirithief" Bartholos
+401206001 : Conquer or Be Conquered
+401301001 : Praetor Furiae
+401301101 : Praetor Furiae
+401301201 : Praetor Furiae
+401401001 : Savage and Mad God, Incarnation of Strife
+401401002 : Savage and Mad God, Incarnation of Strife
+401401003 : Savage and Mad God, Incarnation of Strife
+401401201 : Savage and Mad God, Incarnation of Strife
+401402001 : The Giver, Master of Legions, Lance of Fury
+401402002 : The Giver, Master of Legions, Lance of Fury
+404301001 : Herta #ErrorModel
 700203001 : Incineration Shadewalker
 700203002 : Incineration Shadewalker
 700205001 : Entranced Ingenium: Illumination Dragonfish
@@ -26231,6 +28793,7 @@
 800102015 : Frostspawn
 800102016 : Frostspawn
 800102017 : Frostspawn
+800102018 : Frostspawn
 800103001 : Mask of No Thought
 800103002 : Mask of No Thought
 800103003 : Mask of No Thought
@@ -26242,6 +28805,7 @@
 800103009 : Mask of No Thought
 800103010 : Mask of No Thought
 800103011 : Mask of No Thought
+800103012 : Mask of No Thought
 800104001 : Thunderspawn
 800104002 : Thunderspawn
 800104003 : Thunderspawn
@@ -26340,6 +28904,7 @@
 800205070 : Sequence Trotter
 800205071 : Sequence Trotter
 800205072 : Sequence Trotter
+800205073 : Sequence Trotter
 800205101 : Trotter
 800205201 : Trotter
 800205301 : Trotter
@@ -26430,6 +28995,8 @@
 800304013 : Decaying Shadow
 800304014 : Cloud Knight Illusion
 800304015 : Decaying Shadow
+800304016 : Decaying Shadow
+800304101 : Decaying Shadow (Bug)
 800305001 : Stormbringer
 800305002 : Stormbringer
 800305003 : Stormbringer
@@ -26447,6 +29014,8 @@
 800305017 : Stormbringer
 800305018 : Stormbringer
 800305019 : Stormbringer
+800305020 : Stormbringer
+800305101 : Stormbringer (Bug)
 801101001 : Baryon
 801101002 : Baryon
 801101003 : Baryon
@@ -26456,6 +29025,7 @@
 801101007 : Baryon
 801101008 : Baryon
 801101009 : Baryon
+801101011 : Baryon
 801102001 : Antibaryon
 801102002 : Antibaryon
 801102003 : Antibaryon
@@ -26511,6 +29081,7 @@
 801202012 : Voidranger: Distorter
 801202013 : Voidranger: Distorter
 801202014 : Voidranger: Distorter
+801202015 : Voidranger: Distorter
 801202101 : Voidranger: Distorter
 801202102 : Voidranger: Distorter
 801202103 : Voidranger: Distorter
@@ -26524,6 +29095,7 @@
 801203007 : Voidranger: Eliminator
 801203008 : Voidranger: Eliminator
 801203009 : Voidranger: Eliminator
+801203010 : Voidranger: Eliminator
 801214601 : Disaster's Right Hand
 801214602 : Disaster's Right Hand
 801214603 : Disaster's Right Hand
@@ -26555,6 +29127,7 @@
 801301023 : Voidranger: Trampler
 801301024 : Voidranger: Trampler
 801301025 : Voidranger: Trampler
+801301101 : Voidranger: Trampler (Bug)
 801314501 : Antimatter Engine
 801314502 : Antimatter Engine
 801314503 : Antimatter Engine
@@ -26568,9 +29141,22 @@
 801502203 : Opportunistic Provocateur
 801502204 : Opportunistic Provocateur
 802201001 : Juvenile Sting
+802201101 : Juvenile Sting
+802201102 : Juvenile Sting
+802201103 : Juvenile Sting
+802201104 : Juvenile Sting
 802202001 : Lesser Sting
 802202002 : Lesser Sting
 802202003 : Lesser Sting
+802202101 : Lesser Sting
+802202102 : Lesser Sting
+802202103 : Lesser Sting
+802202104 : Lesser Sting
+802203001 : Gnaw Sting
+802203101 : Gnaw Sting
+802203102 : Gnaw Sting
+802203103 : Gnaw Sting
+802203104 : Gnaw Sting
 802401101 : Swarm: True Sting
 802401102 : Swarm: True Sting
 802401103 : Swarm: True Sting
@@ -26578,6 +29164,10 @@
 802401105 : Swarm: True Sting
 802401106 : Swarm: True Sting
 802501001 : Starcrusher Swarm King: Skaracabaz (Synthetic)
+802501101 : Sky-Shrouding Stardevourer Swarm
+802501102 : Sky-Shrouding Stardevourer Swarm
+802501103 : Sky-Shrouding Stardevourer Swarm
+802501104 : Sky-Shrouding Stardevourer Swarm
 803201001 : Grunt: Field Personnel
 803201002 : Grunt: Field Personnel
 803201003 : Grunt: Field Personnel (Illusion)
@@ -26623,6 +29213,7 @@
 803301011 : Senior Staff: Team Leader
 803301012 : Senior Staff: Team Leader
 803301013 : Shuojin
+803301014 : Senior Staff: Team Leader
 803301101 : Senior Staff: Team Leader (Bug)
 803301102 : Senior Staff: Team Leader (Bug)
 803301202 : Senior Staff: Team Leader (Illusion)
@@ -26649,6 +29240,8 @@
 10305 : [Town] The Reverie (Reality)
 10306 : [Town] Penacony Paperfold University College
 10341 : [Town] {TEXTJOIN#87}
+10401 : [Town] "Eternal Holy City" Okhema
+10402 : [Town] null
 20001 : [Maze] Base Zone
 20002 : [Maze] Storage Zone
 20003 : [Maze] Supply Zone
@@ -26686,6 +29279,9 @@
 20323 : [Maze] Horizon of Existence
 20331 : [Maze] SoulGlad™ Scorchsand Audition Venue
 20332 : [Maze] Penacony Grand Theater
+20411 : [Maze] null
+20412 : [Maze] "Abyss of Fate" Janusopolis
+20413 : [Maze] null
 30101 : [Challenge] null
 30102 : [Challenge] null
 30103 : [Challenge] null
@@ -26699,6 +29295,7 @@
 30125 : [Challenge] null
 30126 : [Challenge] null
 30127 : [Challenge] null
+30130 : [Challenge] null
 30201 : [Raid] Cavern of Corrosion
 30301 : [Raid] null
 30401 : [Raid] null
@@ -26709,6 +29306,8 @@
 30523 : [TrialActivity] null
 30524 : [TrialActivity] null
 30525 : [TrialActivity] null
+30527 : [TrialActivity] null
+30530 : [TrialActivity] null
 40000 : [Raid] null
 40002 : [Raid] null
 40003 : [Raid] null
@@ -26741,6 +29340,10 @@
 40301 : [Raid] null
 40302 : [Raid] null
 40312 : [Raid] null
+40401 : [Raid] null
+40402 : [Raid] null
+40403 : [Raid] null
+40404 : [Raid] null
 41000 : [Raid] null
 41007 : [Raid] null
 41008 : [Raid] null
@@ -26750,6 +29353,8 @@
 41012 : [Raid] null
 41212 : [Raid] null
 41221 : [Raid] null
+41401 : [Raid] null
+41402 : [Raid] null
 42221 : [Raid] null
 43001 : [Raid] null
 43002 : [Raid] null

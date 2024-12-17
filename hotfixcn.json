@@ -20,13 +20,13 @@
         "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8795808_4bd18ccf72fd",
         "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8805064_493502ab43ce",
         "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8797130_2ac8372aeaaa",
-        "ifixUrl": ""
+        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
       },
       "2.7.53": {
-        "assetBundleUrl": "",
-        "exResourceUrl": "",
-        "luaUrl": "",
-        "ifixUrl": ""
+        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8876487_71f1a5b21bd5",
+        "exResourceUrl": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8895614_cc6f3fdd930f",
+        "luaUrl": "https://autopatchcn.bhsr.com/lua/BetaLive/output_8880072_11cae8e8e678",
+        "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
       },
       "2.7.54": {
         "assetBundleUrl": "",

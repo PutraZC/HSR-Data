@@ -29,10 +29,10 @@
         "ifixUrl": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253"
       },
       "2.7.54": {
-        "assetBundleUrl": "",
-        "exResourceUrl": "",
-        "luaUrl": "",
-        "ifixUrl": ""
+        "assetBundleUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8962707_a598db1764b3",
+        "exResourceUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8962707_6d61e7d86832",
+        "luaUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_8962802_2e0f8cf491bb",
+        "ifixUrl": "https://autopatchcn.bhsr.com/asb/BetaLive/output_0_40d2ce0253"
       },
       "2.7.55": {
         "assetBundleUrl": "",

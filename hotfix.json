@@ -1,12 +1,12 @@
 {
-  "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.7Live/output_9038522_623fdf1bc77d",
-  "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.7Live/output_9069408_93a97281b9fd",
-  "luaUrl": "https://autopatchos.starrails.com/lua/V2.7Live/output_8774490_7f0c259f6163",
-  "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.7Live/output_8925826_bfd8a3fb20ea",
+  "assetBundleUrl": "https://autopatchos.starrails.com/asb/V3.0Live/output_9180368_c9d2800ed8d6",
+  "exResourceUrl": "https://autopatchos.starrails.com/design_data/V3.0Live/output_9195911_99c1f0467ee2",
+  "luaUrl": "https://autopatchos.starrails.com/lua/V3.0Live/output_9180368_d091c9b597aa",
+  "ifixUrl": "https://autopatchos.starrails.com/ifix/V3.0Live/output_9217976_c02a783d32fc",
   "preDownloadUrl": "No Url Found",
   "customMdkResVersion": 0,
   "customIfixVersion": 0,
-  "version": "2.7.0",
-  "dispatchSeed": "14739e52c4",
-  "lastUpdate": "31-12-2024 14:05:41"
+  "version": "3.0.0",
+  "dispatchSeed": "da745713b1",
+  "lastUpdate": "2025-01-15 19:20:36"
 }

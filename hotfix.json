@@ -1,6 +1,6 @@
 {
-  "assetBundleUrl": "https://autopatchos.starrails.com/asb/V3.0Live/output_9244878_9a6f1c3045b2",
-  "exResourceUrl": "https://autopatchos.starrails.com/design_data/V3.0Live/output_9245114_83a94dca7b09",
+  "assetBundleUrl": "https://autopatchos.starrails.com/asb/V3.0Live/output_9256905_16f313031e73",
+  "exResourceUrl": "https://autopatchos.starrails.com/design_data/V3.0Live/output_9256905_f1e75e6635dc",
   "luaUrl": "https://autopatchos.starrails.com/lua/V3.0Live/output_9244878_1e5541cfd927",
   "ifixUrl": "https://autopatchos.starrails.com/ifix/V3.0Live/output_9245114_94761e0dac8b",
   "preDownloadUrl": "No Url Found",
@@ -8,5 +8,5 @@
   "customIfixVersion": 0,
   "version": "3.0.0",
   "dispatchSeed": "da745713b1",
-  "lastUpdate": "2025-01-16 22:30:08"
+  "lastUpdate": "2025-01-18 22:05:14"
 }

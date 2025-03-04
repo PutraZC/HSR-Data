@@ -1,5 +1,5 @@
-# RiskaSR Handbook Version 3.1.0
-# Created 2025/02/24 22:11:10
+# RiskaSR Handbook Version 3.1.5
+# Created 2025/03/02 09:51:14
 
 
 # Commands
@@ -96,6 +96,8 @@
 1402 : Aglaea
 1403 : Tribbie
 1404 : Mydei
+1405 : Anaxa
+1407 : Castorice
 6022 : March 7th
 6023 : Skott's Specially Appointed IPC Mech
 7005 : Kafka
@@ -136,6 +138,7 @@
 54 : Express Fund
 101 : Star Rail Pass
 102 : Star Rail Special Pass
+110 : ...
 170 : Exploration Points
 171 : Exploration Points
 201 : Fuel
@@ -159,6 +162,9 @@
 261 : Lucent Afterglow
 262 : Jade Feather
 271 : Superimposer (Custom-made)
+281 : ...
+282 : ...
+283 : ...
 503 : Herta Bond
 800 : First Voyage's Blessing
 801 : First Voyage's Blessing

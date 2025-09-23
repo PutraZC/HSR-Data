@@ -1,8 +1,9 @@
 {
-  "assetBundleUrl": "https://autopatchos.starrails.com/asb/V3.1Live/output_9778933_098e10e61972",
-  "exResourceUrl": "https://autopatchos.starrails.com/design_data/V3.1Live/output_9780820_081b68bddb68",
-  "luaUrl": "https://autopatchos.starrails.com/lua/V3.1Live/output_9619913_f7fb364d2fe3",
-  "ifixUrl": "https://autopatchos.starrails.com/ifix/V3.1Live/output_9648222_20fe9ae9c672",
+  "asset_bundle_url": "https://autopatchos.starrails.com/asb/V3.4Live/output_10978144_8c51ef11a970_4f0b93bc25d267",
+  "ex_resource_url": "https://autopatchos.starrails.com/design_data/V3.4Live/output_11088648_9836bf7ce531_2d05ce9974ab5c",
+  "lua_url": "https://autopatchos.starrails.com/lua/V3.4Live/output_11088118_24389427cbb6_eb9e7587996af3",
+  "ifix_url": "https://autopatchos.starrails.com/ifix/V3.4Live/output_11052622_074ba701b0a0_837ecbeec363d5",
+  "pre_download_url": "",
   "customMdkResVersion": 0,
   "customIfixVersion": 0
 }

@@ -5,21 +5,23 @@
 # Commands
 /account {create | delete} [username] (reserved player uid). Creates or deletes an account.
 /avatar {cur | all | lineup} lv(level) p(ascension) e(eidolon) s(skill levels). Sets the current avatar's properties
+/announce [color] [text]. Sends a message to all players on the server.
 /ban @[player id]. ban a player from the server.
 /clear {relics | lightcones | materials | items} lv(filter level). Removes filter items from the targeted player's inventory.
 /energy. Refills all characters energy in current lineup.
 /gender {male | female}. Sets the player gender.
 /give [item id] x(amount) lv(level) r(rank) p(promotion). Gives the targeted player an item.
-/giveall {materials | avatars | lightcones | relics | usables| pets} lv(level). Gives the targeted player items.
+/giveall {materials | avatars | lightcones | relics | usables| unlocks} lv(level). Gives the targeted player items.
 /heal. Heals your avatars.
 /help. Displays a list of available commands.
-/import. Import freesr-data.json to your account.
+/json [name] - import data from freesr-data.json
 /lineup [avatar ids]. USE AT YOUR OWN RISK. Sets your current lineup with the specified avatar ids.
+/lua - Select the lua code to execute from the scripts folder.
 /mail [content]. Sends the targeted player a system mail.
 /permission {add | remove | clear} [permission]. Gives/removes a permission from the targeted player.
 /pos. Get your current position
 /refill - refill your skill points in open world.
-/reload { config | res}. Reloads the server config.
+/reload { config | res}. Reloads the server config. 
 /scene [scene id] [floor id]. Teleports the player to the specified scene.
 /setlevel [level] - Sets the targeted player's trailblazer level.
 /skip - Skip Top Half of MoC, PF, AS and go straight to the bottom.

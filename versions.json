@@ -1,14 +1,32 @@
 {
-  "CNBETAWin3.6.51": {
-    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_12066992_f083970b907e_999074cab6dce6",
-    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_12114942_e99cbde25134_e63a6b835f17f9",
-    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_12103115_ee78155e9867_3626f0948d93e2",
-    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_12118783_55113408814f_c874267d04c04a"
-  },
-  "OSBETAWin3.6.51": {
-    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12066992_f083970b907e_3c2e860bd9fff1",
-    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12114942_e99cbde25134_7d7ad8c682d837",
-    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12103115_ee78155e9867_30f2e80f88b584",
-    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12118783_55113408814f_db4b0065a9cc23"
-  }
+  "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12150614_5279f6d8029a_a96ad744ebf93e",
+  "ip": "47.245.1.137",
+  "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12178965_e246796e0bb6_540d567d413652",
+  "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12150127_00d6d096d968_8572ef478a4d8a",
+  "enable_watermark": true,
+  "region_name": "beta_release01_asia",
+  "port": 23301,
+  "retcode": 0,
+  "close_redeem_code": true,
+  "mdk_res_version": "12150614",
+  "rogue_tourn_build_ref_static_data_url_prefix": "https://act-webstatic.hoyoverse.com/rpgsimulator/220/",
+  "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12164593_8e3fba5163df_9e661607611b67",
+  "base_asset_bundle_version_update_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12150127_00d6d096d968_8572ef478a4d8a",
+  "server_description": "",
+  "login_white_msg": "Access verification failed. Please check if you have logged in to the correct account and server.",
+  "ipv6_address": "0",
+  "online_replay_download_url": "https://downloadjp.starrails.com/replay/beta_release01_asia",
+  "use_tcp": true,
+  "client_secret_key": "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",
+  "mtp_switch": true,
+  "ifix_version": "12164593",
+  "online_replay_upload_url": "http://alb-j4u3qs9np00497ic5s.ap-northeast-1.alb.aliyuncs.com/upload_replay",
+  "enable_save_replay_file": true,
+  "ios_exam": true,
+  "game_start_customer_service_url": "https://cs.hoyoverse.com/beta/hoyoverse-new-csc-service-hall-fe/index.html?plat_type=&login_type=visitor&game_biz=&lang=&os_system=&device_model=&client_version=&cli_id=1&page_id=22&login_status=1&utm_source=login&extra_device_info=1",
+  "custom_service_url": "https://cs.hoyoverse.com/beta/csc-service-center-fe/index.html?sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait&login_type=account&page_id=4&goToHall=true&extra_device_info=1",
+  "rogue_tourn_build_ref_h5_url": "https://act.hoyolab.com/sr/event/gt-aio/divergent-universe/__beta__/index.html?sign_type=2&auth_appid=rpgsimulator&authkey_ver=1&win_mode=fullscreen&mode=fullscreen&open_bbs=0&mhy_presentation_style=fullscreen&gt__beta_env=beta_release",
+  "rogue_tourn_build_ref_api_req_color_header_key": "x-rpc-rpglineup-beta",
+  "pre_download_url": "",
+  "personal_information_in_game_url": ""
 }

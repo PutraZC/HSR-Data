@@ -1,10 +1,10 @@
 {
   "asset_bundle_url": "https://autopatchos.starrails.com/asb/V3.6Live/output_12028359_9a561eee8430_a3b8cfd9f0e13b",
-  "ex_resource_url": "https://autopatchos.starrails.com/design_data/V3.6Live/output_12195141_76afa09e7525_9dc18b4b37e498",
+  "ex_resource_url": "https://autopatchos.starrails.com/design_data/V3.6Live/output_12239085_3193d35f9240_799becf1d39e31",
   "lua_url": "https://autopatchos.starrails.com/lua/V3.6Live/output_12204189_7a7d918159ac_ff04609a61bcac",
-  "ifix_url": "https://autopatchos.starrails.com/ifix/V3.6Live/output_12194346_8ca905f6b994_93056cd5c8876b",
+  "ifix_url": "https://autopatchos.starrails.com/ifix/V3.6Live/output_12241876_e7ab75ecd389_21cc4e3914130c",
   "mdk_res_version": "12204189",
-  "ifix_version": "12194346",
+  "ifix_version": "12241876",
   "pre_download_url": "",
   "base_asset_bundle_version_update_url": "https://autopatchos.starrails.com/asb/V3.6Live/output_11931000_518c5f701541_aebc3ceec14184"
 }

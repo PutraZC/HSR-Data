@@ -1,31 +1,38 @@
 {
-  "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12295568_47061d21355e_86428a17189101",
-  "ip": "47.245.1.137",
-  "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12291938_90c393f370b8_db0d83b7610610",
-  "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12267173_87c48b19cccf_85c31e3e91b056",
-  "enable_watermark": true,
-  "region_name": "beta_release01_asia",
-  "port": 23301,
-  "retcode": 0,
-  "mdk_res_version": "12295568",
-  "rogue_tourn_build_ref_static_data_url_prefix": "https://act-webstatic.hoyoverse.com/rpgsimulator/220/",
-  "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12279762_593428c5dc22_43add684f1bb55",
-  "base_asset_bundle_version_update_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12267173_87c48b19cccf_85c31e3e91b056",
-  "server_description": "",
-  "login_white_msg": "Access verification failed. Please check if you have logged in to the correct account and server.",
-  "ipv6_address": "0",
-  "online_replay_download_url": "https://downloadjp.starrails.com/replay/beta_release01_asia",
-  "use_tcp": true,
-  "client_secret_key": "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",
-  "mtp_switch": true,
-  "ifix_version": "12279762",
-  "online_replay_upload_url": "http://alb-j4u3qs9np00497ic5s.ap-northeast-1.alb.aliyuncs.com/upload_replay",
-  "enable_save_replay_file": true,
-  "ios_exam": true,
-  "game_start_customer_service_url": "https://cs.hoyoverse.com/beta/hoyoverse-new-csc-service-hall-fe/index.html?plat_type=&login_type=visitor&game_biz=&lang=&os_system=&device_model=&client_version=&cli_id=1&page_id=22&login_status=1&utm_source=login&extra_device_info=1",
-  "custom_service_url": "https://cs.hoyoverse.com/beta/csc-service-center-fe/index.html?sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait&login_type=account&page_id=4&goToHall=true&extra_device_info=1",
-  "rogue_tourn_build_ref_h5_url": "https://act.hoyolab.com/sr/event/gt-aio/divergent-universe/__beta__/index.html?sign_type=2&auth_appid=rpgsimulator&authkey_ver=1&win_mode=fullscreen&mode=fullscreen&open_bbs=0&mhy_presentation_style=fullscreen&gt__beta_env=beta_release",
-  "rogue_tourn_build_ref_api_req_color_header_key": "x-rpc-rpglineup-beta",
-  "pre_download_url": "",
-  "personal_information_in_game_url": ""
+  "CNBETAWin3.6.51": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_12066992_f083970b907e_999074cab6dce6",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_12114942_e99cbde25134_e63a6b835f17f9",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_12103115_ee78155e9867_3626f0948d93e2",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_12118783_55113408814f_c874267d04c04a"
+  },
+  "OSBETAWin3.6.51": {
+    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12066992_f083970b907e_3c2e860bd9fff1",
+    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12114942_e99cbde25134_7d7ad8c682d837",
+    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12103115_ee78155e9867_30f2e80f88b584",
+    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12118783_55113408814f_db4b0065a9cc23"
+  },
+  "CNBETAWin3.6.52": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_12150127_00d6d096d968_cd76a04beb7ba6",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_12178965_e246796e0bb6_05bcce36cd648b",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_12150614_5279f6d8029a_bdecff99d2d817",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_12164593_8e3fba5163df_b2b6fc46de4c06"
+  },
+  "OSBETAWin3.6.52": {
+    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12150127_00d6d096d968_8572ef478a4d8a",
+    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12178965_e246796e0bb6_540d567d413652",
+    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12150614_5279f6d8029a_a96ad744ebf93e",
+    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12164593_8e3fba5163df_9e661607611b67"
+  },
+  "CNBETAWin3.6.53": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_12267173_87c48b19cccf_e57c755c3b27d6",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_12291938_90c393f370b8_ecf686154f9ea4",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_12295568_47061d21355e_62b79a4851861d",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_12279762_593428c5dc22_788410d8dabf6a"
+  },
+  "OSBETAWin3.6.53": {
+    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12267173_87c48b19cccf_85c3x1e3e91b056",
+    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12291938_90c393f370b8_db0d83b7610610",
+    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12295568_47061d21355e_86428a17189101",
+    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_12279762_593428c5dc22_43add684f1bb55"
+  }
 }

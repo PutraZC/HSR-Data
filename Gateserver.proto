@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+// not all 3.6.5
+
+message Gateserver {
+    uint32 port = 14;
+    string asset_bundle_url = 7;
+    string ex_resource_url = 6;
+    string lua_url = 1;
+    string ip = 5;
+    string region_name = 10;
+    string login_white_msg = 475;
+    string mdk_res_version = 171;
+    string ifix_version = 1280;
+    string ifix_url = 263;
+    string rogue_tourn_build_ref_static_data_url_prefix = 249;
+    string base_asset_bundle_version_update_url = 452;
+    string ipv6_address = 553;
+    string online_replay_download_url = 607;
+    string client_secret_key = 1090;
+    string online_replay_upload_url = 1407;
+    string game_start_customer_service_url = 1605;
+    string custom_service_url = 1708;
+    string rogue_tourn_build_ref_h5_url = 1984;
+    string rogue_tourn_build_ref_api_req_color_header_key = 1987;
+}

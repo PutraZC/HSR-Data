@@ -1,27 +1,18 @@
 {
-  "region_name": "beta_release01_asia",
-  "ip": "47.245.0.154",
-  "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12579929_9566349ee5fb_ddf6b209e0456f",
-  "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12611332_5f583f2f54ae_3a4feccbf58385",
-  "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12579793_48327ff319b5_fd55459b8f5963",
-  "port": 23301,
-  "rogue_tourn_build_ref_api_req_color_header_value": "beta_release",
-  "grid_fight_game_ref_cdn_url": "https://act-webstatic.hoyoverse.com/rpgsimulator/currencywar/220/",
-  "online_replay_download_url": "https://downloadjp.starrails.com/replay/beta_release01_asia",
-  "ifix_version": "0",
-  "online_replay_upload_url": "http://alb-j4u3qs9np00497ic5s.ap-northeast-1.alb.aliyuncs.com/upload_replay",
-  "ipv6_address": "0",
-  "rogue_tourn_build_ref_api_req_color_header_key": "x-rpc-rpglineup-beta",
-  "client_secret_key": "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",
-  "login_white_msg": "Access verification failed. Please check if you have logged in to the correct account and server.",
-  "mdk_res_version": "12579929",
-  "game_start_customer_service_url": "https://cs.hoyoverse.com/beta/hoyoverse-new-csc-service-hall-fe/index.html?plat_type=&login_type=visitor&game_biz=&lang=&os_system=&device_model=&client_version=&cli_id=1&page_id=22&login_status=1&utm_source=login&extra_device_info=1",
-  "rogue_tourn_build_ref_h5_url": "https://act.hoyolab.com/sr/event/gt-aio/divergent-universe/__beta__/index.html?sign_type=2&auth_appid=rpgsimulator&authkey_ver=1&win_mode=fullscreen&mode=fullscreen&open_bbs=0&mhy_presentation_style=fullscreen&gt__beta_env=beta_release",
-  "base_asset_bundle_version_update_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12579793_48327ff319b5_fd55459b8f5963",
-  "custom_service_url": "https://cs.hoyoverse.com/beta/csc-service-center-fe/index.html?sign_type=2&auth_appid=csc&authkey_ver=1&win_direction=portrait&login_type=account&page_id=4&goToHall=true&extra_device_info=1",
-  "rogue_tourn_build_ref_static_data_url_prefix": "https://act-webstatic.hoyoverse.com/rpgsimulator/220/",
-  "grid_fight_game_ref_h5_url": "https://act.hoyolab.com/sr/event/currency-wars/__beta__/index.html?gt__beta_env=beta_release&sign_type=2&auth_appid=rpqcurrencywar&authkey_ver=1&open_bbs=0&hyl_presentation_style=fullscreen",
-  "grid_fight_game_ref_color_header_key": "x-rpc-currencywar-beta",
-  "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_0_40d2ce0253_6d871f8bca6eb4",
-  "grid_fight_game_ref_color_header_value": "beta_release"
+  "CNBETAWin3.6.51": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_12579793_48327ff319b5_1b794dd1071e3a",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_12611332_5f583f2f54ae_c04979f13c950d",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_12579929_9566349ee5fb_c6341faaf9b027",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
+    "ifix_version": "0",
+    "lua_version": "12579929"
+  },
+  "OSBETAWin3.6.51": {
+    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_12579929_9566349ee5fb_ddf6b209e0456f",
+    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_12611332_5f583f2f54ae_3a4feccbf58385",
+    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_12579793_48327ff319b5_fd55459b8f5963",
+    "ifix_version": "0",
+    "lua_version": "12579929",
+    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_0_40d2ce0253_6d871f8bca6eb4"
+  }
 }

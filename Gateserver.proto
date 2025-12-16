@@ -7,6 +7,7 @@ message Gateserver {
     string asset_bundle_url = 12;
     string lua_url = 9;
     string mdk_res_version = 1150;
+    string pre_download = 395;
     string ifix_url = 1813;
     string ifix_version = 652;
 }

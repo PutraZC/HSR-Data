@@ -1,10 +1,33 @@
 {
-  "asset_bundle_url": "https://autopatchos.starrails.com/asb/V3.8Live/output_13243701_4ba191b97389_de035d85ef8ae9",
-  "ex_resource_url": "https://autopatchos.starrails.com/design_data/V3.8Live/output_13223428_fdf9ec4b26b3_8b8ecdf5cafeab",
-  "lua_url": "https://autopatchos.starrails.com/lua/V3.8Live/output_13140541_b67fff8d3856_d3f7e8f25c4f28",
-  "ifix_url": "https://autopatchos.starrails.com/ifix/V3.8Live/output_13140927_1d93c21ac1a0_934f66eba8245a",
-  "pre_download": "",
-  "ifix_version": "13140927",
-  "mdk_res_version": "13140541",
-  "base_asset_bundle_version_update_url": "https://autopatchos.starrails.com/asb/V3.8Live/output_13040595_9e9bd95c56a5_6a4f119b92fdd9"
+  "Region": "None",
+  "HotfixData": {
+    "CN3.7.0": {
+      "AssetBundleUrl": "asb/V3.7Live/output_12811506_9837b52328fb_2059b9f0cc7220",
+      "ExAssetBundleUrl": "asb/V3.7Live/output_12477160_5da2dc8d6e33_785951683a8623",
+      "ExResourceUrl": "design_data/V3.7Live/output_12816713_b6876e78aacd_7b659c6ca6a9b2",
+      "LuaUrl": "lua/V3.7Live/output_12811134_56e0885c7e50_547b6f83aba1ee",
+      "IfixUrl": "ifix/V3.7Live/output_12759706_cf982c9658d9_e304c2867fffb8"
+    },
+    "OS3.7.0": {
+      "AssetBundleUrl": "asb/V3.7Live/output_12811506_9837b52328fb_c6941ae7f0cdab",
+      "ExAssetBundleUrl": "asb/V3.7Live/output_12477160_5da2dc8d6e33_32f7398e7da9ee",
+      "ExResourceUrl": "design_data/V3.7Live/output_13008612_18e5272d737d_6e8773c4a1e417",
+      "LuaUrl": "lua/V3.7Live/output_12811134_56e0885c7e50_d4dd08af451815",
+      "IfixUrl": "ifix/V3.7Live/output_12759706_cf982c9658d9_b16b860903d2f3"
+    },
+    "CN3.8.0": {
+      "AssetBundleUrl": "asb/V3.8Live/output_13319540_98e04d64ec9a_b76d02b010f0fd",
+      "ExAssetBundleUrl": "asb/V3.8Live/output_13040595_9e9bd95c56a5_b73e4b4b12fbc2",
+      "ExResourceUrl": "design_data/V3.8Live/output_13420287_4364939969a2_cf7d27969f5b25",
+      "LuaUrl": "lua/V3.8Live/output_13140541_b67fff8d3856_b6b1f085756c4d",
+      "IfixUrl": "ifix/V3.8Live/output_13319540_ad152a730955_b96dc21e7c4468"
+    },
+    "OS3.8.0": {
+      "AssetBundleUrl": "asb/V3.8Live/output_13319540_98e04d64ec9a_ac20fd9bce7690",
+      "ExAssetBundleUrl": "asb/V3.8Live/output_13040595_9e9bd95c56a5_6a4f119b92fdd9",
+      "ExResourceUrl": "design_data/V3.8Live/output_13420287_4364939969a2_37bd28299a3cb0",
+      "LuaUrl": "lua/V3.8Live/output_13140541_b67fff8d3856_d3f7e8f25c4f28",
+      "IfixUrl": "ifix/V3.8Live/output_13319540_ad152a730955_35ade0fa79ef6b"
+    }
+  }
 }

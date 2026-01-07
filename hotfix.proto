@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+// Hotfix 3.8.5
+
+message Gateserver {
+    string asset_bundle_url = 5;
+    string ex_resource_url = 11;
+    string lua_url = 14;
+    string ifix_url = 673;
+    string mdk_res_version = 1321;
+    string ifix_version = 1865;
+}

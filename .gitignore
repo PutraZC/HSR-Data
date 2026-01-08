@@ -1,4 +1,4 @@
-yttim.cs
-1.lua
-test.lua
+*.cs
+*.lua
+/proto
 Gateserver.proto

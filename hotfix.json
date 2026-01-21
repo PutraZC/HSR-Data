@@ -16,11 +16,11 @@
       "IfixUrl": "ifix/V3.7Live/output_12759706_cf982c9658d9_b16b860903d2f3"
     },
     "CN3.8.0": {
-      "AssetBundleUrl": "",
-      "ExAssetBundleUrl": "",
-      "ExResourceUrl": "",
-      "LuaUrl": "",
-      "IfixUrl": ""
+      "AssetBundleUrl": "asb/V3.8Live/output_13751690_e46b55112c0b_544b01c5c6cd8a",
+      "ExAssetBundleUrl": "asb/V3.8Live/output_13040595_9e9bd95c56a5_b73e4b4b12fbc2",
+      "ExResourceUrl": "design_data/V3.8Live/output_13751690_2271a2671cc1_7ef436e1b55261",
+      "LuaUrl": "lua/V3.8Live/output_13140541_b67fff8d3856_b6b1f085756c4d",
+      "IfixUrl": "ifix/V3.8Live/output_13319540_ad152a730955_b96dc21e7c4468"
     },
     "OS3.8.0": {
       "AssetBundleUrl": "asb/V3.8Live/output_13751690_e46b55112c0b_dbde96760bb27f",

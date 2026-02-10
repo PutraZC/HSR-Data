@@ -1,4 +1,6 @@
 *.cs
 *.lua
+*.py
 /proto
 Gateserver.proto
+/ssl

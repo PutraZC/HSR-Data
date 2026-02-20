@@ -30,13 +30,5 @@
     "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
     "lua_version": "14091462",
     "ifix_version": "0"
-  },
-  "CNBETAAndroid4.0.52": {
-    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_14091256_ef49fba2abe9_d7a3c4f5da7117",
-    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_14095714_6444454fc32e_b9f02e33a93567",
-    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_14091462_7d4411cb83a8_6bed424069f148",
-    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
-    "lua_version": "14091462",
-    "ifix_version": "0"
   }
 }

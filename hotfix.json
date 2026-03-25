@@ -42,6 +42,20 @@
       "ExResourceUrl": "client version not match",
       "LuaUrl": "",
       "IfixUrl": ""
+    },
+    "OS4.1.0": {
+      "AssetBundleUrl": "asb/V4.1Live/output_14445422_20361fc4b8a4_2980e25fadd334",
+      "ExAssetBundleUrl": "asb/V4.1Live/output_14330634_9f94276bbd6f_4632207e49e301",
+      "ExResourceUrl": "design_data/V4.1Live/output_14444767_2f3c37a4cc7e_de91c5c57069f4",
+      "LuaUrl": "lua/V4.1Live/output_14426419_f83bfaf1acac_31977ea79ea299",
+      "IfixUrl": "ifix/V4.1Live/output_14411529_651fa50e01b2_acc45c74d31d36"
+    },
+    "CN4.1.0": {
+      "AssetBundleUrl": "asb/V4.1Live/output_14445422_20361fc4b8a4_27a9c55e5b9b1c",
+      "ExAssetBundleUrl": "asb/V4.1Live/output_14330634_9f94276bbd6f_892b55156de13a",
+      "ExResourceUrl": "design_data/V4.1Live/output_14444767_2f3c37a4cc7e_b2af0b1bd94833",
+      "LuaUrl": "lua/V4.1Live/output_14426419_f83bfaf1acac_33e8c67e77bfec",
+      "IfixUrl": "ifix/V4.1Live/output_14411529_651fa50e01b2_356702809487ed"
     }
   }
 }

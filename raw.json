@@ -1,5 +1,5 @@
 {
-  "ip": "139.224.35.143",
+  "ip": "106.14.104.213",
   "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_14527836_2bed15e185c1_8a46fae6c6d47b",
   "port": 23301,
   "region_name": "beta_release01_cn",
@@ -45,7 +45,7 @@
   "temporary_maintenance_url": "https://bbs.mihoyo.com/sr",
   "teenager_privacy_in_game_url": "https://user.mihoyo.com/sdk/agreement.html#/teenager_proto?app_id=8&lang=zh-cn&channel_id=1&biz=hkrpg_cn",
   "user_agreement_url": "https://user.mihoyo.com/sdk/agreement.html#/user_proto?app_id=8&lang=zh-cn&channel_id=1&biz=hkrpg_cn",
-  "ipv6_address": "2408:4002:115c:b304:fff1:5b10:ba08:71a9",
+  "ipv6_address": "2408:4002:115c:b306:f405:1b62:db1b:1e3e",
   "query_security_file_url": "https://globaldp-beta-cn01.bhsr.com/query_security_file?file_key=CNBETAAndroid4.1.53",
   "grid_fight_game_ref_color_header_value": "beta_release"
 }

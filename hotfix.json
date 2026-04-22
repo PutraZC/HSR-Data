@@ -56,6 +56,20 @@
       "ExResourceUrl": "design_data/V4.1Live/output_14727034_4dc2d80955d1_383e592bd62231",
       "LuaUrl": "lua/V4.1Live/output_14519506_4475c60337d3_7a5235893fbdae",
       "IfixUrl": "ifix/V4.1Live/output_14519674_9c619504b1a9_745c66b642ce8c"
+    },
+    "OS4.2.0": {
+      "AssetBundleUrl": "asb/V4.2Live/output_14816885_e394327e9908_2cf30ab53f892f",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "design_data/V4.2Live/output_14809204_9a3979caa26d_8ad13605a75930",
+      "LuaUrl": "lua/V4.2Live/output_14817993_e4d3b5b38978_efc808386b5b7e",
+      "IfixUrl": "ifix/V4.2Live/output_14796630_83d6d28a8791_25c0eb07d813e8"
+    },
+    "CN4.2.0": {
+      "AssetBundleUrl": "asb/V4.2Live/output_14816885_e394327e9908_b1e84f4b22c1a1",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "design_data/V4.2Live/output_14809204_9a3979caa26d_072c5ff6b399fa",
+      "LuaUrl": "lua/V4.2Live/output_14817993_e4d3b5b38978_50fa870b23c299",
+      "IfixUrl": "ifix/V4.2Live/output_14796630_83d6d28a8791_8aee7cf4cb1b28"
     }
   }
 }

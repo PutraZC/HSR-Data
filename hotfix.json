@@ -70,6 +70,20 @@
       "ExResourceUrl": "design_data/V4.2Live/output_15024719_3f536911d067_9f112ff695c789",
       "LuaUrl": "lua/V4.2Live/output_14887656_8b022d440efd_b048d5c4e009e6",
       "IfixUrl": "ifix/V4.2Live/output_14925620_626dfc16129b_6d661b1c8ef2a8"
+    },
+    "OS4.3.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "design_data/V4.3Live/output_15245519_e5f99629bd64_00683b94e7a405",
+      "LuaUrl": "",
+      "IfixUrl": ""
+    },
+    "CN4.3.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "design_data/V4.3Live/output_15245519_e5f99629bd64_486fe43b0c9866",
+      "LuaUrl": "",
+      "IfixUrl": ""
     }
   }
 }

@@ -99,5 +99,14 @@
     "lua_version": "15038042",
     "ifix_version": "0",
     "ex_asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15023812_28f5ee345957_7a57bb1fdf72fd"
+  },
+  "OSBETAWin4.3.51": {
+    "lua_url": "beta_release01_asia"
+  },
+  "CNBETAWin4.3.51": {
+    "lua_url": "beta_release01_cn"
+  },
+  "CNBETAAndroid4.3.51": {
+    "lua_url": "beta_release01_cn"
   }
 }

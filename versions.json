@@ -79,5 +79,32 @@
     "lua_version": "15378559",
     "ifix_version": "15384138",
     "ex_asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15378434_99bffafdeff7_29d86c131879d4"
+  },
+  "OSBETAWin4.3.54": {
+    "asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_15440751_fb99372e1e48_fd11e486274779",
+    "ex_resource_url": "https://autopatchos.starrails.com/design_data/BetaLive/output_15458669_4c52952d593d_b0ff025e410c5b",
+    "lua_url": "https://autopatchos.starrails.com/lua/BetaLive/output_15440843_4201511c48d0_34717e44c82e30",
+    "ifix_url": "https://autopatchos.starrails.com/ifix/BetaLive/output_0_40d2ce0253_6d871f8bca6eb4",
+    "lua_version": "15440843",
+    "ifix_version": "0",
+    "ex_asset_bundle_url": "https://autopatchos.starrails.com/asb/BetaLive/output_15440751_fb99372e1e48_fd11e486274779"
+  },
+  "CNBETAWin4.3.54": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15440751_fb99372e1e48_f4f32acafab11b",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_15458669_4c52952d593d_1aba54a0487473",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_15440843_4201511c48d0_e9fd215c08d144",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
+    "lua_version": "15440843",
+    "ifix_version": "0",
+    "ex_asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15440751_fb99372e1e48_f4f32acafab11b"
+  },
+  "CNBETAAndroid4.3.54": {
+    "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15440751_fb99372e1e48_f4f32acafab11b",
+    "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_15458669_4c52952d593d_1aba54a0487473",
+    "lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_15440843_4201511c48d0_e9fd215c08d144",
+    "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
+    "lua_version": "15440843",
+    "ifix_version": "0",
+    "ex_asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_15440751_fb99372e1e48_f4f32acafab11b"
   }
 }

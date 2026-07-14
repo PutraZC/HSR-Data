@@ -84,6 +84,20 @@
       "ExResourceUrl": "",
       "LuaUrl": "prod_gf_cn",
       "IfixUrl": ""
+    },
+    "OS4.4.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "",
+      "LuaUrl": "prod_official_asia",
+      "IfixUrl": ""
+    },
+    "CN4.4.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "",
+      "LuaUrl": "prod_gf_cn",
+      "IfixUrl": ""
     }
   }
 }

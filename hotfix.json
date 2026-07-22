@@ -90,14 +90,14 @@
       "ExAssetBundleUrl": "asb/V4.4Live/output_15614839_0eb961bb9afd_2c97f792bef783",
       "ExResourceUrl": "design_data/V4.4Live/output_15802099_1ded30aeacda_7b0119a420efcd",
       "LuaUrl": "lua/V4.4Live/output_15812285_e20a0af30af8_94e8aa4b561769",
-      "IfixUrl": "ifix/V4.4Live/output_15812285_15b145f0f2a1_73240ea9c78522"
+      "IfixUrl": "ifix/V4.4Live/output_15837973_2a2209c87d67_e1d1698be7eee4"
     },
     "CN4.4.0": {
       "AssetBundleUrl": "asb/V4.4Live/output_15802547_d107da1e7c59_72250863ec2b0e",
       "ExAssetBundleUrl": "asb/V4.4Live/output_15614839_0eb961bb9afd_f141ed6cea4b29",
       "ExResourceUrl": "design_data/V4.4Live/output_15802099_1ded30aeacda_76a75432f2a73f",
       "LuaUrl": "lua/V4.4Live/output_15812285_e20a0af30af8_8343bd6aff0737",
-      "IfixUrl": "ifix/V4.4Live/output_15812285_15b145f0f2a1_8a2852478cee7a"
+      "IfixUrl": "ifix/V4.4Live/output_15837973_2a2209c87d67_6c40a6d7aeaccb"
     }
   }
 }

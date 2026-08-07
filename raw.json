@@ -48,7 +48,7 @@
   "third_privacy_in_game_url": "https://user.mihoyo.com/sdk/agreement.html#/third_proto?app_id=8&lang=zh-cn&channel_id=1&biz=hkrpg_cn",
   "close_redeem_code": true,
   "grid_fight_game_ref_color_header_value": "beta_release",
-  "gate_server_ipv6_enable": true,
+  "gate_server_ipv6_enable": false,
   "cdn_ipv6_enable": true,
   "asb_relogin_type": 0,
   "anniv2nd_os": "",

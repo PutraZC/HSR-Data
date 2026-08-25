@@ -98,6 +98,13 @@
       "ExResourceUrl": "design_data/V4.4Live/output_16085003_3b501809d600_34546601c42336",
       "LuaUrl": "lua/V4.4Live/output_16155460_fd0f690fcfd7_6fb50bd681b2ae",
       "IfixUrl": "ifix/V4.4Live/output_16155460_87cd5d1e073c_5407740123542e"
+    },
+    "OS4.5.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "The game server is currently undergoing maintenance until {LOCALTIME:1787713200}{LOCALTIMEZONE}({LOCALZONE}). See the official notice for details.",
+      "LuaUrl": "",
+      "IfixUrl": ""
     }
   }
 }

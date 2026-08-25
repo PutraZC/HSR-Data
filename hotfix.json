@@ -105,6 +105,13 @@
       "ExResourceUrl": "The game server is currently undergoing maintenance until {LOCALTIME:1787713200}{LOCALTIMEZONE}({LOCALZONE}). See the official notice for details.",
       "LuaUrl": "",
       "IfixUrl": ""
+    },
+    "CN4.5.0": {
+      "AssetBundleUrl": "",
+      "ExAssetBundleUrl": "",
+      "ExResourceUrl": "The game server is currently undergoing maintenance until {LOCALTIME:1787713200}{LOCALTIMEZONE}({LOCALZONE}). See the official notice for details.",
+      "LuaUrl": "",
+      "IfixUrl": ""
     }
   }
 }

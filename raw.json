@@ -14,7 +14,7 @@
   "network_diagnostic": true,
   "rogue_tourn_build_ref_api_req_color_header_key": "x-rpc-rpglineup-tourn",
   "enable_asset_bundle_version_update": true,
-  "stop_end_time": 1819231200,
+  "stop_end_time": 1787709660,
   "lua_url": "https://autopatchcn.bhsr.com/lua/V4.5Live/output_16214083_a0d62c743b73_87984a48cf6c25",
   "rogue_tourn_notice_id": 1337,
   "grid_fight_game_ref_cdn_url": "https://act-webstatic.mihoyo.com/rpgsimulator/currencywar/0/",

@@ -109,9 +109,9 @@
     "CN4.5.0": {
       "AssetBundleUrl": "asb/V4.5Live/output_16307208_9e5c2607ac3e_71f7b4ccb309d7",
       "ExAssetBundleUrl": "asb/V4.5Live/output_16121062_c0ba0a246b39_7b9623eabd8069",
-      "ExResourceUrl": "design_data/V4.5Live/output_16307208_8c50358212f4_c497c4ba98c7c8",
-      "LuaUrl": "lua/V4.5Live/output_16214083_a0d62c743b73_87984a48cf6c25",
-      "IfixUrl": "ifix/V4.5Live/output_16214446_be22fc7bfa6a_9320a8f05a06d1"
+      "ExResourceUrl": "design_data/V4.5Live/output_16320393_1dc503cdd5cc_52cd5a3b032a94",
+      "LuaUrl": "lua/V4.5Live/output_16320302_1beb58f27b4d_f02b97e46133dc",
+      "IfixUrl": "ifix/V4.5Live/output_16320393_f5d5cc64f7e8_4603bdb04121b4"
     }
   }
 }

@@ -102,9 +102,9 @@
     "OS4.5.0": {
       "AssetBundleUrl": "asb/V4.5Live/output_16307208_9e5c2607ac3e_a2e4eea4c5f64a",
       "ExAssetBundleUrl": "asb/V4.5Live/output_16121062_c0ba0a246b39_40feceefef0827",
-      "ExResourceUrl": "design_data/V4.5Live/output_16307208_8c50358212f4_5ce40e56e25439",
-      "LuaUrl": "lua/V4.5Live/output_16214083_a0d62c743b73_8cb99cc13e4380",
-      "IfixUrl": "ifix/V4.5Live/output_16214446_be22fc7bfa6a_b6589d8425621c"
+      "ExResourceUrl": "design_data/V4.5Live/output_16320393_1dc503cdd5cc_49dcf8db208777",
+      "LuaUrl": "lua/V4.5Live/output_16320302_1beb58f27b4d_a4d837850511ff",
+      "IfixUrl": "ifix/V4.5Live/output_16320393_f5d5cc64f7e8_1778fbad81b75a"
     },
     "CN4.5.0": {
       "AssetBundleUrl": "asb/V4.5Live/output_16307208_9e5c2607ac3e_71f7b4ccb309d7",

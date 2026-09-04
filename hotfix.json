@@ -102,16 +102,16 @@
     "OS4.5.0": {
       "AssetBundleUrl": "asb/V4.5Live/output_16307208_9e5c2607ac3e_a2e4eea4c5f64a",
       "ExAssetBundleUrl": "asb/V4.5Live/output_16121062_c0ba0a246b39_40feceefef0827",
-      "ExResourceUrl": "design_data/V4.5Live/output_16320393_1dc503cdd5cc_49dcf8db208777",
+      "ExResourceUrl": "design_data/V4.5Live/output_16354198_604b7c3567c0_806613d78db93b",
       "LuaUrl": "lua/V4.5Live/output_16320302_1beb58f27b4d_a4d837850511ff",
-      "IfixUrl": "ifix/V4.5Live/output_16320393_f5d5cc64f7e8_1778fbad81b75a"
+      "IfixUrl": "ifix/V4.5Live/output_16354198_ccdd2d99a8ad_300534a5e3bef8"
     },
     "CN4.5.0": {
       "AssetBundleUrl": "asb/V4.5Live/output_16307208_9e5c2607ac3e_71f7b4ccb309d7",
       "ExAssetBundleUrl": "asb/V4.5Live/output_16121062_c0ba0a246b39_7b9623eabd8069",
-      "ExResourceUrl": "design_data/V4.5Live/output_16320393_1dc503cdd5cc_52cd5a3b032a94",
+      "ExResourceUrl": "design_data/V4.5Live/output_16354198_604b7c3567c0_f8b8c23089209f",
       "LuaUrl": "lua/V4.5Live/output_16320302_1beb58f27b4d_f02b97e46133dc",
-      "IfixUrl": "ifix/V4.5Live/output_16320393_f5d5cc64f7e8_4603bdb04121b4"
+      "IfixUrl": "ifix/V4.5Live/output_16354198_ccdd2d99a8ad_c5eb61c3a7ab2b"
     }
   }
 }

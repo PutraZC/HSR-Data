@@ -1,7 +1,7 @@
 {
   "stop_end_time": 0,
   "stop_begin_time": 0,
-  "ip": "106.14.104.213",
+  "ip": "139.224.35.143",
   "_i_p_j_k_k_k_d_p_l_j_j": 0,
   "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_16833202_959c316ef547_ac20bef3513343",
   "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_16818953_d4345bbd54a2_93c4aa5dfb978d",
@@ -46,7 +46,7 @@
   "_n_a_o_f_j_m_a_f_b_c_p": "https://webstatic.mihoyo.com/beta/mihoyo-new-csc-service-hall-fe/index.html?plat_type=&login_type=visitor&game_biz=&lang=&os_system=&device_model=&client_version=&cli_id=1&page_id=23&login_status=1&utm_source=login&extra_device_info=1",
   "_d_h_i_j_l_k_b_k_g_p_k": "",
   "_l_a_f_p_c_f_g_g_h_h_m": "",
-  "_i_e_k_a_g_i_n_a_h_g_f": "2408:4002:115c:b306:f405:1b62:db1b:1e3e",
+  "_i_e_k_a_g_i_n_a_h_g_f": "2408:4002:115c:b304:fff1:5b10:ba08:71a9",
   "ifix_url": "https://autopatchcn.bhsr.com/ifix/BetaLive/output_0_40d2ce0253_c61ba99f70b885",
   "_i_m_d_i_f_j_f_i_e_a_p": "x-rpc-currencywar-beta",
   "unk4": true,

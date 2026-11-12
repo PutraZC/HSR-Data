@@ -1,7 +1,7 @@
 {
   "stop_begin_time": 0,
   "stop_end_time": 0,
-  "ip": "47.116.131.109",
+  "ip": "47.101.36.141",
   "asb_relogin_type": 0,
   "ex_resource_url": "https://autopatchcn.bhsr.com/design_data/V4.7Live/output_17148545_3e3a634136ee_7ce098141ed177",
   "asset_bundle_url": "https://autopatchcn.bhsr.com/asb/V4.7Live/output_17146024_6757d8426455_934d052d52a76f",
@@ -46,7 +46,7 @@
   "game_start_customer_service_url": "https://webstatic.mihoyo.com/static/mihoyo-new-csc-service-hall-fe/index.html?plat_type=&login_type=visitor&game_biz=&lang=&os_system=&device_model=&client_version=&&cli_id=1&page_id=32&login_status=1&utm_source=login&extra_device_info=1",
   "operation_feedback_url": "",
   "player_return_invite_h6_url": "https://act.mihoyo.com/sr/event/e20261111return-6b6fv1/index.html?game_biz=hkrpg_cn&mode=fullscreen&win_mode=fullscreen&sign_type=2&auth_appid=return47&authkey_ver=1&utm_source=op&utm_medium=gamepanel",
-  "player_return_invite_h5_url": "2408:4002:115c:b304:bc77:5582:db25:f733",
+  "player_return_invite_h5_url": "2408:4002:115c:b308:f619:7bdf:a175:543c",
   "ifix_url": "https://autopatchcn.bhsr.com/ifix/V4.7Live/output_17148223_a75edc953fad_8b0b5064a21d74",
   "grid_fight_game_ref_color_header_key": "x-rpc-currencywar-tourn",
   "close_redeem_code": false,
